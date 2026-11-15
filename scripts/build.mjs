@@ -5,6 +5,9 @@ import { ClassicLevel } from "classic-level";
 import archiver from "archiver";
 
 const manifest = JSON.parse(await fs.readFile("module.json"));
+// La dirección de descarga se calcula desde la versión, para que nunca apunte a un zip antiguo.
+manifest.download = `${manifest.url}/releases/download/v${manifest.version}/mr-requeson-waterdeep.zip`;
+await fs.writeFile("module.json", JSON.stringify(manifest, null, 2) + "\n");
 for (const pack of manifest.packs ?? []) {
   await fs.rm(pack.path, { recursive: true, force: true });
   const db = new ClassicLevel(pack.path, { valueEncoding: "json" });

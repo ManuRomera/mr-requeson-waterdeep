@@ -1,5 +1,9 @@
 # Cambios
 
+## 0.7.1
+
+- Corrección: el manifiesto de la 0.7.0 apuntaba al zip de la 0.6.1. La dirección de descarga ahora se calcula sola desde la versión.
+
 ## 0.7.0
 
 - **Integración opcional con MR- Dirección.** Si está activo, recibe un paquete con las 10 escenas (lectura, música, figuras y perspectiva), 8 motivos, 6 efectos y los relojes de los cuatro frentes y de la Presión de Princesa. Sin Dirección, el módulo funciona igual. Se recomienda en el manifiesto, no se exige.
