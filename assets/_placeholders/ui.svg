@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<rect width="256" height="256" fill="#1c1020"/>
+<rect x="8" y="8" width="241" height="241" rx="10" fill="none" stroke="#c9a24b" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="50%" y="48%" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#c9a24b">Icono</text>
+<text x="50%" y="48%" dy="34" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#8a6f9e">pendiente de arte</text>
+</svg>

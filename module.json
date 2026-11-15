@@ -1,0 +1,61 @@
+{
+  "id": "mr-requeson-waterdeep",
+  "title": "MR- Requesón en Waterdeep",
+  "version": "0.6.1",
+  "description": "Ratover: Requesón en Waterdeep (Edición Manada Midespinas). Aventura de comedia criminal para Mausritter con cuatro frentes, resaca narrativa y herramientas de dirección. Solo en español.",
+  "authors": [
+    {
+      "name": "Manuel Romera Chinchilla"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "14"
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/mr-requeson.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "mausritter",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.6.1",
+          "verified": "0.6.1"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "aventura",
+      "label": "MR- Requesón en Waterdeep",
+      "path": "packs/aventura",
+      "type": "Adventure",
+      "system": "mausritter",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/ManuRomera/mr-requeson-waterdeep",
+  "manifest": "https://github.com/ManuRomera/mr-requeson-waterdeep/releases/latest/download/module.json",
+  "download": "https://github.com/ManuRomera/mr-requeson-waterdeep/releases/download/v0.6.1/mr-requeson-waterdeep.zip",
+  "readme": "https://github.com/ManuRomera/mr-requeson-waterdeep#readme",
+  "bugs": "https://github.com/ManuRomera/mr-requeson-waterdeep/issues",
+  "license": "https://github.com/ManuRomera/mr-requeson-waterdeep/blob/main/LICENSE"
+}

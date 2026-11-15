@@ -1,0 +1,18 @@
+{
+  "MRREQ": {
+    "Settings": {
+      "Verificar": {
+        "Name": "Verificar las imágenes al iniciar",
+        "Hint": "El GM recibe un aviso con las imágenes y audios que faltan en el módulo. Mientras falten se usan imágenes de sustitución."
+      }
+    },
+    "Verify": {
+      "Ok": "Todos los archivos del módulo están presentes.",
+      "Missing": "Faltan {n} archivos de {total}. Consulta la consola (F12) para la lista por tipo.",
+      "NoManifest": "No se pudo leer asset-manifest.json."
+    },
+    "Zona": {
+      "Aviso": "{nombre} solo puede llevarse en las patas y el cuerpo, nunca en el equipaje."
+    }
+  }
+}

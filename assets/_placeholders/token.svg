@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600">
+<rect width="400" height="600" fill="#1c1020"/>
+<rect x="12" y="18" width="376" height="564" rx="16" fill="none" stroke="#c9a24b" stroke-width="4" stroke-dasharray="13 8"/>
+<text x="50%" y="48%" text-anchor="middle" font-family="Georgia,serif" font-size="44" fill="#c9a24b">Token</text>
+<text x="50%" y="48%" dy="53" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#8a6f9e">pendiente de arte</text>
+</svg>
