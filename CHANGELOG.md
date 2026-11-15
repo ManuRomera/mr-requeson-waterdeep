@@ -1,5 +1,9 @@
 # Cambios
 
+## 0.8.0
+
+- **Música nueva.** Se sustituye la música sintetizada por 18 pistas de Kevin MacLeod (CC BY 4.0) elegidas por tono y tempo para cada escena y cada ambiente: laúd y guitarra para la portada, un vals cómico para la Capilla, una marcha burocrática para la Notaría, sigilo con oboe para el Bulevar, tensión de cuerdas y percusión para el Ático y acción oscura para la Mandíbula Negra. Bucles sin corte a -26 LUFS. Créditos en `NOTICE.md`.
+
 ## 0.7.1
 
 - Corrección: el manifiesto de la 0.7.0 apuntaba al zip de la 0.6.1. La dirección de descarga ahora se calcula sola desde la versión.

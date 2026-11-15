@@ -22,7 +22,7 @@ jobs:
         run: |
           npm ci
           node scripts/build.mjs
-          for f in packs/aventura/CURRENT scripts/main.mjs lang/es.json assets/_placeholders/scene.svg assets/audio/music/00-portada-ratover.ogg assets/scenes/01-la-villa-del-cielo-caido.webp; do
+          for f in content/direccion-es.json asset-manifest.json packs/aventura/CURRENT scripts/main.mjs lang/es.json assets/_placeholders/scene.svg assets/audio/music/00-portada-ratover.ogg assets/scenes/01-la-villa-del-cielo-caido.webp; do
             unzip -l dist/mr-requeson-waterdeep.zip | grep -q "$f" || { echo "missing $f"; exit 1; }
           done
       - name: Release notes

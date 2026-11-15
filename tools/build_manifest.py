@@ -113,7 +113,7 @@ for st,d in UI:
     add('ui',st,st.replace('-',' ').capitalize(),f"assets/ui/{st}.webp",f"Flat game UI icon of {d}. Bold simple silhouette, aged gold line art with deep plum shading, dark fantasy criminal-comedy mood, readable at small size, isolated on pure solid black background",'1:1',[256,256],'discreta')
 # ---------- audio
 def aud(kind,i,t,path,e,**x):
-    A.append({'id':f"{kind}.{i}",'kind':kind,'title':t,'path':path,'format':'ogg opus','loudnorm_lufs':-26,'fallback':None,'status':'sintetizado con tools/audio.py; sustituible por la pista de Suno en la misma ruta',**x,'prompt':M(e['prompt']) if e else x.pop('prompt')})
+    A.append({'id':f"{kind}.{i}",'kind':kind,'title':t,'path':path,'format':'ogg opus','loudnorm_lufs':-26,'fallback':None,'status':'pista de Kevin MacLeod (CC BY 4.0), ver tools/musica_seleccion.json; sustituible en la misma ruta',**x,'prompt':M(e['prompt']) if e else x.pop('prompt')})
 for o,n,t in SCN:
     e=AU[o];aud('music',n,t or M(e['title']),f"assets/audio/music/{n}.ogg",e,loop=True,duracion_objetivo=e['dur'],funcion=M(e['func']),diseno=M(e['design']))
 SFX=[('tuberia-cede',"Heavy old iron water pipe groaning, a sharp metallic crack and a rush of water bursting free, close and dry, no music",4),

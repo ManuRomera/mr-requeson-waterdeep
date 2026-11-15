@@ -243,7 +243,7 @@ def guardar(y, ruta, lufs, kbps):
 if __name__ == "__main__":
     man = json.load(open(R / "asset-manifest.json"))["assets"]
     por = {a["id"].split(".", 1)[1]: a for a in man if a["kind"] in ("music", "mood", "sfx")}
-    pedidas = sys.argv[1:] or list(por)
+    pedidas = sys.argv[1:] or [k for k, a in por.items() if a["kind"] == "sfx"]   # la música son pistas de Kevin MacLeod (tools/musica.py)
     for k in pedidas:
         a = por[k]; ruta = R / a["path"]
         if a["kind"] == "sfx": I = guardar(sfx(k), ruta, -20, 64)

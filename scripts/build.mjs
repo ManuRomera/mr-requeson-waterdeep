@@ -21,7 +21,7 @@ const out = createWriteStream("dist/mr-requeson-waterdeep.zip");
 const zip = archiver("zip", { zlib: { level: 9 } });
 zip.pipe(out);
 const done = new Promise((res, rej) => { out.on("close", res); out.on("error", rej); zip.on("error", rej); });
-for (const p of ["module.json", "scripts", "styles", "lang", "packs", "assets", "LICENSE", "NOTICE.md", "README.md", "CHANGELOG.md"]) {
+for (const p of ["module.json", "scripts", "styles", "lang", "packs", "assets", "content", "asset-manifest.json", "LICENSE", "NOTICE.md", "README.md", "CHANGELOG.md"]) {
   try {
     const st = await fs.stat(p);
     if (st.isDirectory()) zip.directory(p, p); else zip.file(p, { name: p });

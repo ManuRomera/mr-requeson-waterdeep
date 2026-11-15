@@ -40,7 +40,7 @@ De cuatro a seis horas, o dos sesiones, para cinco jugadores. También hay una v
 | Objetos | 48, con armas, armaduras y las 6 condiciones |
 | Diarios | 38: dirección, nueve localizaciones, cinco fichas confidenciales, doce handouts y quince fotografías |
 | Tablas | 8 |
-| Audio | 10 pistas de escena, 8 ambientes y 6 efectos |
+| Audio | 10 pistas de escena y 8 ambientes de Kevin MacLeod (CC BY 4.0), y 6 efectos |
 | Macros | 11 |
 
 ### Herramientas de mesa
@@ -83,10 +83,10 @@ El texto completo, en orden de lectura, está en [`aventura/AVENTURA.md`](aventu
 - `python3 tools/build_datos.py` regenera `_data/aventura.json` desde `aventura/*.md` y `asset-manifest.json`.
 - `npm run build` compila el pack y el zip.
 - `asset-manifest.json` lista cada imagen y audio con su ruta y su prompt. `python3 tools/verify_assets.py` cuenta cuántos existen.
-- La música y los efectos son síntesis propia (`tools/audio.py`). Cualquier pista con el mismo nombre de archivo la sustituye.
+- La música son pistas de Kevin MacLeod procesadas con `tools/musica.py` (selección en `tools/musica_seleccion.json`). Los efectos son síntesis propia (`tools/audio.py`). Cualquier pista con el mismo nombre de archivo sustituye a la actual.
 
 ## Créditos y licencia
 
-Historia y diseño: Manuel Romera Chinchilla. Módulo, herramientas, revisión de la estructura y de las reglas de mesa: Claude, bajo su dirección. Imágenes generadas con IA y firmadas con la marca MR.
+Historia y diseño: Manuel Romera Chinchilla. Módulo, herramientas, revisión de la estructura y de las reglas de mesa: Claude, bajo su dirección. Imágenes generadas con IA y firmadas con la marca MR. Música de [Kevin MacLeod](https://incompetech.com) (CC BY 4.0), con sus créditos completos en [NOTICE.md](NOTICE.md).
 
 CC BY-NC-SA 4.0. Mausritter es de Losing Games; Waterdeep y los Reinos Olvidados, de Wizards of the Coast. Es una obra de aficionado y no oficial. Detalles en [NOTICE.md](NOTICE.md).

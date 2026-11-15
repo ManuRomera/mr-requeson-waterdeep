@@ -20,6 +20,7 @@ Hooks.once("init", () => {
     choices: { cuerpo: "MRREQ.Settings.estiloToken.Cuerpo", redondo: "MRREQ.Settings.estiloToken.Redondo" } });
   game.settings.register(ID, "ventanas", { scope: "client", config: false, type: Object, default: {} });
   game.settings.register(ID, "estado", { scope: "world", config: false, type: Object, default: {}, onChange: () => Hooks.callAll("mrreq.estado") });
+  game.settings.register(ID, "migracion", { scope: "world", config: false, type: String, default: "" });
   game.settings.register(ID, "importada", { scope: "world", config: false, type: Boolean, default: false });
 });
 
@@ -42,10 +43,35 @@ Hooks.once("ready", async () => {
   if (game.user.isGM) {
     // Las macros del pack llevan un autor ficticio: se reasignan al GM que las importa.
     for (const m of game.macros.filter(m => m.getFlag(ID, "macro") && !game.users.has(m.author?.id))) await m.update({ author: game.user.id });
+    await repararMundo();
     if (game.settings.get(ID, "verificarAlIniciar")) verificarAssets(ID, { aviso: true });
     if (!game.settings.get(ID, "importada") && !game.scenes.some(s => s.getFlag(ID, "escena"))) configuracionInicial();
   }
 });
+
+// Mundos importados con una versión anterior: faltan las marcas (slug) que MR- Dirección necesita y las fichas siguen redondas.
+async function repararMundo() {
+  const version = game.modules.get(ID).version;
+  if (game.settings.get(ID, "migracion") === version || !game.scenes.some(s => s.flags?.[ID]?.escena)) return;
+  const man = await (await fetch(`modules/${ID}/asset-manifest.json`)).json();
+  const lista = man.assets;
+  const slugEscena = (n) => lista.find(a => a.kind === "scene" && a.id.split(".")[1].startsWith(`${n}-`))?.id.split(".")[1];
+  const esc = game.scenes.contents.filter(s => s.flags?.[ID]?.escena && s.flags[ID].slug !== slugEscena(s.flags[ID].escena))
+    .map(s => ({ _id: s.id, [`flags.${ID}.slug`]: slugEscena(s.flags[ID].escena) }));
+  if (esc.length) await Scene.updateDocuments(esc);
+  for (const p of game.playlists) {
+    const cambios = p.sounds.contents.filter(x => x.path?.includes(`modules/${ID}/assets/audio/`) && !x.flags?.[ID]?.slug)
+      .map(x => ({ _id: x.id, [`flags.${ID}.slug`]: x.path.split("/").pop().replace(/\.[^.]+$/, "") }));
+    if (cambios.length) await p.updateEmbeddedDocuments("PlaylistSound", cambios);
+  }
+  if (game.settings.get(ID, "estiloToken") === "cuerpo") {
+    const act = game.actors.contents.filter(a => a.flags?.[ID]?.slug && !a.prototypeToken.texture.src?.includes("/figures/") && lista.some(f => f.id === `figure.${a.flags[ID].slug}`))
+      .map(a => ({ _id: a.id, "prototypeToken.texture.src": `modules/${ID}/assets/actors/figures/${a.flags[ID].slug}.webp`, "prototypeToken.ring.enabled": false }));
+    if (act.length) await Actor.updateDocuments(act);
+  }
+  await game.settings.set(ID, "migracion", version);
+  console.log(`${ID} | mundo actualizado a ${version}: ${esc.length} escenas, fichas ${game.actors.contents.length}`);
+}
 
 // Integración opcional con MR- Dirección: si está activo, recibe un paquete con escenas, motivos, efectos, figuras y relojes.
 let direccionRegistrada = false;
