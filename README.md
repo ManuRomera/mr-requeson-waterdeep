@@ -40,7 +40,7 @@ De cuatro a seis horas, o dos sesiones, para cinco jugadores. También hay una v
 | Objetos | 48, con armas, armaduras y las 6 condiciones |
 | Diarios | 38: dirección, nueve localizaciones, cinco fichas confidenciales, doce handouts y quince fotografías |
 | Tablas | 8 |
-| Audio | 10 pistas de escena y 8 ambientes de Kevin MacLeod (CC BY 4.0), y 6 efectos |
+| Audio | 10 pistas de escena y 21 ambientes por estado de ánimo (misterio, miedo, acción, sigilo, persecución, romance, magia, jefe final, victoria, derrota...), de Kevin MacLeod (CC BY 4.0), y 6 efectos |
 | Macros | 11 |
 
 ### Herramientas de mesa
@@ -48,9 +48,9 @@ De cuatro a seis horas, o dos sesiones, para cinco jugadores. También hay una v
 El módulo añade un grupo **Requesón en Waterdeep** en la barra de herramientas de la escena.
 
 - **Jugadores:** Pizarra de Investigación, Resaca Narrativa y Contador de Culpa.
-- **Director:** además, Panel de Frentes, Avanzar a Escena (aplica la regla motor), Mostrar Handout, Presión de Princesa, El Parmesano Ruso, Fichas Confidenciales y Tirada en Tabla.
+- **Director:** además, Panel de Frentes, Avanzar a Escena (aplica la regla motor), Cambiar Ambiente (cambia la música con un fundido sin salir de la escena), Mostrar Handout, Presión de Princesa, El Parmesano Ruso, Fichas Confidenciales y Tirada en Tabla.
 
-Las mismas once herramientas están como macros dentro del pack.
+Las mismas herramientas están como macros dentro del pack.
 
 ### Integración con MR- Dirección (opcional)
 

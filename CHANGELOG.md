@@ -1,5 +1,11 @@
 # Cambios
 
+## 0.9.0
+
+- **21 ambientes por estado de ánimo** (antes 8), todos de Kevin MacLeod: misterio, miedo, miedo cómico, acción, melancolía, romance, magia y ritual, calma y descanso, jefe final, victoria, derrota, taberna y plan chapuza, además de investigación, comedia caótica, tensión del ritual, sigilo, persecución, combate, revelación y triunfo agridulce.
+- **Cambiar Ambiente**: nueva herramienta del GM (y macro) que cambia la música con un fundido sin salir de la escena, o vuelve a la de la escena.
+- Los 21 ambientes aparecen como motivos en MR- Dirección. La música de escena entra con fundido.
+
 ## 0.8.0
 
 - **Música nueva.** Se sustituye la música sintetizada por 18 pistas de Kevin MacLeod (CC BY 4.0) elegidas por tono y tempo para cada escena y cada ambiente: laúd y guitarra para la portada, un vals cómico para la Capilla, una marcha burocrática para la Notaría, sigilo con oboe para el Bulevar, tensión de cuerdas y percusión para el Ático y acción oscura para la Mandíbula Negra. Bucles sin corte a -26 LUFS. Créditos en `NOTICE.md`.

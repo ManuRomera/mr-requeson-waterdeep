@@ -128,6 +128,16 @@ for i,p,d in SFX:
 for st,e in AU.items():
     if '/moods/' in e['path']:
         aud('mood',st,M(e['title']),e['path'].replace('audio/moods','audio/moods'),e,loop=True,opcional=True,duracion_objetivo=e['dur'],funcion=M(e['func']),diseno=M(e['design']))
+NUEVOS_AMBIENTES=[('misterio','Misterio','Investigación con aire de novela negra, pistas que no encajan.'),('miedo','Miedo','Algo no está bien: lo oscuro de verdad.'),
+ ('miedo-comico','Miedo cómico','Susto de feria: espeluznante y ridículo a la vez.'),('accion','Acción','Escapadas y golpes de efecto con ganas de aventura.'),
+ ('melancolia','Melancolía','Un poco triste y un poco esperanzada: el momento de las confesiones.'),('romance','Romance','Ternura y conversaciones tranquilas, el Novio y la Murciélaga.'),
+ ('magia','Magia y ritual','Hechizos, Nixyus y el sello Gralhund.'),('calma-descanso','Calma y descanso','Respiro tras una escena caótica.'),
+ ('jefe-final','Jefe final','Rat Tyson y el clímax en toda su grandeza.'),('victoria','Victoria','Se hizo, contra todo pronóstico.'),
+ ('derrota','Derrota','Fracaso con avance: algo salió muy mal.'),('taberna','Taberna','Rat Vegas de fiesta: laúd y bullicio.'),
+ ('plan-chapuza','Plan chapuza','Planes ridículos que podrían funcionar.')]
+for k,t,f in NUEVOS_AMBIENTES:
+    A.append({'id':f'mood.{k}','kind':'mood','title':t,'path':f'assets/audio/moods/{k}.ogg','format':'ogg opus','loop':True,'loudnorm_lufs':-26,'funcion':f,
+      'prompt':'','fallback':None,'status':'pista de Kevin MacLeod (CC BY 4.0), ver tools/musica_seleccion.json; sustituible en la misma ruta'})
 # ---------- validación
 errs=[];ids=[a['id'] for a in A];assert len(set(ids))==len(ids),'ids duplicados'
 paths=[a['path'] for a in A];assert len(set(paths))==len(paths),'rutas duplicadas'

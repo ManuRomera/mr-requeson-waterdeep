@@ -115,3 +115,22 @@ export async function configuracionInicial() {
   ui.notifications.info("Pulsa «Importar» en la ventana de la aventura.");
   await game.settings.set(ID, "importada", true);
 }
+
+// ---------- Cambiar Ambiente (GM): cambia la música sin salir de la escena
+export async function cambiarAmbiente() {
+  if (!game.user.isGM) return;
+  const lista = game.playlists.filter(p => p.sounds.contents.some(x => x.flags?.[ID]?.slug));
+  const ambientes = lista.find(p => p.name.startsWith("Ambientes"))?.sounds.contents ?? [];
+  if (!ambientes.length) return ui.notifications.warn("No hay ambientes. Ejecuta Configuración Inicial.");
+  const escena = game.scenes.viewed?.playlistSound;
+  const op = [["__escena", "Volver a la música de la escena"], ...ambientes.map(s => [s.id, s.name])];
+  const id = await DialogV2.prompt({
+    window: { title: "Cambiar Ambiente" },
+    content: `<p>Cambia la música con un fundido y sin salir de la escena.</p><div class="form-group"><label>Ambiente</label><select name="a">${opciones(op)}</select></div>`,
+    ok: { label: "Poner", icon: "fa-solid fa-music", callback: (ev, b) => datos(b).a }, rejectClose: false
+  });
+  if (!id) return;
+  for (const p of lista) for (const s of p.sounds.contents) if (s.playing) await p.stopSound(s);
+  const destino = id === "__escena" ? escena : ambientes.find(s => s.id === id);
+  if (destino) await destino.parent.playSound(destino);
+}

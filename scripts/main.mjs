@@ -3,7 +3,7 @@ import { ID, iniciarSocket } from "./estado.mjs";
 import { reproducir } from "./efectos.mjs";
 import "./reglas.mjs";
 import { PanelFrentes, Pizarra, PanelPresion, ContadorCulpa, Parmesano } from "./ventanas.mjs";
-import { avanzarEscena, mostrarHandout, resacaNarrativa, fichasConfidenciales, tiradaEnTabla, configuracionInicial } from "./dialogos.mjs";
+import { avanzarEscena, mostrarHandout, resacaNarrativa, fichasConfidenciales, tiradaEnTabla, configuracionInicial, cambiarAmbiente } from "./dialogos.mjs";
 
 Hooks.once("init", () => {
   game.settings.register(ID, "verificarAlIniciar", {
@@ -25,7 +25,7 @@ Hooks.once("init", () => {
 });
 
 const API = {
-  configuracionInicial, avanzarEscena, mostrarHandout, resacaNarrativa, fichasConfidenciales, tiradaEnTabla,
+  configuracionInicial, cambiarAmbiente, avanzarEscena, mostrarHandout, resacaNarrativa, fichasConfidenciales, tiradaEnTabla,
   panelFrentes: () => PanelFrentes.abrir(), pizarra: () => Pizarra.abrir(), presionPrincesa: () => PanelPresion.abrir(),
   contadorCulpa: () => ContadorCulpa.abrir(), parmesanoRuso: () => Parmesano.abrir()
 };
@@ -105,6 +105,7 @@ Hooks.on("getSceneControlButtons", (controls) => {
     herr("presion", "Presión de Princesa", "fa-solid fa-droplet", API.presionPrincesa, true),
     herr("parmesano", "El Parmesano Ruso", "fa-solid fa-cheese", API.parmesanoRuso, true),
     herr("fichas", "Fichas Confidenciales", "fa-solid fa-envelope", API.fichasConfidenciales, true),
+    herr("ambiente", "Cambiar Ambiente", "fa-solid fa-music", API.cambiarAmbiente, true),
     herr("tabla", "Tirada en Tabla", "fa-solid fa-dice", API.tiradaEnTabla, true)
   ];
   controls["mrreq"] = { name: "mrreq", title: "Requesón en Waterdeep", icon: "fa-solid fa-cheese", order: 90, visible: true, activeTool: "", tools: Object.fromEntries(tools.map((t, i) => [t.name, { ...t, order: i }])) };

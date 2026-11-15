@@ -11,6 +11,8 @@
 
 La música de las escenas y de los ambientes es de **Kevin MacLeod** ([incompetech.com](https://incompetech.com)), con licencia **Creative Commons: Atribución 4.0** (CC BY 4.0, <http://creativecommons.org/licenses/by/4.0/>). Se han recortado los silencios, se ha solapado el final con el principio para que suene en bucle y se ha ajustado el volumen. Nada más.
 
+### Escenas
+
 - **Portada con panel del ritual**: «Midnight Tale»
 - **La Villa del Cielo Caído**: «Brittle Rille»
 - **Dado de Nácar**: «Zazie»
@@ -21,6 +23,9 @@ La música de las escenas y de los ambientes es de **Kevin MacLeod** ([incompete
 - **Ático de Rat Tyson**: «Satiate»
 - **El Baño de Princesa**: «Unanswered Questions»
 - **La Mandíbula Negra**: «Full On»
+
+### Ambientes
+
 - **Investigación con resaca**: «Thinking Music»
 - **Comedia caótica**: «Master of the Feast»
 - **Tensión del Ritual**: «Satiate - only percussion»
@@ -29,6 +34,19 @@ La música de las escenas y de los ambientes es de **Kevin MacLeod** ([incompete
 - **Combate**: «Death and Axes»
 - **Revelación / flashback**: «Gymnopedie No. 3»
 - **Fotografías finales / créditos**: «Del Rio Bravo»
+- **Misterio**: «Hard Boiled»
+- **Miedo**: «SCP-x5x (Outer Thoughts)»
+- **Miedo cómico**: «Graveyard Shift»
+- **Acción**: «Adventures in Adventureland»
+- **Melancolía**: «Heavy Heart»
+- **Romance**: «Reawakening»
+- **Magia y ritual**: «Magistar»
+- **Calma y descanso**: «Morning»
+- **Jefe final**: «Hall of the Mountain King»
+- **Victoria**: «Winner Winner!»
+- **Derrota**: «Past Sadness»
+- **Taberna**: «Industrious Ferret»
+- **Plan chapuza**: «Marty Gots a Plan»
 
 Cada una se cita así: *«Título» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.*
 

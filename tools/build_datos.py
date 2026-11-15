@@ -85,11 +85,11 @@ fm=dict(_id=uid('folder:Macro:Macros'),name='Macros',type='Macro',folder=None,so
 MAC=[('Configuración Inicial','configuracion-inicial','configuracionInicial'),('Avanzar a Escena','avanzar-a-escena','avanzarEscena'),('Mostrar Handout','mostrar-handout','mostrarHandout'),
  ('Panel de Frentes','panel-de-frentes','panelFrentes'),('Pizarra de Investigación','pizarra-de-investigacion','pizarra'),('Resaca Narrativa','resaca-narrativa','resacaNarrativa'),
  ('El Parmesano Ruso','el-parmesano-ruso','parmesanoRuso'),('Presión de Princesa','presion-de-princesa','presionPrincesa'),('Fichas Confidenciales','fichas-confidenciales','fichasConfidenciales'),
- ('Contador de Culpa','contador-de-culpa','contadorCulpa'),('Tirada en Tabla','tirada-en-tabla','tiradaEnTabla')]
-macros=[dict(_id=uid('macro:'+n),name=n,type='script',img=img(M['ui.'+i]['path'],'ui'),scope='global',command=f'game.modules.get("{ID}").api.{f}();',author=uid('autor'),folder=fm['_id'],sort=k*100000,ownership=dict(default=0),flags={ID:dict(macro=True)}) for k,(n,i,f) in enumerate(MAC)]
+ ('Contador de Culpa','contador-de-culpa','contadorCulpa'),('Tirada en Tabla','tirada-en-tabla','tiradaEnTabla'),('Cambiar Ambiente','','cambiarAmbiente')]
+macros=[dict(_id=uid('macro:'+n),name=n,type='script',img=(img(M['ui.'+i]['path'],'ui') if i else 'icons/svg/sound.svg'),scope='global',command=f'game.modules.get("{ID}").api.{f}();',author=uid('autor'),folder=fm['_id'],sort=k*100000,ownership=dict(default=0),flags={ID:dict(macro=True)}) for k,(n,i,f) in enumerate(MAC)]
 carp_extra=carp_extra+[fm]
 def sonido(a,canal,repetir,vol):
-    return dict(_id=uid('sonido:'+a['id']),name=a['title'],description='',path=f"modules/{ID}/{a['path']}",channel=canal,playing=False,pausedTime=None,repeat=repetir,volume=vol,fade=None,flags={ID:dict(slug=a['id'].split('.',1)[1])})
+    return dict(_id=uid('sonido:'+a['id']),name=a['title'],description='',path=f"modules/{ID}/{a['path']}",channel=canal,playing=False,pausedTime=None,repeat=repetir,volume=vol,fade=(2000 if canal=='music' else None),flags={ID:dict(slug=a['id'].split('.',1)[1])})
 def lista(nombre,kind,canal,repetir,vol,modo,orden):
     sn=[sonido(a,canal,repetir,vol) for a in M.values() if a['kind']==kind]
     return dict(_id=uid('playlist:'+nombre),name=nombre,description='',mode=modo,channel=canal,sounds=sn,playing=False,folder=None,sorting='a',sort=orden,seed=None,fade=None,ownership=dict(default=0),flags={})
@@ -117,8 +117,11 @@ for sc in sorted(escenas,key=lambda x:x['sort']):
     escs.append(dict(ref=fl_scene(sc) if False else {'flag':[ID,'slug',sc['flags'][ID]['slug']]},order=int(n),name=sc['name'],reading={'uuid':f"JournalEntry.{j['_id']}.JournalEntryPage.{j['pages'][0]['_id']}"},
       music=fl(sc['flags'][ID]['slug']),motifs=None,cues=[dict(label=l,icon=i,sound=fl(sd)) for l,i,sd in CUES.get(n,[])],ambient=None,
       figures=[dict(ref=fl(a),label='') for a in (PJS if n!='00' else [])+CAST.get(n,[])],handouts=[],notes='',thumb=sc['thumb'] or '',stage=dict(eye=0.5,anchors=[[0.25,0.88],[0.5,0.92],[0.75,0.88]])))
-MOT=[('investigacion','Investigación','magnifying-glass','investigacion-resaca'),('comedia','Comedia caótica','masks-theater','comedia-caotica'),('ritual','Tensión del ritual','eye','tension-ritual'),
- ('sigilo','Sigilo','user-secret','sigilo-peligro'),('persecucion','Persecución','person-running','persecucion'),('combate','Combate','hand-fist','combate'),
+MOT=[('misterio','Misterio','user-secret','misterio'),('miedo','Miedo','skull','miedo'),('miedo-comico','Miedo cómico','ghost','miedo-comico'),('accion','Acción','bolt','accion'),
+ ('melancolia','Melancolía','cloud-rain','melancolia'),('romance','Romance','heart','romance'),('magia','Magia y ritual','wand-magic-sparkles','magia'),('calma','Calma','mug-hot','calma-descanso'),
+ ('jefe','Jefe final','crown','jefe-final'),('victoria','Victoria','trophy','victoria'),('derrota','Derrota','face-frown','derrota'),('taberna','Taberna','beer-mug-empty','taberna'),('plan','Plan chapuza','lightbulb','plan-chapuza'),
+ ('investigacion','Investigación','magnifying-glass','investigacion-resaca'),('comedia','Comedia caótica','masks-theater','comedia-caotica'),('ritual','Tensión del ritual','eye','tension-ritual'),
+ ('sigilo','Sigilo','user-ninja','sigilo-peligro'),('persecucion','Persecución','person-running','persecucion'),('combate','Combate','hand-fist','combate'),
  ('flashback','Revelación','lightbulb','revelacion-flashback'),('triunfo','Triunfo agridulce','champagne-glasses','triunfo-agridulce')]
 EFE=[('tuberia','La tubería cede','droplet','tuberia-cede'),('mandibula','La Mandíbula Negra','gears','mandibula-negra'),('ritual','Pulso del ritual','heart-pulse','ritual-pulso'),
  ('timbre','Timbre de recepción','bell','timbre-recepcion'),('queso','Queso con guindilla','pepper-hot','queso-guindilla'),('puerta','La puerta de Tyson','door-open','puerta-de-tyson')]

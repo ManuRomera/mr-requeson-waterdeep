@@ -2,12 +2,168 @@
  "schema": 1,
  "id": "mr-requeson-waterdeep",
  "title": "MR- Requesón en Waterdeep",
- "version": "0.7.0",
+ "version": "0.9.0",
  "author": "Manu Romera",
  "license": "CC BY-NC-SA 4.0",
  "settings": {
   "fade": 3.5,
   "motifs": [
+   {
+    "id": "misterio",
+    "label": "Misterio",
+    "icon": "user-secret",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "misterio"
+     ]
+    }
+   },
+   {
+    "id": "miedo",
+    "label": "Miedo",
+    "icon": "skull",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "miedo"
+     ]
+    }
+   },
+   {
+    "id": "miedo-comico",
+    "label": "Miedo cómico",
+    "icon": "ghost",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "miedo-comico"
+     ]
+    }
+   },
+   {
+    "id": "accion",
+    "label": "Acción",
+    "icon": "bolt",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "accion"
+     ]
+    }
+   },
+   {
+    "id": "melancolia",
+    "label": "Melancolía",
+    "icon": "cloud-rain",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "melancolia"
+     ]
+    }
+   },
+   {
+    "id": "romance",
+    "label": "Romance",
+    "icon": "heart",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "romance"
+     ]
+    }
+   },
+   {
+    "id": "magia",
+    "label": "Magia y ritual",
+    "icon": "wand-magic-sparkles",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "magia"
+     ]
+    }
+   },
+   {
+    "id": "calma",
+    "label": "Calma",
+    "icon": "mug-hot",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "calma-descanso"
+     ]
+    }
+   },
+   {
+    "id": "jefe",
+    "label": "Jefe final",
+    "icon": "crown",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "jefe-final"
+     ]
+    }
+   },
+   {
+    "id": "victoria",
+    "label": "Victoria",
+    "icon": "trophy",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "victoria"
+     ]
+    }
+   },
+   {
+    "id": "derrota",
+    "label": "Derrota",
+    "icon": "face-frown",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "derrota"
+     ]
+    }
+   },
+   {
+    "id": "taberna",
+    "label": "Taberna",
+    "icon": "beer-mug-empty",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "taberna"
+     ]
+    }
+   },
+   {
+    "id": "plan",
+    "label": "Plan chapuza",
+    "icon": "lightbulb",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "plan-chapuza"
+     ]
+    }
+   },
    {
     "id": "investigacion",
     "label": "Investigación",
@@ -47,7 +203,7 @@
    {
     "id": "sigilo",
     "label": "Sigilo",
-    "icon": "user-secret",
+    "icon": "user-ninja",
     "music": {
      "flag": [
       "mr-requeson-waterdeep",

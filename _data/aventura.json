@@ -10702,6 +10702,25 @@
       "macro": true
      }
     }
+   },
+   {
+    "_id": "wzgy9vJuUdAj1JA4",
+    "name": "Cambiar Ambiente",
+    "type": "script",
+    "img": "icons/svg/sound.svg",
+    "scope": "global",
+    "command": "game.modules.get(\"mr-requeson-waterdeep\").api.cambiarAmbiente();",
+    "author": "dPB2wYXJZwPylVL5",
+    "folder": "UUKrs6ejRlnfN1Xf",
+    "sort": 1100000,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-requeson-waterdeep": {
+      "macro": true
+     }
+    }
    }
   ],
   "cards": [],
@@ -10723,7 +10742,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "00-portada-ratover"
@@ -10740,7 +10759,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "01-la-villa-del-cielo-caido"
@@ -10757,7 +10776,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "02-dado-de-nacar"
@@ -10774,7 +10793,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "03-bulevar-precintado"
@@ -10791,7 +10810,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "04-capilla-del-ultimo-chillido"
@@ -10808,7 +10827,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "05-notaria-del-parmesano"
@@ -10825,7 +10844,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "06-almacen-de-don-chispa"
@@ -10842,7 +10861,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "07-atico-de-rat-tyson"
@@ -10859,7 +10878,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "08-el-bano-de-princesa"
@@ -10876,7 +10895,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "09-la-mandibula-negra"
@@ -10912,7 +10931,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "investigacion-resaca"
@@ -10929,7 +10948,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "comedia-caotica"
@@ -10946,7 +10965,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "tension-ritual"
@@ -10963,7 +10982,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "sigilo-peligro"
@@ -10980,7 +10999,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "persecucion"
@@ -10997,7 +11016,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "combate"
@@ -11014,7 +11033,7 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "revelacion-flashback"
@@ -11031,10 +11050,231 @@
       "pausedTime": null,
       "repeat": true,
       "volume": 0.6,
-      "fade": null,
+      "fade": 2000,
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "triunfo-agridulce"
+       }
+      }
+     },
+     {
+      "_id": "mtqKEUjev4rY6G8G",
+      "name": "Misterio",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/misterio.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "misterio"
+       }
+      }
+     },
+     {
+      "_id": "iEm2wpsN4s9lIUiC",
+      "name": "Miedo",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/miedo.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "miedo"
+       }
+      }
+     },
+     {
+      "_id": "uGeJUejoJSaHkyax",
+      "name": "Miedo cómico",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/miedo-comico.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "miedo-comico"
+       }
+      }
+     },
+     {
+      "_id": "tccYB8lxyaEgm4Fs",
+      "name": "Acción",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/accion.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "accion"
+       }
+      }
+     },
+     {
+      "_id": "18ivT3zyx317DHtS",
+      "name": "Melancolía",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/melancolia.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "melancolia"
+       }
+      }
+     },
+     {
+      "_id": "3u0SwMDggHGHWg1s",
+      "name": "Romance",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/romance.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "romance"
+       }
+      }
+     },
+     {
+      "_id": "Q40qHV7Y3W8eZbe0",
+      "name": "Magia y ritual",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/magia.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "magia"
+       }
+      }
+     },
+     {
+      "_id": "SAEs8CBZkyXocR2T",
+      "name": "Calma y descanso",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/calma-descanso.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "calma-descanso"
+       }
+      }
+     },
+     {
+      "_id": "x8izmpbZnX2AOGM0",
+      "name": "Jefe final",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/jefe-final.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "jefe-final"
+       }
+      }
+     },
+     {
+      "_id": "JKlimxfzcY6VZmPL",
+      "name": "Victoria",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/victoria.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "victoria"
+       }
+      }
+     },
+     {
+      "_id": "3riVzbdbTaZsb7jo",
+      "name": "Derrota",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/derrota.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "derrota"
+       }
+      }
+     },
+     {
+      "_id": "yZeD55cc7QrdHAYB",
+      "name": "Taberna",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/taberna.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "taberna"
+       }
+      }
+     },
+     {
+      "_id": "Z1pFeBHeStio9r86",
+      "name": "Plan chapuza",
+      "description": "",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/moods/plan-chapuza.ogg",
+      "channel": "music",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": true,
+      "volume": 0.6,
+      "fade": 2000,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "plan-chapuza"
        }
       }
      }
