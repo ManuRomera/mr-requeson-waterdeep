@@ -29,7 +29,17 @@ def redondo(im, lado=400):
 def guarda(im, ruta, q=86):
     ruta = R / ruta; ruta.parent.mkdir(parents=True, exist_ok=True); im.save(ruta, "WEBP", quality=q, method=6)
 
+def figura(im, lado=1024, visible=0.885, pie=0.055):
+    im = recorta_alfa(im, 0); alto = round(lado * visible); ancho = round(im.width * alto / im.height)
+    if ancho > lado: ancho, alto = lado, round(im.height * lado / im.width)
+    im = im.resize((ancho, alto), Image.LANCZOS); out = Image.new("RGBA", (lado, lado), (0, 0, 0, 0))
+    out.alpha_composite(im, ((lado - ancho) // 2, round(lado * (1 - pie)) - alto)); return marca.hombro(out)
+
 def proceso(a):
+    if a["kind"] == "figure":
+        raw = R / "art_src" / "raw" / (a["derivado_de"] + ".png")
+        if not raw.exists(): return None
+        guarda(figura(Image.open(raw).convert("RGBA")), a["path"], 88); return a["id"]
     raw = R / "art_src" / "raw" / (a["id"] + ".png")
     if not raw.exists(): return None
     im = Image.open(raw).convert("RGBA"); k = a["kind"]

@@ -32,8 +32,9 @@ export function pedir(nombre, datos = {}) {
   if (game.user.isGM) return enSerie(() => ACC[nombre]?.(datos, game.user.id));
   game.socket.emit(`module.${ID}`, { nombre, datos, de: game.user.id });
 }
-export function iniciarSocket() {
+export function iniciarSocket(alEfecto) {
   game.socket.on(`module.${ID}`, (m) => {
+    if (m.efecto) return alEfecto?.(m.efecto, m.visual);
     if (!game.user.isActiveGM) return;
     enSerie(() => ACC[m.nombre]?.(m.datos, m.de));
   });

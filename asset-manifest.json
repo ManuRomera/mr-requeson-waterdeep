@@ -24,6 +24,7 @@
  "counts": {
   "scene": 10,
   "token": 22,
+  "figure": 22,
   "portrait": 15,
   "item": 42,
   "condition": 6,
@@ -34,7 +35,7 @@
   "sfx": 6,
   "mood": 8
  },
- "generables": 150,
+ "generables": 172,
  "assets": [
   {
    "id": "scene.00-portada-ratover",
@@ -621,6 +622,336 @@
    "group": "generic",
    "transparent_bg": true,
    "round_token": "assets/actors/tokens/cadete-de-la-guardia.webp"
+  },
+  {
+   "id": "figure.zardoz-midespinas",
+   "kind": "figure",
+   "title": "Zardoz Midespinas",
+   "path": "assets/actors/figures/zardoz-midespinas.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.zardoz-midespinas",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.el-guapo",
+   "kind": "figure",
+   "title": "El Guapo",
+   "path": "assets/actors/figures/el-guapo.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.el-guapo",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.el-dentista",
+   "kind": "figure",
+   "title": "El Dentista",
+   "path": "assets/actors/figures/el-dentista.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.el-dentista",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.el-colgado",
+   "kind": "figure",
+   "title": "El Colgado",
+   "path": "assets/actors/figures/el-colgado.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.el-colgado",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.el-novio",
+   "kind": "figure",
+   "title": "El Novio",
+   "path": "assets/actors/figures/el-novio.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.el-novio",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.lola-lentejuela",
+   "kind": "figure",
+   "title": "Lola Lentejuela",
+   "path": "assets/actors/figures/lola-lentejuela.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.lola-lentejuela",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.pazos",
+   "kind": "figure",
+   "title": "Pazos",
+   "path": "assets/actors/figures/pazos.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.pazos",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.rat-tyson",
+   "kind": "figure",
+   "title": "Rat Tyson",
+   "path": "assets/actors/figures/rat-tyson.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.rat-tyson",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.princesa",
+   "kind": "figure",
+   "title": "Princesa",
+   "path": "assets/actors/figures/princesa.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.princesa",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.el-bebe",
+   "kind": "figure",
+   "title": "El Bebé",
+   "path": "assets/actors/figures/el-bebe.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.el-bebe",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.don-chispa",
+   "kind": "figure",
+   "title": "Don Chispa",
+   "path": "assets/actors/figures/don-chispa.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.don-chispa",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.bruno-barriga-blanca",
+   "kind": "figure",
+   "title": "Bruno Barriga Blanca",
+   "path": "assets/actors/figures/bruno-barriga-blanca.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.bruno-barriga-blanca",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.padre-tupe",
+   "kind": "figure",
+   "title": "Padre Tupé",
+   "path": "assets/actors/figures/padre-tupe.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.padre-tupe",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.la-murcielaga",
+   "kind": "figure",
+   "title": "La Murciélaga",
+   "path": "assets/actors/figures/la-murcielaga.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.la-murcielaga",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.agente-del-sindicato",
+   "kind": "figure",
+   "title": "Agente del Sindicato de la Zarpa Fina",
+   "path": "assets/actors/figures/agente-del-sindicato.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.agente-del-sindicato",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.crupier",
+   "kind": "figure",
+   "title": "Crupier",
+   "path": "assets/actors/figures/crupier.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.crupier",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.cobrador",
+   "kind": "figure",
+   "title": "Cobrador",
+   "path": "assets/actors/figures/cobrador.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.cobrador",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.falso-guardia",
+   "kind": "figure",
+   "title": "Falso guardia",
+   "path": "assets/actors/figures/falso-guardia.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.falso-guardia",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.murcielago-adulto",
+   "kind": "figure",
+   "title": "Murciélago adulto",
+   "path": "assets/actors/figures/murcielago-adulto.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.murcielago-adulto",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.ardilla-de-chispa",
+   "kind": "figure",
+   "title": "Ardilla de Chispa",
+   "path": "assets/actors/figures/ardilla-de-chispa.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.ardilla-de-chispa",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.funcionario-de-la-guardia",
+   "kind": "figure",
+   "title": "Funcionario de la Guardia",
+   "path": "assets/actors/figures/funcionario-de-la-guardia.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.funcionario-de-la-guardia",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
+  },
+  {
+   "id": "figure.cadete-de-la-guardia",
+   "kind": "figure",
+   "title": "Cadete de la Guardia",
+   "path": "assets/actors/figures/cadete-de-la-guardia.webp",
+   "ar": "1:1",
+   "px": [
+    1024,
+    1024
+   ],
+   "marca": "hombro",
+   "derivado_de": "token.cadete-de-la-guardia",
+   "status": "se deriva del token, no se genera",
+   "fallback": "assets/_placeholders/token.svg"
   },
   {
    "id": "portrait.zardoz-midespinas",

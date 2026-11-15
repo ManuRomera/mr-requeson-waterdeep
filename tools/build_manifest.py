@@ -43,6 +43,9 @@ for st in FICHA+GEN:
     if st=='pazos':p=p.replace('anthropomorphic rat assassin','anthropomorphic mouse assassin')
     grp='pcs' if st in FICHA[:5] else ('npcs' if st in FICHA else 'generic')
     add('token',st,t,f"assets/actors/{grp}/{st}.webp",p,'2:3',[800,1200],'discreta',group=grp,transparent_bg=True,round_token=f"assets/actors/tokens/{st}.webp")
+for st in FICHA+GEN:
+    t,_=tok(st);grp='pcs' if st in FICHA[:5] else ('npcs' if st in FICHA else 'generic')
+    A.append({'id':f"figure.{st}",'kind':'figure','title':t,'path':f"assets/actors/figures/{st}.webp",'ar':'1:1','px':[1024,1024],'marca':'hombro','derivado_de':f"token.{st}",'status':'se deriva del token, no se genera','fallback':"assets/_placeholders/token.svg"})
 def portrait(p):
     ss=[x for x in re.split(r'(?<=\.) ',clean(p)+'.') if 'fully visible' not in x and 'Isolated on' not in x]
     ss[0]=re.sub(r'^Full body shot (from head to toe |from nose to tail )?of','Close-up head and shoulders portrait of',ss[0])
@@ -131,6 +134,7 @@ paths=[a['path'] for a in A];assert len(set(paths))==len(paths),'rutas duplicada
 for a in A:
     if 'reuse_of' in a:
         assert a['reuse_of'] in ids,a['id'];continue
+    if a['kind']=='figure':continue
     p=a['prompt']
     if a['kind'] in ('music','mood','sfx'):
         if '—' in p:errs.append((a['id'],'raya'))

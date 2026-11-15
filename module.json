@@ -1,7 +1,7 @@
 {
   "id": "mr-requeson-waterdeep",
   "title": "MR- Requesón en Waterdeep",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "Ratover: Requesón en Waterdeep (Edición Manada Midespinas). Aventura de comedia criminal para Mausritter con cuatro frentes, resaca narrativa y herramientas de dirección. Solo en español.",
   "authors": [
     {
@@ -35,6 +35,13 @@
           "minimum": "0.6.1",
           "verified": "0.6.1"
         }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "mr-direccion",
+        "type": "module",
+        "manifest": "https://github.com/ManuRomera/mr-direccion/releases/latest/download/module.json"
       }
     ]
   },

@@ -1,0 +1,1418 @@
+{
+ "schema": 1,
+ "id": "mr-requeson-waterdeep",
+ "title": "MR- Requesón en Waterdeep",
+ "version": "0.7.0",
+ "author": "Manu Romera",
+ "license": "CC BY-NC-SA 4.0",
+ "settings": {
+  "fade": 3.5,
+  "motifs": [
+   {
+    "id": "investigacion",
+    "label": "Investigación",
+    "icon": "magnifying-glass",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "investigacion-resaca"
+     ]
+    }
+   },
+   {
+    "id": "comedia",
+    "label": "Comedia caótica",
+    "icon": "masks-theater",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "comedia-caotica"
+     ]
+    }
+   },
+   {
+    "id": "ritual",
+    "label": "Tensión del ritual",
+    "icon": "eye",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "tension-ritual"
+     ]
+    }
+   },
+   {
+    "id": "sigilo",
+    "label": "Sigilo",
+    "icon": "user-secret",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "sigilo-peligro"
+     ]
+    }
+   },
+   {
+    "id": "persecucion",
+    "label": "Persecución",
+    "icon": "person-running",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "persecucion"
+     ]
+    }
+   },
+   {
+    "id": "combate",
+    "label": "Combate",
+    "icon": "hand-fist",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "combate"
+     ]
+    }
+   },
+   {
+    "id": "flashback",
+    "label": "Revelación",
+    "icon": "lightbulb",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "revelacion-flashback"
+     ]
+    }
+   },
+   {
+    "id": "triunfo",
+    "label": "Triunfo agridulce",
+    "icon": "champagne-glasses",
+    "music": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "triunfo-agridulce"
+     ]
+    }
+   }
+  ],
+  "effects": [
+   {
+    "id": "tuberia",
+    "label": "La tubería cede",
+    "icon": "droplet",
+    "sound": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "tuberia-cede"
+     ]
+    }
+   },
+   {
+    "id": "mandibula",
+    "label": "La Mandíbula Negra",
+    "icon": "gears",
+    "sound": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "mandibula-negra"
+     ]
+    }
+   },
+   {
+    "id": "ritual",
+    "label": "Pulso del ritual",
+    "icon": "heart-pulse",
+    "sound": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "ritual-pulso"
+     ]
+    }
+   },
+   {
+    "id": "timbre",
+    "label": "Timbre de recepción",
+    "icon": "bell",
+    "sound": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "timbre-recepcion"
+     ]
+    }
+   },
+   {
+    "id": "queso",
+    "label": "Queso con guindilla",
+    "icon": "pepper-hot",
+    "sound": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "queso-guindilla"
+     ]
+    }
+   },
+   {
+    "id": "puerta",
+    "label": "La puerta de Tyson",
+    "icon": "door-open",
+    "sound": {
+     "flag": [
+      "mr-requeson-waterdeep",
+      "slug",
+      "puerta-de-tyson"
+     ]
+    }
+   }
+  ],
+  "markers": {
+   "milestones": [
+    {
+     "id": "revA",
+     "label": "A · El encargo se hizo y la joya no está"
+    },
+    {
+     "id": "revB",
+     "label": "B · La lleva Princesa"
+    },
+    {
+     "id": "revC",
+     "label": "C · El molino se abre por el lateral"
+    }
+   ],
+   "clocks": [
+    {
+     "id": "rastro",
+     "label": "Rastro Dorado",
+     "segments": 4
+    },
+    {
+     "id": "sindicato",
+     "label": "Sindicato",
+     "segments": 4
+    },
+    {
+     "id": "tyson",
+     "label": "Rat Tyson",
+     "segments": 4
+    },
+    {
+     "id": "acreedores",
+     "label": "Acreedores",
+     "segments": 4
+    },
+    {
+     "id": "presion",
+     "label": "Presión de Princesa",
+     "segments": 4
+    }
+   ]
+  }
+ },
+ "scenes": [
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "00-portada-ratover"
+    ]
+   },
+   "order": 0,
+   "name": "Portada con panel del ritual",
+   "reading": {
+    "uuid": "JournalEntry.IM24bPBpLTTOd7Tr.JournalEntryPage.RRnWS3i2Tb6D6Bii"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "00-portada-ratover"
+    ]
+   },
+   "motifs": null,
+   "cues": [],
+   "ambient": null,
+   "figures": [],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/00-portada-ratover.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "01-la-villa-del-cielo-caido"
+    ]
+   },
+   "order": 1,
+   "name": "La Villa del Cielo Caído",
+   "reading": {
+    "uuid": "JournalEntry.xJGsxGKPrDG4cCC9.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "01-la-villa-del-cielo-caido"
+    ]
+   },
+   "motifs": null,
+   "cues": [
+    {
+     "label": "Llamada del recepcionista",
+     "icon": "bell",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "timbre-recepcion"
+      ]
+     }
+    }
+   ],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "lola-lentejuela"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/01-la-villa-del-cielo-caido.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "02-dado-de-nacar"
+    ]
+   },
+   "order": 2,
+   "name": "Dado de Nácar y Camerino de Lola",
+   "reading": {
+    "uuid": "JournalEntry.bHItsGO8NviLm1hY.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "02-dado-de-nacar"
+    ]
+   },
+   "motifs": null,
+   "cues": [],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "lola-lentejuela"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "crupier"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "pazos"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/02-dado-de-nacar.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "03-bulevar-precintado"
+    ]
+   },
+   "order": 3,
+   "name": "Bulevar precintado",
+   "reading": {
+    "uuid": "JournalEntry.jB8h4xGGd4c53IKH.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "03-bulevar-precintado"
+    ]
+   },
+   "motifs": null,
+   "cues": [],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "funcionario-de-la-guardia"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "cadete-de-la-guardia"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "falso-guardia"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "pazos"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/03-bulevar-precintado.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "04-capilla-del-ultimo-chillido"
+    ]
+   },
+   "order": 4,
+   "name": "Capilla del Último Chillido",
+   "reading": {
+    "uuid": "JournalEntry.FjGkFvHODPG4qr3e.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "04-capilla-del-ultimo-chillido"
+    ]
+   },
+   "motifs": null,
+   "cues": [],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "padre-tupe"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "la-murcielaga"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "murcielago-adulto"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-bebe"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/04-capilla-del-ultimo-chillido.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "05-notaria-del-parmesano"
+    ]
+   },
+   "order": 5,
+   "name": "Notaría del Parmesano",
+   "reading": {
+    "uuid": "JournalEntry.OUCxtIrcE7ZpO8K8.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "05-notaria-del-parmesano"
+    ]
+   },
+   "motifs": null,
+   "cues": [
+    {
+     "label": "Queso con guindilla",
+     "icon": "pepper-hot",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "queso-guindilla"
+      ]
+     }
+    }
+   ],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "bruno-barriga-blanca"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "cobrador"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/05-notaria-del-parmesano.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "06-almacen-de-don-chispa"
+    ]
+   },
+   "order": 6,
+   "name": "Almacén de Don Chispa",
+   "reading": {
+    "uuid": "JournalEntry.ehTmGlyVHBgFh7Zu.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "06-almacen-de-don-chispa"
+    ]
+   },
+   "motifs": null,
+   "cues": [],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "don-chispa"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "ardilla-de-chispa"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/06-almacen-de-don-chispa.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "07-atico-de-rat-tyson"
+    ]
+   },
+   "order": 7,
+   "name": "Ático de Rat Tyson",
+   "reading": {
+    "uuid": "JournalEntry.MsVr7yDGNoWwgPD1.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "07-atico-de-rat-tyson"
+    ]
+   },
+   "motifs": null,
+   "cues": [
+    {
+     "label": "La puerta de Tyson",
+     "icon": "door-open",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "puerta-de-tyson"
+      ]
+     }
+    }
+   ],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "rat-tyson"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/07-atico-de-rat-tyson.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "08-el-bano-de-princesa"
+    ]
+   },
+   "order": 8,
+   "name": "El Baño de Princesa",
+   "reading": {
+    "uuid": "JournalEntry.4X3JC9oQ2ooZjc4u.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "08-el-bano-de-princesa"
+    ]
+   },
+   "motifs": null,
+   "cues": [
+    {
+     "label": "La tubería cede",
+     "icon": "droplet",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "tuberia-cede"
+      ]
+     }
+    }
+   ],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "princesa"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/08-el-bano-de-princesa.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  },
+  {
+   "ref": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "09-la-mandibula-negra"
+    ]
+   },
+   "order": 9,
+   "name": "La Mandíbula Negra",
+   "reading": {
+    "uuid": "JournalEntry.6HBWOXQdRs0129ri.JournalEntryPage.foN0rDJ7KYZc0Xfr"
+   },
+   "music": {
+    "flag": [
+     "mr-requeson-waterdeep",
+     "slug",
+     "09-la-mandibula-negra"
+    ]
+   },
+   "motifs": null,
+   "cues": [
+    {
+     "label": "La Mandíbula Negra",
+     "icon": "gears",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "mandibula-negra"
+      ]
+     }
+    },
+    {
+     "label": "Pulso del ritual",
+     "icon": "heart-pulse",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "ritual-pulso"
+      ]
+     }
+    }
+   ],
+   "ambient": null,
+   "figures": [
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "zardoz-midespinas"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-guapo"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-dentista"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-colgado"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "el-novio"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "don-chispa"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "bruno-barriga-blanca"
+      ]
+     },
+     "label": ""
+    },
+    {
+     "ref": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "pazos"
+      ]
+     },
+     "label": ""
+    }
+   ],
+   "handouts": [],
+   "notes": "",
+   "thumb": "modules/mr-requeson-waterdeep/assets/scenes/thumbs/09-la-mandibula-negra.webp",
+   "stage": {
+    "eye": 0.5,
+    "anchors": [
+     [
+      0.25,
+      0.88
+     ],
+     [
+      0.5,
+      0.92
+     ],
+     [
+      0.75,
+      0.88
+     ]
+    ]
+   }
+  }
+ ]
+}

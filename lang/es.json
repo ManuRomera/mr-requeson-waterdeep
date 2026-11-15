@@ -4,6 +4,32 @@
       "Verificar": {
         "Name": "Verificar las imágenes al iniciar",
         "Hint": "El GM recibe un aviso con las imágenes y audios que faltan en el módulo. Mientras falten se usan imágenes de sustitución."
+      },
+      "efectosSonido": {
+        "Name": "Efectos de sonido",
+        "Hint": "Reproduce los efectos de la aventura (la tubería que cede, el pulso del ritual, la puerta de Tyson, el queso con guindilla)."
+      },
+      "volumenEfectos": {
+        "Name": "Volumen de los efectos",
+        "Hint": "Volumen de los efectos de sonido del módulo."
+      },
+      "efectosVisuales": {
+        "Name": "Destellos en pantalla",
+        "Hint": "Destellos breves cuando avanza el ritual, cede la tubería o Tyson tira la puerta. Se desactivan solos si tu sistema pide reducir el movimiento."
+      },
+      "textoGrande": {
+        "Name": "Texto grande en las ventanas del módulo",
+        "Hint": "Aumenta el tamaño de letra del Panel de Frentes, la Pizarra y el resto de ventanas del módulo."
+      },
+      "altoContraste": {
+        "Name": "Alto contraste en las ventanas del módulo",
+        "Hint": "Texto negro sobre blanco y bordes marcados en las ventanas del módulo."
+      },
+      "estiloToken": {
+        "Name": "Estilo de las fichas de personaje",
+        "Hint": "Cuerpo entero sin fondo, pensado para MR- Dirección, o token redondo clásico. Solo afecta a las fichas que se creen a partir de ahora.",
+        "Cuerpo": "Cuerpo entero sin fondo",
+        "Redondo": "Redondo"
       }
     },
     "Verify": {

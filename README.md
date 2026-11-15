@@ -52,6 +52,17 @@ El módulo añade un grupo **Requesón en Waterdeep** en la barra de herramienta
 
 Las mismas once herramientas están como macros dentro del pack.
 
+### Integración con MR- Dirección (opcional)
+
+Si tienes **[MR- Dirección](https://github.com/ManuRomera/mr-direccion)** activo, la aventura se registra sola: aparecen las diez escenas con su lectura y su música, las figuras de cada una con perspectiva, ocho motivos musicales, los seis efectos de sonido y los relojes de los cuatro frentes. Sin él, todo funciona con las herramientas propias del módulo.
+
+### Fichas, efectos y accesibilidad
+
+- **Fichas de cuerpo entero sin fondo** (con opción de token redondo en los ajustes del mundo).
+- **Efectos de sonido y destellos** en los momentos clave, con volumen propio y desactivables. Los destellos respetan la preferencia de movimiento reducido.
+- **Accesibilidad:** etiquetas para lectores de pantalla, foco visible, texto grande y alto contraste opcionales.
+- Las ventanas del módulo recuerdan su posición y tamaño.
+
 ## Instalación
 
 1. En Foundry, **Instalar módulo** y pega el manifiesto:

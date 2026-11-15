@@ -1,5 +1,6 @@
 import { verificarAssets, rutaConFallback } from "./verify-assets.mjs";
 import { ID, iniciarSocket } from "./estado.mjs";
+import { reproducir } from "./efectos.mjs";
 import "./reglas.mjs";
 import { PanelFrentes, Pizarra, PanelPresion, ContadorCulpa, Parmesano } from "./ventanas.mjs";
 import { avanzarEscena, mostrarHandout, resacaNarrativa, fichasConfidenciales, tiradaEnTabla, configuracionInicial } from "./dialogos.mjs";
@@ -9,6 +10,15 @@ Hooks.once("init", () => {
     name: "MRREQ.Settings.Verificar.Name", hint: "MRREQ.Settings.Verificar.Hint",
     scope: "world", config: true, type: Boolean, default: false
   });
+  const cli = (clave, tipo, def, extra = {}) => game.settings.register(ID, clave, { name: `MRREQ.Settings.${clave}.Name`, hint: `MRREQ.Settings.${clave}.Hint`, scope: "client", config: true, type: tipo, default: def, ...extra });
+  cli("efectosSonido", Boolean, true);
+  cli("volumenEfectos", Number, 0.8, { range: { min: 0, max: 1, step: 0.05 } });
+  cli("efectosVisuales", Boolean, true);
+  cli("textoGrande", Boolean, false);
+  cli("altoContraste", Boolean, false);
+  game.settings.register(ID, "estiloToken", { name: "MRREQ.Settings.estiloToken.Name", hint: "MRREQ.Settings.estiloToken.Hint", scope: "world", config: true, type: String, default: "cuerpo",
+    choices: { cuerpo: "MRREQ.Settings.estiloToken.Cuerpo", redondo: "MRREQ.Settings.estiloToken.Redondo" } });
+  game.settings.register(ID, "ventanas", { scope: "client", config: false, type: Object, default: {} });
   game.settings.register(ID, "estado", { scope: "world", config: false, type: Object, default: {}, onChange: () => Hooks.callAll("mrreq.estado") });
   game.settings.register(ID, "importada", { scope: "world", config: false, type: Boolean, default: false });
 });
@@ -26,13 +36,33 @@ Hooks.once("ready", async () => {
     verificarAssets: (opts = { aviso: true }) => verificarAssets(ID, opts),
     rutaConFallback: (path, kind) => rutaConFallback(ID, path, kind)
   };
-  iniciarSocket();
+  iniciarSocket(reproducir);
+  const dir = game.modules.get("mr-direccion");
+  if (dir?.active && dir.api) registrarDireccion(dir.api);
   if (game.user.isGM) {
     // Las macros del pack llevan un autor ficticio: se reasignan al GM que las importa.
     for (const m of game.macros.filter(m => m.getFlag(ID, "macro") && !game.users.has(m.author?.id))) await m.update({ author: game.user.id });
     if (game.settings.get(ID, "verificarAlIniciar")) verificarAssets(ID, { aviso: true });
     if (!game.settings.get(ID, "importada") && !game.scenes.some(s => s.getFlag(ID, "escena"))) configuracionInicial();
   }
+});
+
+// Integración opcional con MR- Dirección: si está activo, recibe un paquete con escenas, motivos, efectos, figuras y relojes.
+let direccionRegistrada = false;
+async function registrarDireccion(api) {
+  if (!api?.registerPack || direccionRegistrada) return;
+  try {
+    const pack = await (await fetch(`modules/${ID}/content/direccion-es.json`)).json();
+    api.registerPack(pack); direccionRegistrada = true;
+  } catch (e) { console.error(`${ID} | no se pudo registrar el paquete de MR- Dirección`, e); }
+}
+Hooks.on("mrDireccion.ready", (api) => registrarDireccion(api));
+
+// Estilo de ficha: cuerpo entero sin fondo (predeterminado) o redondo.
+Hooks.on("preCreateToken", (token) => {
+  const slug = token.actor?.flags?.[ID]?.slug;
+  if (!slug || game.settings.get(ID, "estiloToken") !== "redondo") return;
+  token.updateSource({ "texture.src": `modules/${ID}/assets/actors/tokens/${slug}.webp` });
 });
 
 // Barra de herramientas: lo que usan los jugadores no necesita permiso de macros.

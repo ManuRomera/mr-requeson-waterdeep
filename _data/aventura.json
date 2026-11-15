@@ -66,7 +66,7 @@
      "actorLink": true,
      "disposition": 1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/zardoz-midespinas.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/zardoz-midespinas.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -471,7 +471,7 @@
      "actorLink": true,
      "disposition": 1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/el-guapo.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/el-guapo.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -876,7 +876,7 @@
      "actorLink": true,
      "disposition": 1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/el-dentista.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/el-dentista.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -1281,7 +1281,7 @@
      "actorLink": true,
      "disposition": 1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/el-colgado.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/el-colgado.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -1731,7 +1731,7 @@
      "actorLink": true,
      "disposition": 1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/el-novio.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/el-novio.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2117,7 +2117,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/lola-lentejuela.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/lola-lentejuela.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2243,7 +2243,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/pazos.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/pazos.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2369,7 +2369,7 @@
      "actorLink": false,
      "disposition": -1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/agente-del-sindicato.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/agente-del-sindicato.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2445,7 +2445,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/don-chispa.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/don-chispa.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2620,7 +2620,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/bruno-barriga-blanca.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/bruno-barriga-blanca.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2746,7 +2746,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/rat-tyson.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/rat-tyson.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -2872,7 +2872,7 @@
      "actorLink": false,
      "disposition": -1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/princesa.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/princesa.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3047,7 +3047,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/el-bebe.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/el-bebe.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3123,7 +3123,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/padre-tupe.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/padre-tupe.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3249,7 +3249,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/la-murcielaga.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/la-murcielaga.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3375,7 +3375,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/crupier.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/crupier.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3501,7 +3501,7 @@
      "actorLink": false,
      "disposition": -1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/cobrador.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/cobrador.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3627,7 +3627,7 @@
      "actorLink": false,
      "disposition": -1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/falso-guardia.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/falso-guardia.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3753,7 +3753,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/murcielago-adulto.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/murcielago-adulto.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -3879,7 +3879,7 @@
      "actorLink": false,
      "disposition": -1,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/ardilla-de-chispa.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/ardilla-de-chispa.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -4005,7 +4005,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/funcionario-de-la-guardia.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/funcionario-de-la-guardia.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -4081,7 +4081,7 @@
      "actorLink": false,
      "disposition": 0,
      "texture": {
-      "src": "modules/mr-requeson-waterdeep/assets/actors/tokens/cadete-de-la-guardia.webp",
+      "src": "modules/mr-requeson-waterdeep/assets/actors/figures/cadete-de-la-guardia.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
@@ -8777,7 +8777,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "00"
+      "escena": "00",
+      "slug": "00-portada-ratover"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -8858,7 +8859,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "01"
+      "escena": "01",
+      "slug": "01-la-villa-del-cielo-caido"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -8939,7 +8941,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "02"
+      "escena": "02",
+      "slug": "02-dado-de-nacar"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9020,7 +9023,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "03"
+      "escena": "03",
+      "slug": "03-bulevar-precintado"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9101,7 +9105,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "04"
+      "escena": "04",
+      "slug": "04-capilla-del-ultimo-chillido"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9182,7 +9187,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "05"
+      "escena": "05",
+      "slug": "05-notaria-del-parmesano"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9263,7 +9269,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "06"
+      "escena": "06",
+      "slug": "06-almacen-de-don-chispa"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9344,7 +9351,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "07"
+      "escena": "07",
+      "slug": "07-atico-de-rat-tyson"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9425,7 +9433,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "08"
+      "escena": "08",
+      "slug": "08-el-bano-de-princesa"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -9506,7 +9515,8 @@
     },
     "flags": {
      "mr-requeson-waterdeep": {
-      "escena": "09"
+      "escena": "09",
+      "slug": "09-la-mandibula-negra"
      }
     },
     "playlist": "NmV94RLptatEB1Q3",
@@ -10714,7 +10724,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "00-portada-ratover"
+       }
+      }
      },
      {
       "_id": "BIoSHvaczzDSzOA9",
@@ -10727,7 +10741,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "01-la-villa-del-cielo-caido"
+       }
+      }
      },
      {
       "_id": "4iIonvy7BpUSZccp",
@@ -10740,7 +10758,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "02-dado-de-nacar"
+       }
+      }
      },
      {
       "_id": "QzqFnQZZJvJ9vlON",
@@ -10753,7 +10775,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "03-bulevar-precintado"
+       }
+      }
      },
      {
       "_id": "0oOiYIVBS1sTLwWO",
@@ -10766,7 +10792,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "04-capilla-del-ultimo-chillido"
+       }
+      }
      },
      {
       "_id": "h4IkoMo9tR6GKeGI",
@@ -10779,7 +10809,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "05-notaria-del-parmesano"
+       }
+      }
      },
      {
       "_id": "yXdpw3EB4ISVh9pM",
@@ -10792,7 +10826,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "06-almacen-de-don-chispa"
+       }
+      }
      },
      {
       "_id": "WvkFoYBgc5nEqFxV",
@@ -10805,7 +10843,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "07-atico-de-rat-tyson"
+       }
+      }
      },
      {
       "_id": "SpWHH0fk6PSKO5Od",
@@ -10818,7 +10860,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "08-el-bano-de-princesa"
+       }
+      }
      },
      {
       "_id": "sP8Rzn25xRcf3yDn",
@@ -10831,7 +10877,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "09-la-mandibula-negra"
+       }
+      }
      }
     ],
     "playing": false,
@@ -10863,7 +10913,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "investigacion-resaca"
+       }
+      }
      },
      {
       "_id": "BxeRhGU6AoOR8TGf",
@@ -10876,7 +10930,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "comedia-caotica"
+       }
+      }
      },
      {
       "_id": "xY5p31RW8lEFHuWx",
@@ -10889,7 +10947,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "tension-ritual"
+       }
+      }
      },
      {
       "_id": "4gbFEF38kwau5cO6",
@@ -10902,7 +10964,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "sigilo-peligro"
+       }
+      }
      },
      {
       "_id": "oMFrYoGrQQT5tu8u",
@@ -10915,7 +10981,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "persecucion"
+       }
+      }
      },
      {
       "_id": "VcwOqHt8BTEsPhSe",
@@ -10928,7 +10998,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "combate"
+       }
+      }
      },
      {
       "_id": "yjt75f3VTEEQHUUa",
@@ -10941,7 +11015,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "revelacion-flashback"
+       }
+      }
      },
      {
       "_id": "0XAZqUUh6q9GDVII",
@@ -10954,7 +11032,11 @@
       "repeat": true,
       "volume": 0.6,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "triunfo-agridulce"
+       }
+      }
      }
     ],
     "playing": false,
@@ -10986,7 +11068,11 @@
       "repeat": false,
       "volume": 0.8,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "tuberia-cede"
+       }
+      }
      },
      {
       "_id": "dSGjtT49dhx2hZTE",
@@ -10999,7 +11085,11 @@
       "repeat": false,
       "volume": 0.8,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "mandibula-negra"
+       }
+      }
      },
      {
       "_id": "FYnORLMYrQW9dZ5D",
@@ -11012,7 +11102,11 @@
       "repeat": false,
       "volume": 0.8,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "ritual-pulso"
+       }
+      }
      },
      {
       "_id": "eeWuVKyDg01EVde3",
@@ -11025,7 +11119,11 @@
       "repeat": false,
       "volume": 0.8,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "timbre-recepcion"
+       }
+      }
      },
      {
       "_id": "tZ614QiMP8YdF9f4",
@@ -11038,7 +11136,11 @@
       "repeat": false,
       "volume": 0.8,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "queso-guindilla"
+       }
+      }
      },
      {
       "_id": "lxCzP9GKZoSRojr4",
@@ -11051,7 +11153,11 @@
       "repeat": false,
       "volume": 0.8,
       "fade": null,
-      "flags": {}
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "puerta-de-tyson"
+       }
+      }
      }
     ],
     "playing": false,

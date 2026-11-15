@@ -1,4 +1,5 @@
 import { ID, estado, guardar, chatGM, chatPublico, esc, registrarAccion, darCondicion, personajes } from "./estado.mjs";
+import { efecto } from "./efectos.mjs";
 import { FRENTES, PRESENTES, PRESION, EPILOGOS } from "./frentes-datos.mjs";
 
 const frente = (id) => FRENTES.find(f => f.id === id);
@@ -11,6 +12,8 @@ export async function moverFrente(id, nuevo) {
   nuevo = Math.max(0, Math.min(4, nuevo));
   await guardar(e => { e.frentes[id] = nuevo; });
   if (nuevo > antes) for (let n = antes + 1; n <= nuevo; n++) chatGM(tarjetaPaso(f, n));
+  if (nuevo > antes && id === "rastro" && nuevo >= 2) efecto("ritual", "oro");
+  if (nuevo > antes && id === "tyson" && nuevo === 4) efecto("puerta", "rojo");
 }
 export const alternarCongelado = (id) => guardar(e => { e.congelados[id] = !e.congelados[id]; });
 registrarAccion("frente", ({ id, paso }) => moverFrente(id, paso));
@@ -50,6 +53,7 @@ export async function moverPresion(delta) {
   const n = delta > 0 ? Math.min(4, Math.max(1, n0 + delta)) : (n0 === 0 ? 0 : Math.max(1, n0 + delta));
   await guardar(x => { x.presion = n; });
   chatGM(`<div class="mrreq-chat ${n === 4 ? "mrreq-alerta" : ""}"><h3>Presión de Princesa: ${n}/4</h3><p>${esc(PRESION[n])}</p></div>`);
+  if (n === 4 && delta > 0) efecto("tuberia", "agua");
   if (n === 4 && delta > 0) chatPublico(`<div class="mrreq-chat mrreq-alerta"><p><em>Un chirrido metálico. Un chorro de agua. La grifería ya no está en la pared.</em></p></div>`);
 }
 registrarAccion("presion", ({ delta }) => moverPresion(delta));
@@ -102,7 +106,7 @@ export async function turnoParmesano(actorId) {
     y.log.push(`${a.name}: d${m.q}=${r}${nota} ${q2 ? "QUEMA" : "queso bueno"}`);
   });
   chatGM(`<p><strong>${esc(a.name)}</strong> tira d${m.q}: ${r}${nota}. ${q2 ? "Queso con guindilla." : "Queso bueno: una pregunta."}</p>`);
-  if (q2) { chatPublico(`<div class="mrreq-chat mrreq-alerta"><p>${esc(a.name)} se traga el cubo y los ojos se le llenan de lágrimas. Queda <strong>ARDIDO</strong>.</p></div>`); await darCondicion(a, "ARDIDO"); }
+  if (q2) { efecto("queso", "rojo"); chatPublico(`<div class="mrreq-chat mrreq-alerta"><p>${esc(a.name)} se traga el cubo y los ojos se le llenan de lágrimas. Queda <strong>ARDIDO</strong>.</p></div>`); await darCondicion(a, "ARDIDO"); }
   else chatPublico(`<div class="mrreq-chat"><p>${esc(a.name)} se traga el cubo sin pestañear. Bruno asiente: tiene derecho a una pregunta.</p></div>`);
 }
 export async function turnoBruno(forzar) {

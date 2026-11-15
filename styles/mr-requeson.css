@@ -31,3 +31,21 @@
 .mrreq-chat { border-left: 4px solid var(--mrreq-oro); padding: 2px 8px; }
 .mrreq-chat h3 { margin: 0 0 2px; font-size: 1rem; }
 .mrreq-chat.mrreq-alerta { border-left-color: #7a1f1f; background: rgba(122, 31, 31, .08); }
+
+/* Accesibilidad */
+.mrreq button:focus-visible, .mrreq select:focus-visible, .mrreq input:focus-visible { outline: 3px solid #1f4fbf; outline-offset: 2px; }
+.mrreq .paso { min-width: 32px; height: 32px; line-height: 30px; }
+.mrreq.mrreq-grande .window-content { font-size: 1.3rem; }
+.mrreq.mrreq-grande .paso { min-width: 44px; height: 44px; line-height: 42px; }
+.mrreq.mrreq-contraste .window-content { background: #fff; color: #000; }
+.mrreq.mrreq-contraste .paso { border-width: 2px; border-color: #000; color: #000; }
+.mrreq.mrreq-contraste .paso.on { background: #000; color: #fff; }
+.mrreq.mrreq-contraste .nota { background: #fff; border: 2px solid #000; }
+
+/* Destellos de pantalla */
+.mrreq-flash { position: fixed; inset: 0; z-index: 9999; pointer-events: none; opacity: 0; animation: mrreq-flash 1.1s ease-out 1; }
+.mrreq-flash-oro { background: radial-gradient(circle, rgba(255, 215, 120, .55), rgba(255, 215, 120, 0) 70%); }
+.mrreq-flash-agua { background: radial-gradient(circle, rgba(120, 190, 255, .5), rgba(120, 190, 255, 0) 70%); }
+.mrreq-flash-rojo { background: radial-gradient(circle, rgba(200, 40, 40, .5), rgba(200, 40, 40, 0) 70%); }
+@keyframes mrreq-flash { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .mrreq-flash { display: none; } }

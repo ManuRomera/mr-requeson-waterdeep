@@ -45,7 +45,7 @@ def stats(f,d,v):
     return {k:dict(value=x,max=x) for k,x in zip(('strength','dexterity','will'),(f,d,v))}
 def token(slug,name,disp,tam,link):
     a=M.get('token.'+slug)
-    return dict(name=name,displayName=30,actorLink=link,disposition=disp,texture=dict(src=img(a['round_token'],'token'),scaleX=1,scaleY=1,fit='contain'),width=tam,height=tam,lockRotation=True,bar1=dict(attribute='health'),displayBars=20,sight=dict(enabled=link,range=30),ring=dict(enabled=False))
+    return dict(name=name,displayName=30,actorLink=link,disposition=disp,texture=dict(src=img(M['figure.'+slug]['path'],'token'),scaleX=1,scaleY=1,fit='contain'),width=tam,height=tam,lockRotation=True,bar1=dict(attribute='health'),displayBars=20,sight=dict(enabled=link,range=30),ring=dict(enabled=False))
 fold={}
 def folder(nombre,tipo,orden):
     f=dict(_id=uid('folder:'+tipo+nombre),name=nombre,type=tipo,folder=None,sorting='a',sort=orden,color=None,flags={},description='');fold[(tipo,nombre)]=f['_id'];return f
@@ -89,7 +89,7 @@ MAC=[('Configuración Inicial','configuracion-inicial','configuracionInicial'),(
 macros=[dict(_id=uid('macro:'+n),name=n,type='script',img=img(M['ui.'+i]['path'],'ui'),scope='global',command=f'game.modules.get("{ID}").api.{f}();',author=uid('autor'),folder=fm['_id'],sort=k*100000,ownership=dict(default=0),flags={ID:dict(macro=True)}) for k,(n,i,f) in enumerate(MAC)]
 carp_extra=carp_extra+[fm]
 def sonido(a,canal,repetir,vol):
-    return dict(_id=uid('sonido:'+a['id']),name=a['title'],description='',path=f"modules/{ID}/{a['path']}",channel=canal,playing=False,pausedTime=None,repeat=repetir,volume=vol,fade=None,flags={})
+    return dict(_id=uid('sonido:'+a['id']),name=a['title'],description='',path=f"modules/{ID}/{a['path']}",channel=canal,playing=False,pausedTime=None,repeat=repetir,volume=vol,fade=None,flags={ID:dict(slug=a['id'].split('.',1)[1])})
 def lista(nombre,kind,canal,repetir,vol,modo,orden):
     sn=[sonido(a,canal,repetir,vol) for a in M.values() if a['kind']==kind]
     return dict(_id=uid('playlist:'+nombre),name=nombre,description='',mode=modo,channel=canal,sounds=sn,playing=False,folder=None,sorting='a',sort=orden,seed=None,fade=None,ownership=dict(default=0),flags={})
@@ -98,9 +98,33 @@ pm=playlists[0]
 for sc in escenas:
     n=sc['flags'][ID]['escena']
     a=[x for x in M.values() if x['kind']=='music' and x['id'].split('.',1)[1].startswith(n+'-')][0]
-    sc['playlist']=pm['_id'];sc['playlistSound']=uid('sonido:'+a['id'])
+    sc['playlist']=pm['_id'];sc['playlistSound']=uid('sonido:'+a['id']);sc['flags'][ID]['slug']=a['id'].split('.',1)[1]
 adv=dict(_id=uid('adventure'),name='MR- Requesón en Waterdeep',img=f'modules/{ID}/assets/scenes/00-portada-ratover.webp',caption='<p>Ratover: Requesón en Waterdeep</p>',
   actors=actors,combats=[],items=items,journal=diarios,scenes=escenas,tables=tablas,macros=macros,cards=[],playlists=playlists,folders=folders+carp_extra,folder=None,sort=0,flags={ID:dict(lang='es')})
 (R/'_data').mkdir(exist_ok=True)
 json.dump([adv],open(R/'_data/aventura.json','w',encoding='utf8'),ensure_ascii=False,indent=1)
+# ---- paquete para MR- Dirección (opcional): content/direccion-es.json
+def fl(slug): return {'flag':[ID,'slug',slug]}
+jid={j['_id']:j for j in diarios}
+PJS=['zardoz-midespinas','el-guapo','el-dentista','el-colgado','el-novio']
+CAST={'01':['lola-lentejuela'],'02':['lola-lentejuela','crupier','pazos'],'03':['funcionario-de-la-guardia','cadete-de-la-guardia','falso-guardia','pazos'],'04':['padre-tupe','la-murcielaga','murcielago-adulto','el-bebe'],
+ '05':['bruno-barriga-blanca','cobrador'],'06':['don-chispa','ardilla-de-chispa'],'07':['rat-tyson'],'08':['princesa'],'09':['don-chispa','bruno-barriga-blanca','pazos']}
+CUES={'01':[('Llamada del recepcionista','bell','timbre-recepcion')],'05':[('Queso con guindilla','pepper-hot','queso-guindilla')],'07':[('La puerta de Tyson','door-open','puerta-de-tyson')],
+ '08':[('La tubería cede','droplet','tuberia-cede')],'09':[('La Mandíbula Negra','gears','mandibula-negra'),('Pulso del ritual','heart-pulse','ritual-pulso')]}
+escs=[]
+for sc in sorted(escenas,key=lambda x:x['sort']):
+    n=sc['flags'][ID]['escena'];j=jid[sc['journal']]
+    escs.append(dict(ref=fl_scene(sc) if False else {'flag':[ID,'slug',sc['flags'][ID]['slug']]},order=int(n),name=sc['name'],reading={'uuid':f"JournalEntry.{j['_id']}.JournalEntryPage.{j['pages'][0]['_id']}"},
+      music=fl(sc['flags'][ID]['slug']),motifs=None,cues=[dict(label=l,icon=i,sound=fl(sd)) for l,i,sd in CUES.get(n,[])],ambient=None,
+      figures=[dict(ref=fl(a),label='') for a in (PJS if n!='00' else [])+CAST.get(n,[])],handouts=[],notes='',thumb=sc['thumb'] or '',stage=dict(eye=0.5,anchors=[[0.25,0.88],[0.5,0.92],[0.75,0.88]])))
+MOT=[('investigacion','Investigación','magnifying-glass','investigacion-resaca'),('comedia','Comedia caótica','masks-theater','comedia-caotica'),('ritual','Tensión del ritual','eye','tension-ritual'),
+ ('sigilo','Sigilo','user-secret','sigilo-peligro'),('persecucion','Persecución','person-running','persecucion'),('combate','Combate','hand-fist','combate'),
+ ('flashback','Revelación','lightbulb','revelacion-flashback'),('triunfo','Triunfo agridulce','champagne-glasses','triunfo-agridulce')]
+EFE=[('tuberia','La tubería cede','droplet','tuberia-cede'),('mandibula','La Mandíbula Negra','gears','mandibula-negra'),('ritual','Pulso del ritual','heart-pulse','ritual-pulso'),
+ ('timbre','Timbre de recepción','bell','timbre-recepcion'),('queso','Queso con guindilla','pepper-hot','queso-guindilla'),('puerta','La puerta de Tyson','door-open','puerta-de-tyson')]
+pack=dict(schema=1,id=ID,title='MR- Requesón en Waterdeep',version=json.load(open(R/'module.json'))['version'],author='Manu Romera',license='CC BY-NC-SA 4.0',
+  settings=dict(fade=3.5,motifs=[dict(id=i,label=l,icon=ic,music=fl(sl)) for i,l,ic,sl in MOT],effects=[dict(id=i,label=l,icon=ic,sound=fl(sl)) for i,l,ic,sl in EFE],
+   markers=dict(milestones=[dict(id='revA',label='A · El encargo se hizo y la joya no está'),dict(id='revB',label='B · La lleva Princesa'),dict(id='revC',label='C · El molino se abre por el lateral')],
+    clocks=[dict(id='rastro',label='Rastro Dorado',segments=4),dict(id='sindicato',label='Sindicato',segments=4),dict(id='tyson',label='Rat Tyson',segments=4),dict(id='acreedores',label='Acreedores',segments=4),dict(id='presion',label='Presión de Princesa',segments=4)])),scenes=escs)
+(R/'content').mkdir(exist_ok=True);json.dump(pack,open(R/'content/direccion-es.json','w',encoding='utf8'),ensure_ascii=False,indent=1)
 print(sum(len(x['sounds']) for x in playlists),'sonidos',len(macros),'macros',len(diarios),'diarios',len(escenas),'escenas',len(tablas),'tablas');print(len(actors),'actores',len(items),'objetos',sum(len(a['items']) for a in actors),'objetos embebidos',len(folders),'carpetas')

@@ -1,5 +1,13 @@
 # Cambios
 
+## 0.7.0
+
+- **Integración opcional con MR- Dirección.** Si está activo, recibe un paquete con las 10 escenas (lectura, música, figuras y perspectiva), 8 motivos, 6 efectos y los relojes de los cuatro frentes y de la Presión de Princesa. Sin Dirección, el módulo funciona igual. Se recomienda en el manifiesto, no se exige.
+- **Fichas de cuerpo entero sin fondo.** Las 22 fichas usan una figura de cuerpo entero con los pies sobre la línea de suelo, lista para Dirección. Ajuste de mundo para volver al token redondo clásico.
+- **Efectos.** Sonido y destello al avanzar el ritual, ceder la tubería, tirar Tyson la puerta o quemar el queso. Se activan y se regulan en los ajustes, y los destellos respetan la preferencia de movimiento reducido del sistema.
+- **Accesibilidad.** Etiquetas y estados para lectores de pantalla en todas las ventanas, foco visible, objetivos de pulsación mayores, texto grande y alto contraste opcionales.
+- **Memoria de ventanas:** cada ventana se reabre donde se dejó.
+
 ## 0.6.1
 
 - Las acciones que los jugadores piden al GM (Resaca, Confesión, Culpa, Pizarra, Presión, Parmesano) se ejecutan de una en una. Antes, dos peticiones simultáneas se pisaban y se perdían puntos de Culpa y contadores de límites.
