@@ -125,13 +125,19 @@
   &.mrreq-piel-ficha {
     & :is(.header-border, .blockborder, .creaturedescription, .creature-abilities) { background: var(--rw-papel) !important; border: 2px solid var(--rw-borde) !important; border-radius: 0 !important;
       box-shadow: 3px 3px 0 var(--rw-oro) !important; outline: 0 !important; color: var(--rw-texto) !important; }
-    & .headerinputtext { background: var(--rw-banda) !important; color: var(--rw-banda-txt) !important; font-family: "RW Cinzel", serif !important; letter-spacing: .03em; }
-    & .headerinputfield input, & input.noborder { color: var(--rw-texto) !important; background: transparent !important; font-family: "RW Maquina", monospace !important; }
-    & h1.charname input, & .charname > input[name="name"] { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 1.35rem !important; color: var(--rw-texto) !important; background: var(--rw-papel) !important;
+    & .headerinputtext { background: transparent !important; color: var(--rw-magenta) !important; font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: .8rem !important; line-height: 1.2 !important;
+      letter-spacing: 0; text-transform: none; padding: 0 .2rem !important; white-space: nowrap; overflow: visible; }
+    & .headerinputfield input, & input.noborder { color: var(--rw-texto) !important; background: transparent !important; font-family: "RW Crimson", serif !important; font-size: 1.05rem !important; text-overflow: ellipsis; min-width: 0; }
+    & :is(.statName, .minmaxtext) { font-size: 1rem !important; line-height: 1.2 !important; letter-spacing: .03em; white-space: nowrap; }
+    & :is(.minmax-input, .stat-input, .darkGreyText) { font-size: 1.15rem !important; }
+    & .item-card-title { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: .78rem !important; line-height: 1.15; white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+    & .sheet-tabs .tab-select { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 1.05rem !important; letter-spacing: .05em; color: var(--rw-texto) !important; text-shadow: none !important; }
+    & .sheet-tabs .tab-select.active { color: var(--rw-magenta) !important; border-bottom: 3px solid var(--rw-oro); }
+    & h1.charname input, & .charname > input[name="name"] { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 1.15rem !important; color: var(--rw-texto) !important; background: transparent !important; text-overflow: ellipsis;
       border: 2px solid var(--rw-borde) !important; border-radius: 0 !important; }
     & :is(.statName, .creaturestat, .creature-header, .creaturename) { font-family: "RW Cinzel", serif !important; color: var(--rw-texto) !important; }
     & .rollable:is(:hover, :focus-visible) { color: var(--rw-magenta) !important; text-shadow: 1px 1px 0 var(--rw-oro); }
-    & :is(.minmax-input, .darkGreyText) { font-family: "RW Maquina", monospace !important; color: var(--rw-texto) !important; background: transparent !important; }
+    & :is(.minmax-input, .darkGreyText) { font-family: "RW Crimson", serif !important; color: var(--rw-texto) !important; background: transparent !important; }
     & :is(.current-max-label, .littleLabel) { font-family: "RW Cinzel", serif !important; color: var(--rw-suave) !important; }
     & .seperatorLine { border-bottom: 2px solid var(--rw-borde) !important; }
     & .slant { border-right: 2px solid var(--rw-borde) !important; }
