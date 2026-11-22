@@ -130,6 +130,13 @@
     & .headerinputfield input, & input.noborder { color: var(--rw-texto) !important; background: transparent !important; font-family: "RW Crimson", serif !important; font-size: 1.05rem !important; text-overflow: ellipsis; min-width: 0; }
     & :is(.statName, .minmaxtext) { font-size: 1rem !important; line-height: 1.2 !important; letter-spacing: .03em; white-space: nowrap; }
     & :is(.minmax-input, .stat-input, .darkGreyText) { font-size: 1.15rem !important; }
+    /* cartas de condición: texto legible sobre la imagen como marca de agua */
+    & .item-card:has(.item-card-desc:not(:empty)) .item-card-image { opacity: .16; filter: saturate(.7); z-index: 0; }
+    & .item-card:has(.item-card-desc:not(:empty)) { overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; }
+    & .item-card:has(.item-card-desc:not(:empty)) :is(.item-card-desc, .item-card-clear, .item-card-clear-text) { position: static !important; width: auto !important; height: auto !important; margin: 0 .35rem .15rem !important; }
+    & .item-card .item-card-desc { z-index: 2; font-family: "RW Crimson", serif !important; font-style: normal !important; font-size: .72rem !important; line-height: 1.12 !important; color: var(--rw-texto) !important; overflow: hidden; }
+    & .item-card .item-card-clear { z-index: 2; font-family: "RW Cinzel", serif !important; font-size: .62rem !important; font-weight: 700; color: var(--rw-magenta) !important; }
+    & .item-card .item-card-clear-text { z-index: 2; font-family: "RW Crimson", serif !important; font-style: normal !important; font-size: .68rem !important; line-height: 1.1 !important; color: var(--rw-texto) !important; }
     & .item-card-title { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: .78rem !important; line-height: 1.15; white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
     & .sheet-tabs .tab-select { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 1.05rem !important; letter-spacing: .05em; color: var(--rw-texto) !important; text-shadow: none !important; }
     & .sheet-tabs .tab-select.active { color: var(--rw-magenta) !important; border-bottom: 3px solid var(--rw-oro); }

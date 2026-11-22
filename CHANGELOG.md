@@ -1,5 +1,10 @@
 # Cambios
 
+## 1.0.1
+
+- **Ficha rediseñada.** Las etiquetas (Nombre, Transfondo, Signo…) pierden el bloque negro de detrás y usan letra legible que cabe en su hueco; pestañas y títulos de objeto en Cinzel, campos en Crimson.
+- **Cartas de condición.** El texto de RESACA y compañía ya no se pisa con la imagen ni consigo mismo: la imagen queda de marca de agua y el texto se desplaza si es largo.
+
 ## 1.0.0
 
 - **Aspecto de la partida.** Piel de Requesón para las fichas, las tarjetas de tirada y los diálogos de tirada de Mausritter, con versión oscura para MR- Mausritter en español y opción de apagarla. Las ventanas del módulo y las tarjetas de chat estrenan identidad (Cinzel Decorative, Crimson, ciruela y oro), arte en el chat y lupa al pasar el cursor.
