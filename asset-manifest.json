@@ -239,7 +239,7 @@
    ],
    "marca": "discreta",
    "fallback": "assets/_placeholders/token.svg",
-   "prompt": "Full body shot from head to toe of a dark grey anthropomorphic mouse rogue. Entire body, tail, and feet fully visible inside frame with margin space. Wearing a tattered dark purple velvet cloak, holding a sewing-needle rapier. Dark fantasy style, urban Waterdeep rogue, cinematic lighting, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+   "prompt": "Full body shot from head to toe of a dark grey anthropomorphic mouse rogue. Entire body, tail, and feet fully visible inside frame with margin space. Wearing a tattered dark purple velvet cloak, holding a sewing-needle rapier. Dark fantasy style, urban Waterdeep rogue, cinematic lighting, centered. He is an adult MALE mouse: masculine face, strong jaw, rugged scarred muzzle, short whiskers, no eyelashes, no makeup, no earrings, no lipstick. The rapier is a giant sewing needle used as a sword: the sharp POINT of the needle is the tip of the blade, pointing away from the hand, and the needle's EYE (the thread hole) sits at the hilt end, with a thin red thread trailing from the hilt guard. The point must never be at the hilt. Isolated on a pure solid black background --ar 2:3 --v 6.0",
    "status": "pendiente",
    "group": "pcs",
    "transparent_bg": true,
@@ -965,7 +965,7 @@
    ],
    "marca": "discreta",
    "fallback": "assets/_placeholders/portrait.svg",
-   "prompt": "Close-up head and shoulders portrait of a dark grey anthropomorphic mouse rogue. Wearing a tattered dark purple velvet cloak, holding a sewing-needle rapier. Dark fantasy style, urban Waterdeep rogue, cinematic lighting, centered. Isolated on a pure solid black background --ar 1:1 --v 6.0",
+   "prompt": "Close-up head and shoulders portrait of a dark grey anthropomorphic mouse rogue. Wearing a tattered dark purple velvet cloak, holding a sewing-needle rapier. Dark fantasy style, urban Waterdeep rogue, cinematic lighting, centered. He is an adult MALE mouse: masculine face, strong jaw, rugged scarred muzzle, short whiskers, no eyelashes, no makeup, no earrings, no lipstick. The rapier is a giant sewing needle used as a sword: the sharp POINT of the needle is the tip of the blade, pointing away from the hand, and the needle's EYE (the thread hole) sits at the hilt end, with a thin red thread trailing from the hilt guard. The point must never be at the hilt. Isolated on a pure solid black background --ar 1:1 --v 6.0",
    "status": "pendiente",
    "para_ficha": true
   },

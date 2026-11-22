@@ -1,5 +1,9 @@
 # Cambios
 
+## 1.0.2
+
+- **Zardoz Midespinas rehecho.** Retrato, token y figura nuevos: es un ratón macho, con cicatriz, y la aguja-estoque lleva la punta en la punta de la hoja y el ojal con el hilo rojo en la empuñadura.
+
 ## 1.0.1
 
 - **Ficha rediseñada.** Las etiquetas (Nombre, Transfondo, Signo…) pierden el bloque negro de detrás y usan letra legible que cabe en su hueco; pestañas y títulos de objeto en Cinzel, campos en Crimson.
