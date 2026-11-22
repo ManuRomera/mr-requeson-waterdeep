@@ -1,0 +1,26 @@
+[
+ {
+  "src": "/Volumes/Datos_Dock/FoundryVTT/Data/modules/mr-requeson-waterdeep/art_src/raw/world.png",
+  "out": "/Volumes/Datos_Dock/FoundryVTT/Data/modules/mr-requeson-waterdeep/docs/img/banner.webp",
+  "size": [
+   1600,
+   560
+  ],
+  "focus": 0.5,
+  "veil": 0.8,
+  "accent": [
+   176,
+   36,
+   107
+  ],
+  "kicker": "MAUSRITTER · COMEDIA CRIMINAL DE RESACA",
+  "title": [
+   "RATOVER"
+  ],
+  "subtitle": "Requesón en Waterdeep",
+  "tagline": [
+   "Foundry VTT · Castellano · Edición Manada Midespinas"
+  ],
+  "logo": true
+ }
+]

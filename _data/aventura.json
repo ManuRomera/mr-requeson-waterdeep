@@ -21,8 +21,8 @@
       "max": 2
      },
      "armor": 0,
-     "biography": "<p>Ratón oscuro de capa púrpura, ojos rápidos y postura de alguien que ha dirigido demasiadas operaciones desde el interior de una manga.</p><p>Nixyus lo encontró navegando hacia Waterdeep y lo convirtió en su familiar. Persiguió a un ladrón de mensajes a lomos de un Paper Bird, sobrevivió a gatos callejeros y trabajó como espía. Ahora dirige la Manada Midespinas bajo el orfanato.</p><p><em>«Las calles necesitan seguridad. Nosotros necesitamos un plan.»</em></p>",
-     "notes": "<p><strong>Ojos de familiar.</strong> Una vez por escena puedes señalar un objeto, una puerta o una criatura y preguntar «¿hay magia aquí y qué está intentando hacer?». El DJ responde con una frase corta y verdadera. Además tiras con ventaja cuando actúes para interrumpir, esquivar, engañar o entender un efecto mágico.</p><p><strong>Deseo: que te sigan por convicción, no por la capa.</strong> Lo cumples si en el Molino la Manada ejecuta un plan que propusiste tú y sale bien. Cumplirlo en el epílogo quita un punto de Culpa.</p>",
+     "biography": "<p class=\"mrreq-lema\">«Las calles necesitan seguridad. Nosotros necesitamos un plan.»</p><ul class=\"mrreq-lista\"><li><b>Habilidad:</b> Ojos de familiar.</li><li><b>Deseo:</b> que te sigan por convicción, no por la capa.</li><li><b>Culpa:</b> se anota en el Contador de Culpa.</li></ul><p><em>El texto completo está en Notas.</em></p>",
+     "notes": "<p>Ratón oscuro de capa púrpura, ojos rápidos y postura de alguien que ha dirigido demasiadas operaciones desde el interior de una manga.</p><p>Nixyus lo encontró navegando hacia Waterdeep y lo convirtió en su familiar. Persiguió a un ladrón de mensajes a lomos de un Paper Bird, sobrevivió a gatos callejeros y trabajó como espía. Ahora dirige la Manada Midespinas bajo el orfanato.</p><p><em>«Las calles necesitan seguridad. Nosotros necesitamos un plan.»</em></p><p><strong>Ojos de familiar.</strong> Una vez por escena puedes señalar un objeto, una puerta o una criatura y preguntar «¿hay magia aquí y qué está intentando hacer?». El DJ responde con una frase corta y verdadera. Además tiras con ventaja cuando actúes para interrumpir, esquivar, engañar o entender un efecto mágico.</p><p><strong>Deseo: que te sigan por convicción, no por la capa.</strong> Lo cumples si en el Molino la Manada ejecuta un plan que propusiste tú y sale bien. Cumplirlo en el epílogo quita un punto de Culpa.</p>",
      "description": {
       "background": "Antiguo familiar de Nixyus · Jefe de la Manada",
       "birthsign": "",
@@ -426,8 +426,8 @@
       "max": 2
      },
      "armor": 0,
-     "biography": "<p>Ratón gris claro con chaleco color ciruela, monóculo roto y una sonrisa que suele aparecer medio segundo antes de una deuda.</p><p>Reconoce sellos nobles, sabe entrar en lugares caros y ha convencido a media Rat Vegas de que la Manada trabaja para alguien importante. La otra mitad cree que son inspectores.</p><p><em>«No es ilegal si nadie sabe qué formulario falta.»</em></p>",
-     "notes": "<p><strong>El tono correcto.</strong> Una vez por escena, da una orden con absoluto aplomo a un PNJ que no te conozca: la obedece durante un minuto sin discutir. No funciona dos veces con la misma persona, no funciona contra alguien que ya te haya visto fallar y se cae al suelo en cuanto un compañero se ríe.</p><p><strong>Deseo: entrar por la puerta principal.</strong> Lo cumples si acabas la partida con una invitación firmada de una casa noble (el favor de Maerla basta) o con una presentación formal ante la Guardia. Quita un punto de Culpa.</p>",
+     "biography": "<p class=\"mrreq-lema\">«No es ilegal si nadie sabe qué formulario falta.»</p><ul class=\"mrreq-lista\"><li><b>Habilidad:</b> El tono correcto.</li><li><b>Deseo:</b> entrar por la puerta principal.</li><li><b>Culpa:</b> se anota en el Contador de Culpa.</li></ul><p><em>El texto completo está en Notas.</em></p>",
+     "notes": "<p>Ratón gris claro con chaleco color ciruela, monóculo roto y una sonrisa que suele aparecer medio segundo antes de una deuda.</p><p>Reconoce sellos nobles, sabe entrar en lugares caros y ha convencido a media Rat Vegas de que la Manada trabaja para alguien importante. La otra mitad cree que son inspectores.</p><p><em>«No es ilegal si nadie sabe qué formulario falta.»</em></p><p><strong>El tono correcto.</strong> Una vez por escena, da una orden con absoluto aplomo a un PNJ que no te conozca: la obedece durante un minuto sin discutir. No funciona dos veces con la misma persona, no funciona contra alguien que ya te haya visto fallar y se cae al suelo en cuanto un compañero se ríe.</p><p><strong>Deseo: entrar por la puerta principal.</strong> Lo cumples si acabas la partida con una invitación firmada de una casa noble (el favor de Maerla basta) o con una presentación formal ante la Guardia. Quita un punto de Culpa.</p>",
      "description": {
       "background": "Protocolo improvisado · Mentiras con chaleco",
       "birthsign": "",
@@ -831,8 +831,8 @@
       "max": 2
      },
      "armor": 0,
-     "biography": "<p>Ratón delgado, gafas torcidas, guantes violetas y un maletín que contiene remedios, herramientas y varias razones para no dejarle preparar cócteles.</p><p>Es quien mantiene viva a la Manada, aunque suele explicar demasiado tarde que un síntoma era preocupante. Trajo Calma-Comadrejas como defensa contra depredadores.</p><p><em>«Técnicamente no está muerto. Técnicamente tampoco está bien.»</em></p>",
-     "notes": "<p><strong>Manos quietas.</strong> Cuando apliques, extraigas, cosas, dosifiques o desatasques algo pegado al cuerpo de otra criatura, ignoras la desventaja que vendría del peligro, de las prisas o de tu propia resaca. Una vez por escena, poner las manos encima de un compañero fuera de combate lo estabiliza sin necesidad de tirar.</p><p><strong>Deseo: una consulta con puerta, rótulo y pacientes que no muerdan.</strong> Lo cumples si acabas la partida con 150 pips o más, o con el agradecimiento escrito de Lola, de Tyson o de la Guardia. Quita un punto de Culpa.</p>",
+     "biography": "<p class=\"mrreq-lema\">«Técnicamente no está muerto. Técnicamente tampoco está bien.»</p><ul class=\"mrreq-lista\"><li><b>Habilidad:</b> Manos quietas.</li><li><b>Deseo:</b> una consulta con puerta, rótulo y pacientes que no muerdan.</li><li><b>Culpa:</b> se anota en el Contador de Culpa.</li></ul><p><em>El texto completo está en Notas.</em></p>",
+     "notes": "<p>Ratón delgado, gafas torcidas, guantes violetas y un maletín que contiene remedios, herramientas y varias razones para no dejarle preparar cócteles.</p><p>Es quien mantiene viva a la Manada, aunque suele explicar demasiado tarde que un síntoma era preocupante. Trajo Calma-Comadrejas como defensa contra depredadores.</p><p><em>«Técnicamente no está muerto. Técnicamente tampoco está bien.»</em></p><p><strong>Manos quietas.</strong> Cuando apliques, extraigas, cosas, dosifiques o desatasques algo pegado al cuerpo de otra criatura, ignoras la desventaja que vendría del peligro, de las prisas o de tu propia resaca. Una vez por escena, poner las manos encima de un compañero fuera de combate lo estabiliza sin necesidad de tirar.</p><p><strong>Deseo: una consulta con puerta, rótulo y pacientes que no muerdan.</strong> Lo cumples si acabas la partida con 150 pips o más, o con el agradecimiento escrito de Lola, de Tyson o de la Guardia. Quita un punto de Culpa.</p>",
      "description": {
       "background": "Médico de campaña · Propietario del frasco",
       "birthsign": "",
@@ -1236,8 +1236,8 @@
       "max": 2
      },
      "armor": 0,
-     "biography": "<p>Ratón corpulento de chaqueta corta, bufanda púrpura y ojos sinceros de profeta averiado. Sus bolsillos contienen objetos que todavía no han descubierto su función.</p><p>Es el músculo de la Manada y quien mejor se entiende con animales. Sus planes suelen empezar con «sujétame esto» y terminar con alguien preguntando por qué había una cuerda en el techo.</p><p><em>«No está roto. Está esperando que lo usemos de otra manera.»</em></p>",
-     "notes": "<p><strong>Peso muerto.</strong> Una vez por escena puedes anclarte: durante un asalto no te mueve absolutamente nada, ni una puerta, ni una cadena, ni una comadreja, ni un compañero que se cae. Anclado no puedes atacar ni desplazarte. Para cargar peso o sujetar algo pesado, cuentas como dos ratones.</p><p><strong>Deseo: un animal que no huya de ti.</strong> Lo cumples si Princesa se deja acercar sin tirar de la cadena, o si Tyson te acepta como cuidador de su comadreja. Quita un punto de Culpa.</p>",
+     "biography": "<p class=\"mrreq-lema\">«No está roto. Está esperando que lo usemos de otra manera.»</p><ul class=\"mrreq-lista\"><li><b>Habilidad:</b> Peso muerto.</li><li><b>Deseo:</b> un animal que no huya de ti.</li><li><b>Culpa:</b> se anota en el Contador de Culpa.</li></ul><p><em>El texto completo está en Notas.</em></p>",
+     "notes": "<p>Ratón corpulento de chaqueta corta, bufanda púrpura y ojos sinceros de profeta averiado. Sus bolsillos contienen objetos que todavía no han descubierto su función.</p><p>Es el músculo de la Manada y quien mejor se entiende con animales. Sus planes suelen empezar con «sujétame esto» y terminar con alguien preguntando por qué había una cuerda en el techo.</p><p><em>«No está roto. Está esperando que lo usemos de otra manera.»</em></p><p><strong>Peso muerto.</strong> Una vez por escena puedes anclarte: durante un asalto no te mueve absolutamente nada, ni una puerta, ni una cadena, ni una comadreja, ni un compañero que se cae. Anclado no puedes atacar ni desplazarte. Para cargar peso o sujetar algo pesado, cuentas como dos ratones.</p><p><strong>Deseo: un animal que no huya de ti.</strong> Lo cumples si Princesa se deja acercar sin tirar de la cadena, o si Tyson te acepta como cuidador de su comadreja. Quita un punto de Culpa.</p>",
      "description": {
       "background": "Fuerza de la Manada · Ideas que llegan antes que el miedo",
       "birthsign": "",
@@ -1686,8 +1686,8 @@
       "max": 2
      },
      "armor": 0,
-     "biography": "<p>Ratón beige con fajín lila, ropa ceremonial arrugada y un bebé murciélago dormido en una servilleta. Parece el más inocente, lo que no tranquiliza a nadie.</p><p>Es quien intenta que la Manada salga de los lugares sin empeorar relaciones. Al despertar lleva una alianza, un bebé y ninguna explicación satisfactoria.</p><p><em>«Podemos hablarlo. Preferiblemente antes de otra ceremonia.»</em></p>",
-     "notes": "<p><strong>Nadie quiere montar una escena.</strong> Es sencillamente imposible seguir enfadado contigo más de un minuto. Una vez por escena, cuando una conversación esté a punto de romperse, puedes pedir una última frase: la hostilidad se detiene hasta que termine el intercambio, siempre que nadie haya golpeado todavía.</p><p><strong>Deseo: saber si te casaste por error o por suerte.</strong> Lo cumples si hablas a solas con la Murciélaga y decidís juntos qué hacer con el acta. Quita un punto de Culpa.</p>",
+     "biography": "<p class=\"mrreq-lema\">«Podemos hablarlo. Preferiblemente antes de otra ceremonia.»</p><ul class=\"mrreq-lista\"><li><b>Habilidad:</b> Nadie quiere montar una escena.</li><li><b>Deseo:</b> saber si te casaste por error o por suerte.</li><li><b>Culpa:</b> se anota en el Contador de Culpa.</li></ul><p><em>El texto completo está en Notas.</em></p>",
+     "notes": "<p>Ratón beige con fajín lila, ropa ceremonial arrugada y un bebé murciélago dormido en una servilleta. Parece el más inocente, lo que no tranquiliza a nadie.</p><p>Es quien intenta que la Manada salga de los lugares sin empeorar relaciones. Al despertar lleva una alianza, un bebé y ninguna explicación satisfactoria.</p><p><em>«Podemos hablarlo. Preferiblemente antes de otra ceremonia.»</em></p><p><strong>Nadie quiere montar una escena.</strong> Es sencillamente imposible seguir enfadado contigo más de un minuto. Una vez por escena, cuando una conversación esté a punto de romperse, puedes pedir una última frase: la hostilidad se detiene hasta que termine el intercambio, siempre que nadie haya golpeado todavía.</p><p><strong>Deseo: saber si te casaste por error o por suerte.</strong> Lo cumples si hablas a solas con la Murciélaga y decidís juntos qué hacer con el acta. Quita un punto de Culpa.</p>",
      "description": {
       "background": "Diplomacia afectiva · Compromisos no verificados",
       "birthsign": "",
@@ -2092,7 +2092,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratona plateada, vestido dorado de lentejuelas y carmín humano. Bebió el sedante concentrado y permanece en catalepsia. Al amanecer el frío, la rigidez y el pulso imperceptible hacen que parezca muerta, pero lo registra todo.</p><p><strong>Quiere:</strong> conservar su reputación; cobrar por el escándalo; evitar que los Gralhund la relacionen con la pulsera; recuperar su camerino.</p><p><em>«No estoy muerta. Estoy contractualmente indispuesta.»</em></p>",
-     "notes": "",
+     "notes": "<p>Ratona plateada, vestido dorado de lentejuelas y carmín humano. Bebió el sedante concentrado y permanece en catalepsia. Al amanecer el frío, la rigidez y el pulso imperceptible hacen que parezca muerta, pero lo registra todo.</p><p><strong>Quiere:</strong> conservar su reputación; cobrar por el escándalo; evitar que los Gralhund la relacionen con la pulsera; recuperar su camerino.</p><p><em>«No estoy muerta. Estoy contractualmente indispuesta.»</em></p>",
      "description": {
       "disposition": ""
      },
@@ -2218,7 +2218,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratón elegante de barrio bajo, gafas de cristal de botella y bigote fino. El Sindicato lo contrató para recuperar la pulsera y eliminar a la Manada, pero su admiración es puro terror cómico. Esta mañana quiere que lo acepten como aprendiz. Un dato por escena, solo trayectos, nunca gratis.</p><p><em>«Profesionales. Muy profesionales.»</em></p>",
-     "notes": "",
+     "notes": "<p>Ratón elegante de barrio bajo, gafas de cristal de botella y bigote fino. El Sindicato lo contrató para recuperar la pulsera y eliminar a la Manada, pero su admiración es puro terror cómico. Esta mañana quiere que lo acepten como aprendiz. Un dato por escena, solo trayectos, nunca gratis.</p><p><em>«Profesionales. Muy profesionales.»</em></p>",
      "description": {
       "disposition": ""
      },
@@ -2344,7 +2344,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratón elegante con guantes finos impecables y la costumbre de mirarse las manos en lugar de a la gente. Cobrador del frente del Sindicato. Lleva dos matones detrás. No sabe que la pulsera está rastreada.</p>",
-     "notes": "",
+     "notes": "<p>Ratón elegante con guantes finos impecables y la costumbre de mirarse las manos en lugar de a la gente. Cobrador del frente del Sindicato. Lleva dos matones detrás. No sabe que la pulsera está rastreada.</p>",
      "description": {
       "disposition": ""
      },
@@ -2420,7 +2420,7 @@
      },
      "armor": 0,
      "biography": "<p>Ardilla rojiza, cola eléctrica y chaqueta de envoltorio dorado. Controla el café y La Mandíbula Negra.</p><p><strong>Quiere:</strong> recuperar la Macadamia Imperial; recibir una disculpa pública; dirigir cualquier ceremonia de destrucción; que nadie llame «nuez» a la Macadamia.</p>",
-     "notes": "",
+     "notes": "<p>Ardilla rojiza, cola eléctrica y chaqueta de envoltorio dorado. Controla el café y La Mandíbula Negra.</p><p><strong>Quiere:</strong> recuperar la Macadamia Imperial; recibir una disculpa pública; dirigir cualquier ceremonia de destrucción; que nadie llame «nuez» a la Macadamia.</p>",
      "description": {
       "disposition": ""
      },
@@ -2595,7 +2595,7 @@
      },
      "armor": 1,
      "biography": "<p>Ratón grande, chaleco bordado y voz de notario. Armadura 1 (chaleco de cuero de contable). Dos cobradores.</p><p><strong>Quiere:</strong> cobrar tres kilos de parmesano; registrar el pagaré; convertir el caos en una inversión; evitar aparecer en la lista del ritual.</p><p><em>«No es una amenaza. Es contabilidad.»</em></p>",
-     "notes": "",
+     "notes": "<p>Ratón grande, chaleco bordado y voz de notario. Armadura 1 (chaleco de cuero de contable). Dos cobradores.</p><p><strong>Quiere:</strong> cobrar tres kilos de parmesano; registrar el pagaré; convertir el caos en una inversión; evitar aparecer en la lista del ritual.</p><p><em>«No es una amenaza. Es contabilidad.»</em></p>",
      "description": {
       "disposition": ""
      },
@@ -2721,7 +2721,7 @@
      },
      "armor": 1,
      "biography": "<p>Una rata, no un ratón: dobla en tamaño a cualquiera de la Manada. Orejas melladas, traje caro y vendas con plomo en los nudillos (Armadura 1). Leal, terco y muy fácil de liar. Miente fatal y detecta las mentiras todavía peor. Lleva un frasco de viaje de Calma-Comadrejas en el cinturón.</p><p><strong>Quiere:</strong> recuperar a Princesa viva; saber quién la drogó y quién abrió la jaula; evitar que Rat Vegas descubra que le robaron su mascota; hacer pagar a los responsables.</p><p><em>«Habéis robado a mi niña. Empezad por la parte que os mantiene vivos.»</em></p>",
-     "notes": "",
+     "notes": "<p>Una rata, no un ratón: dobla en tamaño a cualquiera de la Manada. Orejas melladas, traje caro y vendas con plomo en los nudillos (Armadura 1). Leal, terco y muy fácil de liar. Miente fatal y detecta las mentiras todavía peor. Lleva un frasco de viaje de Calma-Comadrejas en el cinturón.</p><p><strong>Quiere:</strong> recuperar a Princesa viva; saber quién la drogó y quién abrió la jaula; evitar que Rat Vegas descubra que le robaron su mascota; hacer pagar a los responsables.</p><p><em>«Habéis robado a mi niña. Empezad por la parte que os mantiene vivos.»</em></p>",
      "description": {
       "disposition": ""
      },
@@ -2847,7 +2847,7 @@
      },
      "armor": 1,
      "biography": "<p>Comadreja albina, rápida, hambrienta y furiosa. Lleva la pulsera encajada alrededor del cuello y la Macadamia Imperial en el carrillo. Piel gruesa y pelaje denso, Armadura 1.</p><p><strong>Moral:</strong> no lucha a muerte. Si pierde 3 PG o más de un golpe, si se le ofrece una salida o si aparece Tyson, se retira, se acurruca o huye. <strong>Primer ataque</strong> contra quien no la haya herido: una sacudida, mitad de daño redondeando hacia abajo.</p><p>FUE 18 es contra lo que se tira para inmovilizarla; con VOL 5 no resiste sobornos de comida grasienta ni la voz de Tyson.</p>",
-     "notes": "",
+     "notes": "<p>Comadreja albina, rápida, hambrienta y furiosa. Lleva la pulsera encajada alrededor del cuello y la Macadamia Imperial en el carrillo. Piel gruesa y pelaje denso, Armadura 1.</p><p><strong>Moral:</strong> no lucha a muerte. Si pierde 3 PG o más de un golpe, si se le ofrece una salida o si aparece Tyson, se retira, se acurruca o huye. <strong>Primer ataque</strong> contra quien no la haya herido: una sacudida, mitad de daño redondeando hacia abajo.</p><p>FUE 18 es contra lo que se tira para inmovilizarla; con VOL 5 no resiste sobornos de comida grasienta ni la voz de Tyson.</p>",
      "description": {
       "disposition": ""
      },
@@ -3022,7 +3022,7 @@
      },
      "armor": 0,
      "biography": "<p>Cría de murciélago, hermano pequeño de la Murciélaga. Del tamaño de un puño de ratón, ciego todavía y con un juego de pulmones que no se corresponde con su tamaño. Chilla, desarma a los adultos, señala una pista real una vez por escena y se come todo lo que no se vigile.</p>",
-     "notes": "",
+     "notes": "<p>Cría de murciélago, hermano pequeño de la Murciélaga. Del tamaño de un puño de ratón, ciego todavía y con un juego de pulmones que no se corresponde con su tamaño. Chilla, desarma a los adultos, señala una pista real una vez por escena y se come todo lo que no se vigile.</p>",
      "description": {
       "disposition": ""
      },
@@ -3098,7 +3098,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratón viejo, tupé grasiento, casulla chillona y alma de empresario sacramental.</p><p><strong>Quiere:</strong> cobrar la boda; cobrar la anulación; vender las fotografías; obtener una declaración de que Lola estaba legalmente presente.</p>",
-     "notes": "",
+     "notes": "<p>Ratón viejo, tupé grasiento, casulla chillona y alma de empresario sacramental.</p><p><strong>Quiere:</strong> cobrar la boda; cobrar la anulación; vender las fotografías; obtener una declaración de que Lola estaba legalmente presente.</p>",
      "description": {
       "disposition": ""
      },
@@ -3224,7 +3224,7 @@
      },
      "armor": 0,
      "biography": "<p>Joven murciélaga de pelaje negro y lazo blanco. Esposa accidental del Novio y hermana mayor del Bebé. Práctica, rápida y poco impresionada por el dramatismo ratonil. Dos murciélagas y una eslinga mueven la pulsera; tres lo hacen con dignidad.</p><p><strong>Quiere:</strong> hablar con el Novio sin intermediarios; recuperar el acta; proteger a su hermano; decidir ella si la boda se anula.</p>",
-     "notes": "",
+     "notes": "<p>Joven murciélaga de pelaje negro y lazo blanco. Esposa accidental del Novio y hermana mayor del Bebé. Práctica, rápida y poco impresionada por el dramatismo ratonil. Dos murciélagas y una eslinga mueven la pulsera; tres lo hacen con dignidad.</p><p><strong>Quiere:</strong> hablar con el Novio sin intermediarios; recuperar el acta; proteger a su hermano; decidir ella si la boda se anula.</p>",
      "description": {
       "disposition": ""
      },
@@ -3350,7 +3350,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratón oscuro con visera verde y rastrillo para fichas. Expresión profesionalmente en blanco.</p>",
-     "notes": "",
+     "notes": "<p>Ratón oscuro con visera verde y rastrillo para fichas. Expresión profesionalmente en blanco.</p>",
      "description": {
       "disposition": ""
      },
@@ -3476,7 +3476,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratón fornido con delantal de cuero, carpeta en una mano y barra de hierro en la otra. Obligado por contrato, no por gusto.</p>",
-     "notes": "",
+     "notes": "<p>Ratón fornido con delantal de cuero, carpeta en una mano y barra de hierro en la otra. Obligado por contrato, no por gusto.</p>",
      "description": {
       "disposition": ""
      },
@@ -3602,7 +3602,7 @@
      },
      "armor": 0,
      "biography": "<p>Matón flaco con casco de latón pintado que le resbala sobre los ojos, tabardo de guardia mal ajustado y chapa de estaño.</p>",
-     "notes": "",
+     "notes": "<p>Matón flaco con casco de latón pintado que le resbala sobre los ojos, tabardo de guardia mal ajustado y chapa de estaño.</p>",
      "description": {
       "disposition": ""
      },
@@ -3728,7 +3728,7 @@
      },
      "armor": 0,
      "biography": "<p>Miembro del clan murciélago. Vuelo estable con dos casillas de carga.</p>",
-     "notes": "",
+     "notes": "<p>Miembro del clan murciélago. Vuelo estable con dos casillas de carga.</p>",
      "description": {
       "disposition": ""
      },
@@ -3854,7 +3854,7 @@
      },
      "armor": 0,
      "biography": "<p>Fiel armado del almacén de Don Chispa. Hay veinte.</p>",
-     "notes": "",
+     "notes": "<p>Fiel armado del almacén de Don Chispa. Hay veinte.</p>",
      "description": {
       "disposition": ""
      },
@@ -3980,7 +3980,7 @@
      },
      "armor": 0,
      "biography": "<p>Ratón anciano de uniforme auténtico, dedos manchados de tinta y una mesa portátil atada al pecho. Escribe con una lentitud que ofende.</p>",
-     "notes": "",
+     "notes": "<p>Ratón anciano de uniforme auténtico, dedos manchados de tinta y una mesa portátil atada al pecho. Escribe con una lentitud que ofende.</p>",
      "description": {
       "disposition": ""
      },
@@ -4056,7 +4056,7 @@
      },
      "armor": 0,
      "biography": "<p>Diecisiete años, casco enorme y aburrimiento cósmico. Va donde le llama la atención algo.</p>",
-     "notes": "",
+     "notes": "<p>Diecisiete años, casco enorme y aburrimiento cósmico. Va donde le llama la atención algo.</p>",
      "description": {
       "disposition": ""
      },
@@ -6931,6 +6931,40 @@
     ],
     "folder": "yM1TyvXI2nPuIKsT",
     "sort": 8,
+    "ownership": {
+     "default": 0
+    },
+    "flags": {
+     "mr-requeson-waterdeep": {
+      "tipo": "Dirección"
+     }
+    }
+   },
+   {
+    "_id": "2tZbNh1L9dWFajpD",
+    "name": "Música y créditos",
+    "pages": [
+     {
+      "_id": "k5IpxM7TjxX7T7Vj",
+      "name": "Créditos",
+      "type": "text",
+      "title": {
+       "show": true,
+       "level": 1
+      },
+      "text": {
+       "format": 1,
+       "content": "<h2>Música</h2><p>De <strong>Kevin MacLeod</strong> (<a href='https://incompetech.com'>incompetech.com</a>), con licencia <strong>Creative Commons: Atribución 4.0</strong> (CC BY 4.0). Se han recortado los silencios, cortado el bucle a compás y ajustado el volumen y el tono común de la banda sonora.</p><ul><li><strong>Portada con panel del ritual</strong>: «Midnight Tale»</li><li><strong>La Villa del Cielo Caído</strong>: «Brittle Rille»</li><li><strong>Dado de Nácar</strong>: «Zazie»</li><li><strong>Bulevar precintado</strong>: «Sneaky Snitch»</li><li><strong>Capilla del Último Chillido</strong>: «Teddy Bear Waltz»</li><li><strong>Notaría del Parmesano</strong>: «March of the Spoons»</li><li><strong>Almacén de Don Chispa</strong>: «Mischief Maker»</li><li><strong>Ático de Rat Tyson</strong>: «Satiate»</li><li><strong>El Baño de Princesa</strong>: «Unanswered Questions»</li><li><strong>La Mandíbula Negra</strong>: «Full On»</li><li><strong>Investigación con resaca</strong>: «Thinking Music»</li><li><strong>Comedia caótica</strong>: «Master of the Feast»</li><li><strong>Tensión del Ritual</strong>: «Satiate - only percussion»</li><li><strong>Sigilo y peligro</strong>: «Sneaky»</li><li><strong>Persecución</strong>: «Darkling»</li><li><strong>Combate</strong>: «Death and Axes»</li><li><strong>Revelación / flashback</strong>: «Gymnopedie No. 3»</li><li><strong>Fotografías finales / créditos</strong>: «Del Rio Bravo»</li><li><strong>Misterio</strong>: «Hard Boiled»</li><li><strong>Miedo</strong>: «SCP-x5x (Outer Thoughts)»</li><li><strong>Miedo cómico</strong>: «Graveyard Shift»</li><li><strong>Acción</strong>: «Adventures in Adventureland»</li><li><strong>Melancolía</strong>: «Heavy Heart»</li><li><strong>Romance</strong>: «Reawakening»</li><li><strong>Magia y ritual</strong>: «Magistar»</li><li><strong>Calma y descanso</strong>: «Morning»</li><li><strong>Jefe final</strong>: «Hall of the Mountain King»</li><li><strong>Victoria</strong>: «Winner Winner!»</li><li><strong>Derrota</strong>: «Past Sadness»</li><li><strong>Taberna</strong>: «Industrious Ferret»</li><li><strong>Plan chapuza</strong>: «Marty Gots a Plan»</li></ul><p><em>«Título» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/</em></p><h2>Efectos de sonido</h2><p>Grabaciones de <strong>Freesound</strong> con licencia <strong>CC0</strong> (dominio público), recortadas y mezcladas con una sala común.</p><ul><li><strong>Tuberia cede</strong>: Long Metal creaking de AyaDrevis (#878048), Water fountain from burst pipe de AugustSandberg (#677722)</li><li><strong>Mandibula negra</strong>: Coffee Grinder HQ.wav de tosha73 (#503427)</li><li><strong>Ritual pulso</strong>: Slow Heartbeat - Deep Steady Pulse de gionui (#877805), Whoosh Magic Sparkle de Qvantor (#877981)</li><li><strong>Timbre recepcion</strong>: Service Bell Ding de Qvantor (#879808)</li><li><strong>Queso guindilla</strong>: SHORT-SIZZLE-FRY-PAN.wav de newagesoup (#351406), Strong Double Cough de qubodup (#743360)</li><li><strong>Puerta de tyson</strong>: door wood old heavy kick open good impact 1 with rattle 1 without.wav de kyles (#452609)</li><li><strong>Carrito limpieza</strong>: cart noisy push roll by hard floor squeaky rattly wheel.flac de kyles (#635488)</li><li><strong>Cadena</strong>: Chain rattling de georgesavic (#593458)</li><li><strong>Fichas</strong>: casino chips.wav de reg7783 (#633997)</li><li><strong>Ruleta</strong>: Roulette Wheel Spin Loop 1_1 de Joao_Janz (#482663)</li><li><strong>Sello</strong>: traditional stamp.wav de I.fekry (#470710)</li><li><strong>Campana</strong>: church_bell_far.wav de jerry.berumen (#511681)</li><li><strong>Maquina escribir</strong>: Typewriter snippet 01 mono [loop] de cabled_mess (#360603)</li><li><strong>Granos</strong>: Pouring Coffee Beans.wav de RobinMetzler (#539319)</li><li><strong>Saco boxeo</strong>: 11.2) Punching bag.WAV de 16FPanskaLipovska_Katerina (#497916)</li><li><strong>Goteo</strong>: water dripping in bathroom tub 1 de FOSSarts (#740288)</li></ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+       "default": -1
+      },
+      "flags": {}
+     }
+    ],
+    "folder": "yM1TyvXI2nPuIKsT",
+    "sort": 10,
     "ownership": {
      "default": 0
     },
@@ -10728,14 +10762,14 @@
    {
     "_id": "NmV94RLptatEB1Q3",
     "name": "Música de escena",
-    "description": "",
+    "description": "<p>Música de Kevin MacLeod (incompetech.com), CC BY 4.0. Créditos completos en el diario «Música y créditos».</p>",
     "mode": 0,
     "channel": "music",
     "sounds": [
      {
       "_id": "yAjGDeXmzO2uLNbv",
       "name": "Portada con panel del ritual",
-      "description": "",
+      "description": "«Midnight Tale» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/00-portada-ratover.ogg",
       "channel": "music",
       "playing": false,
@@ -10752,7 +10786,7 @@
      {
       "_id": "BIoSHvaczzDSzOA9",
       "name": "La Villa del Cielo Caído",
-      "description": "",
+      "description": "«Brittle Rille» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/01-la-villa-del-cielo-caido.ogg",
       "channel": "music",
       "playing": false,
@@ -10769,7 +10803,7 @@
      {
       "_id": "4iIonvy7BpUSZccp",
       "name": "Dado de Nácar",
-      "description": "",
+      "description": "«Zazie» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/02-dado-de-nacar.ogg",
       "channel": "music",
       "playing": false,
@@ -10786,7 +10820,7 @@
      {
       "_id": "QzqFnQZZJvJ9vlON",
       "name": "Bulevar precintado",
-      "description": "",
+      "description": "«Sneaky Snitch» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/03-bulevar-precintado.ogg",
       "channel": "music",
       "playing": false,
@@ -10803,7 +10837,7 @@
      {
       "_id": "0oOiYIVBS1sTLwWO",
       "name": "Capilla del Último Chillido",
-      "description": "",
+      "description": "«Teddy Bear Waltz» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/04-capilla-del-ultimo-chillido.ogg",
       "channel": "music",
       "playing": false,
@@ -10820,7 +10854,7 @@
      {
       "_id": "h4IkoMo9tR6GKeGI",
       "name": "Notaría del Parmesano",
-      "description": "",
+      "description": "«March of the Spoons» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/05-notaria-del-parmesano.ogg",
       "channel": "music",
       "playing": false,
@@ -10837,7 +10871,7 @@
      {
       "_id": "yXdpw3EB4ISVh9pM",
       "name": "Almacén de Don Chispa",
-      "description": "",
+      "description": "«Mischief Maker» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/06-almacen-de-don-chispa.ogg",
       "channel": "music",
       "playing": false,
@@ -10854,7 +10888,7 @@
      {
       "_id": "WvkFoYBgc5nEqFxV",
       "name": "Ático de Rat Tyson",
-      "description": "",
+      "description": "«Satiate» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/07-atico-de-rat-tyson.ogg",
       "channel": "music",
       "playing": false,
@@ -10871,7 +10905,7 @@
      {
       "_id": "SpWHH0fk6PSKO5Od",
       "name": "El Baño de Princesa",
-      "description": "",
+      "description": "«Unanswered Questions» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/08-el-bano-de-princesa.ogg",
       "channel": "music",
       "playing": false,
@@ -10888,7 +10922,7 @@
      {
       "_id": "sP8Rzn25xRcf3yDn",
       "name": "La Mandíbula Negra",
-      "description": "",
+      "description": "«Full On» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/music/09-la-mandibula-negra.ogg",
       "channel": "music",
       "playing": false,
@@ -10917,14 +10951,14 @@
    {
     "_id": "oISBUvl0mk5VFWB9",
     "name": "Ambientes por motivo",
-    "description": "",
+    "description": "<p>Música de Kevin MacLeod (incompetech.com), CC BY 4.0. Créditos completos en el diario «Música y créditos».</p>",
     "mode": 0,
     "channel": "music",
     "sounds": [
      {
       "_id": "ZZZBnVDJDzLFdzeZ",
       "name": "Investigación con resaca",
-      "description": "",
+      "description": "«Thinking Music» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/investigacion-resaca.ogg",
       "channel": "music",
       "playing": false,
@@ -10941,7 +10975,7 @@
      {
       "_id": "BxeRhGU6AoOR8TGf",
       "name": "Comedia caótica",
-      "description": "",
+      "description": "«Master of the Feast» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/comedia-caotica.ogg",
       "channel": "music",
       "playing": false,
@@ -10958,7 +10992,7 @@
      {
       "_id": "xY5p31RW8lEFHuWx",
       "name": "Tensión del Ritual",
-      "description": "",
+      "description": "«Satiate - only percussion» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/tension-ritual.ogg",
       "channel": "music",
       "playing": false,
@@ -10975,7 +11009,7 @@
      {
       "_id": "4gbFEF38kwau5cO6",
       "name": "Sigilo y peligro",
-      "description": "",
+      "description": "«Sneaky» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/sigilo-peligro.ogg",
       "channel": "music",
       "playing": false,
@@ -10992,7 +11026,7 @@
      {
       "_id": "oMFrYoGrQQT5tu8u",
       "name": "Persecución",
-      "description": "",
+      "description": "«Darkling» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/persecucion.ogg",
       "channel": "music",
       "playing": false,
@@ -11009,7 +11043,7 @@
      {
       "_id": "VcwOqHt8BTEsPhSe",
       "name": "Combate",
-      "description": "",
+      "description": "«Death and Axes» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/combate.ogg",
       "channel": "music",
       "playing": false,
@@ -11026,7 +11060,7 @@
      {
       "_id": "yjt75f3VTEEQHUUa",
       "name": "Revelación / flashback",
-      "description": "",
+      "description": "«Gymnopedie No. 3» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/revelacion-flashback.ogg",
       "channel": "music",
       "playing": false,
@@ -11043,7 +11077,7 @@
      {
       "_id": "0XAZqUUh6q9GDVII",
       "name": "Fotografías finales / créditos",
-      "description": "",
+      "description": "«Del Rio Bravo» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/triunfo-agridulce.ogg",
       "channel": "music",
       "playing": false,
@@ -11060,7 +11094,7 @@
      {
       "_id": "mtqKEUjev4rY6G8G",
       "name": "Misterio",
-      "description": "",
+      "description": "«Hard Boiled» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/misterio.ogg",
       "channel": "music",
       "playing": false,
@@ -11077,7 +11111,7 @@
      {
       "_id": "iEm2wpsN4s9lIUiC",
       "name": "Miedo",
-      "description": "",
+      "description": "«SCP-x5x (Outer Thoughts)» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/miedo.ogg",
       "channel": "music",
       "playing": false,
@@ -11094,7 +11128,7 @@
      {
       "_id": "uGeJUejoJSaHkyax",
       "name": "Miedo cómico",
-      "description": "",
+      "description": "«Graveyard Shift» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/miedo-comico.ogg",
       "channel": "music",
       "playing": false,
@@ -11111,7 +11145,7 @@
      {
       "_id": "tccYB8lxyaEgm4Fs",
       "name": "Acción",
-      "description": "",
+      "description": "«Adventures in Adventureland» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/accion.ogg",
       "channel": "music",
       "playing": false,
@@ -11128,7 +11162,7 @@
      {
       "_id": "18ivT3zyx317DHtS",
       "name": "Melancolía",
-      "description": "",
+      "description": "«Heavy Heart» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/melancolia.ogg",
       "channel": "music",
       "playing": false,
@@ -11145,7 +11179,7 @@
      {
       "_id": "3u0SwMDggHGHWg1s",
       "name": "Romance",
-      "description": "",
+      "description": "«Reawakening» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/romance.ogg",
       "channel": "music",
       "playing": false,
@@ -11162,7 +11196,7 @@
      {
       "_id": "Q40qHV7Y3W8eZbe0",
       "name": "Magia y ritual",
-      "description": "",
+      "description": "«Magistar» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/magia.ogg",
       "channel": "music",
       "playing": false,
@@ -11179,7 +11213,7 @@
      {
       "_id": "SAEs8CBZkyXocR2T",
       "name": "Calma y descanso",
-      "description": "",
+      "description": "«Morning» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/calma-descanso.ogg",
       "channel": "music",
       "playing": false,
@@ -11196,7 +11230,7 @@
      {
       "_id": "x8izmpbZnX2AOGM0",
       "name": "Jefe final",
-      "description": "",
+      "description": "«Hall of the Mountain King» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/jefe-final.ogg",
       "channel": "music",
       "playing": false,
@@ -11213,7 +11247,7 @@
      {
       "_id": "JKlimxfzcY6VZmPL",
       "name": "Victoria",
-      "description": "",
+      "description": "«Winner Winner!» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/victoria.ogg",
       "channel": "music",
       "playing": false,
@@ -11230,7 +11264,7 @@
      {
       "_id": "3riVzbdbTaZsb7jo",
       "name": "Derrota",
-      "description": "",
+      "description": "«Past Sadness» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/derrota.ogg",
       "channel": "music",
       "playing": false,
@@ -11247,7 +11281,7 @@
      {
       "_id": "yZeD55cc7QrdHAYB",
       "name": "Taberna",
-      "description": "",
+      "description": "«Industrious Ferret» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/taberna.ogg",
       "channel": "music",
       "playing": false,
@@ -11264,7 +11298,7 @@
      {
       "_id": "Z1pFeBHeStio9r86",
       "name": "Plan chapuza",
-      "description": "",
+      "description": "«Marty Gots a Plan» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License.",
       "path": "modules/mr-requeson-waterdeep/assets/audio/moods/plan-chapuza.ogg",
       "channel": "music",
       "playing": false,
@@ -11293,14 +11327,14 @@
    {
     "_id": "Jko9PvR0fYANpVBF",
     "name": "Efectos de sonido",
-    "description": "",
+    "description": "<p>Efectos de Freesound (CC0). Créditos en el diario «Música y créditos».</p>",
     "mode": 0,
     "channel": "environment",
     "sounds": [
      {
       "_id": "rrVOyAEVjtgC2zxA",
       "name": "Tuberia cede",
-      "description": "",
+      "description": "Freesound (CC0): Long Metal creaking de AyaDrevis (#878048); Water fountain from burst pipe de AugustSandberg (#677722)",
       "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/tuberia-cede.ogg",
       "channel": "environment",
       "playing": false,
@@ -11317,7 +11351,7 @@
      {
       "_id": "dSGjtT49dhx2hZTE",
       "name": "Mandibula negra",
-      "description": "",
+      "description": "Freesound (CC0): Coffee Grinder HQ.wav de tosha73 (#503427)",
       "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/mandibula-negra.ogg",
       "channel": "environment",
       "playing": false,
@@ -11334,7 +11368,7 @@
      {
       "_id": "FYnORLMYrQW9dZ5D",
       "name": "Ritual pulso",
-      "description": "",
+      "description": "Freesound (CC0): Slow Heartbeat - Deep Steady Pulse de gionui (#877805); Whoosh Magic Sparkle de Qvantor (#877981)",
       "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/ritual-pulso.ogg",
       "channel": "environment",
       "playing": false,
@@ -11351,7 +11385,7 @@
      {
       "_id": "eeWuVKyDg01EVde3",
       "name": "Timbre recepcion",
-      "description": "",
+      "description": "Freesound (CC0): Service Bell Ding de Qvantor (#879808)",
       "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/timbre-recepcion.ogg",
       "channel": "environment",
       "playing": false,
@@ -11368,7 +11402,7 @@
      {
       "_id": "tZ614QiMP8YdF9f4",
       "name": "Queso guindilla",
-      "description": "",
+      "description": "Freesound (CC0): SHORT-SIZZLE-FRY-PAN.wav de newagesoup (#351406); Strong Double Cough de qubodup (#743360)",
       "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/queso-guindilla.ogg",
       "channel": "environment",
       "playing": false,
@@ -11385,7 +11419,7 @@
      {
       "_id": "lxCzP9GKZoSRojr4",
       "name": "Puerta de tyson",
-      "description": "",
+      "description": "Freesound (CC0): door wood old heavy kick open good impact 1 with rattle 1 without.wav de kyles (#452609)",
       "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/puerta-de-tyson.ogg",
       "channel": "environment",
       "playing": false,
@@ -11396,6 +11430,176 @@
       "flags": {
        "mr-requeson-waterdeep": {
         "slug": "puerta-de-tyson"
+       }
+      }
+     },
+     {
+      "_id": "acJ69usQtevGrR6P",
+      "name": "Carrito limpieza",
+      "description": "Freesound (CC0): cart noisy push roll by hard floor squeaky rattly wheel.flac de kyles (#635488)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/carrito-limpieza.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "carrito-limpieza"
+       }
+      }
+     },
+     {
+      "_id": "TkAd278TrXhzobtg",
+      "name": "Cadena",
+      "description": "Freesound (CC0): Chain rattling de georgesavic (#593458)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/cadena.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "cadena"
+       }
+      }
+     },
+     {
+      "_id": "XNS83xVhmHYXwZwq",
+      "name": "Fichas",
+      "description": "Freesound (CC0): casino chips.wav de reg7783 (#633997)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/fichas.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "fichas"
+       }
+      }
+     },
+     {
+      "_id": "aZxLhKnYn03f8viC",
+      "name": "Ruleta",
+      "description": "Freesound (CC0): Roulette Wheel Spin Loop 1_1 de Joao_Janz (#482663)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/ruleta.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "ruleta"
+       }
+      }
+     },
+     {
+      "_id": "fLZvWWjnXzVyzO37",
+      "name": "Sello",
+      "description": "Freesound (CC0): traditional stamp.wav de I.fekry (#470710)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/sello.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "sello"
+       }
+      }
+     },
+     {
+      "_id": "uwDGJiyFOy4uwDZT",
+      "name": "Campana",
+      "description": "Freesound (CC0): church_bell_far.wav de jerry.berumen (#511681)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/campana.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "campana"
+       }
+      }
+     },
+     {
+      "_id": "GFCsVJCYi55I16z5",
+      "name": "Maquina escribir",
+      "description": "Freesound (CC0): Typewriter snippet 01 mono [loop] de cabled_mess (#360603)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/maquina-escribir.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "maquina-escribir"
+       }
+      }
+     },
+     {
+      "_id": "KVkw12VXac4pxrSC",
+      "name": "Granos",
+      "description": "Freesound (CC0): Pouring Coffee Beans.wav de RobinMetzler (#539319)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/granos.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "granos"
+       }
+      }
+     },
+     {
+      "_id": "UGpIk04ym5p5CxKr",
+      "name": "Saco boxeo",
+      "description": "Freesound (CC0): 11.2) Punching bag.WAV de 16FPanskaLipovska_Katerina (#497916)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/saco-boxeo.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "saco-boxeo"
+       }
+      }
+     },
+     {
+      "_id": "fc0jJBure99fwsBd",
+      "name": "Goteo",
+      "description": "Freesound (CC0): water dripping in bathroom tub 1 de FOSSarts (#740288)",
+      "path": "modules/mr-requeson-waterdeep/assets/audio/sfx/goteo.ogg",
+      "channel": "environment",
+      "playing": false,
+      "pausedTime": null,
+      "repeat": false,
+      "volume": 0.8,
+      "fade": null,
+      "flags": {
+       "mr-requeson-waterdeep": {
+        "slug": "goteo"
        }
       }
      }

@@ -12,7 +12,7 @@ export async function avanzarEscena() {
   if (!escenas.length) return ui.notifications.warn("No hay escenas del módulo. Ejecuta Configuración Inicial.");
   const actual = estado().escena;
   const r = await DialogV2.prompt({
-    window: { title: "Avanzar a Escena" },
+    classes: ["mrreq"], window: { title: "Avanzar a Escena", resizable: true },
     content: `<p>Al salir de la escena actual avanzan los frentes que no estaban en ella. La apertura es gratis.</p>
       <div class="form-group"><label>Escena</label><select name="id">${opciones(escenas.map(s => [s.id, `${s.getFlag(ID, "escena")} · ${s.name}${s.getFlag(ID, "escena") === actual ? " (actual)" : ""}`]))}</select></div>`,
     ok: { label: "Avanzar", icon: "fa-solid fa-forward", callback: (ev, b) => datos(b).id }, rejectClose: false
@@ -29,7 +29,7 @@ export async function mostrarHandout() {
   }
   if (!lista.length) return ui.notifications.warn("No hay handouts. Ejecuta Configuración Inicial.");
   const uuid = await DialogV2.prompt({
-    window: { title: "Mostrar Handout" },
+    classes: ["mrreq"], window: { title: "Mostrar Handout", resizable: true },
     content: `<div class="form-group"><label>Handout</label><select name="u">${opciones(lista)}</select></div>`,
     ok: { label: "Mostrar a todos", icon: "fa-solid fa-eye", callback: (ev, b) => datos(b).u }, rejectClose: false
   });
@@ -50,7 +50,7 @@ export async function resacaNarrativa() {
   const mios = personajes().filter(a => game.user.isGM || a.isOwner);
   if (!mios.length) return ui.notifications.warn("No tienes ningún protagonista.");
   const r = await DialogV2.prompt({
-    window: { title: "Resaca Narrativa" },
+    classes: ["mrreq"], window: { title: "Resaca Narrativa", resizable: true },
     content: `<p>Declara algo que hiciste anoche y que te sirve ahora. Es cierto. Una declaración por escena para toda la mesa y como máximo dos por jugador.</p>
       <div class="form-group"><label>Quién</label><select name="id">${opciones(mios.map(a => [a.id, a.name]))}</select></div>
       <div class="form-group"><label>Qué hiciste</label><textarea name="texto" rows="3" placeholder="Anoche le caí bien al portero de la Notaría."></textarea></div>
@@ -71,7 +71,7 @@ export async function fichasConfidenciales() {
   const usuarios = game.users.filter(u => !u.isGM);
   const filas = fichas.map(j => `<div class="form-group"><label>${esc(j.name.replace("Ficha confidencial · ", ""))}</label><select name="${j.id}"><option value="">Sin asignar</option>${opciones(usuarios.map(u => [u.id, u.name]))}</select></div>`).join("");
   const r = await DialogV2.prompt({
-    window: { title: "Fichas Confidenciales" },
+    classes: ["mrreq"], window: { title: "Fichas Confidenciales", resizable: true },
     content: `<p>Cada ficha se da en propiedad solo al jugador elegido y se le susurra el enlace. Vuelve a ejecutar la macro para reasignar: las demás se mantienen.</p>${filas}`,
     ok: { label: "Repartir", icon: "fa-solid fa-envelope", callback: (ev, b) => datos(b) }, rejectClose: false
   });
@@ -89,7 +89,7 @@ export async function tiradaEnTabla() {
   const tablas = game.tables.filter(t => t.folder?.name === "Tablas");
   if (!tablas.length) return ui.notifications.warn("No hay tablas del módulo. Ejecuta Configuración Inicial.");
   const id = await DialogV2.prompt({
-    window: { title: "Tirada en Tabla" },
+    classes: ["mrreq"], window: { title: "Tirada en Tabla", resizable: true },
     content: `<div class="form-group"><label>Tabla</label><select name="t">${opciones(tablas.map(t => [t.id, `${t.name} (${t.formula})`]))}</select></div>`,
     ok: { label: "Tirar", icon: "fa-solid fa-dice", callback: (ev, b) => datos(b).t }, rejectClose: false
   });
@@ -103,7 +103,7 @@ export async function configuracionInicial() {
   if (!pack) return ui.notifications.error("No se encuentra el pack del módulo.");
   const hecho = game.scenes.some(s => s.getFlag(ID, "escena"));
   const ok = await DialogV2.confirm({
-    window: { title: "Configuración Inicial" },
+    classes: ["mrreq"], window: { title: "Configuración Inicial", resizable: true },
     content: `<p>Se importan al mundo las escenas, actores, objetos, diarios, tablas y macros de MR- Requesón en Waterdeep.${hecho ? " <strong>Ya hay contenido importado: se sobrescribirá.</strong>" : ""}</p>
       <p>Después se activa la portada. Las fichas confidenciales se reparten con la macro Fichas Confidenciales.</p>`,
     yes: { label: "Importar", icon: "fa-solid fa-download" }, rejectClose: false
@@ -125,7 +125,7 @@ export async function cambiarAmbiente() {
   const escena = game.scenes.viewed?.playlistSound;
   const op = [["__escena", "Volver a la música de la escena"], ...ambientes.map(s => [s.id, s.name])];
   const id = await DialogV2.prompt({
-    window: { title: "Cambiar Ambiente" },
+    classes: ["mrreq"], window: { title: "Cambiar Ambiente", resizable: true },
     content: `<p>Cambia la música con un fundido y sin salir de la escena.</p><div class="form-group"><label>Ambiente</label><select name="a">${opciones(op)}</select></div>`,
     ok: { label: "Poner", icon: "fa-solid fa-music", callback: (ev, b) => datos(b).a }, rejectClose: false
   });

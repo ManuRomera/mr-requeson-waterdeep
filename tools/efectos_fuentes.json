@@ -1,0 +1,18 @@
+{
+ "tuberia-cede": [["crujido", 0, 0, 2.4, 0], ["tuberia", -3, 4, 3.2, 1.8]],
+ "mandibula-negra": [["molinillo", 0, 0, 5.5, 0]],
+ "ritual-pulso": [["latido", 0, 0, 1.8, 0], ["latido", -3, 0, 1.8, 1.0], ["magia", -7, 0, 3.2, 0.1]],
+ "timbre-recepcion": [["timbre", 0, 0, 1.9, 0], ["timbre", -1, 0, 1.9, 0.75]],
+ "queso-guindilla": [["sizzle", -2, 2, 1.1, 0], ["tos", 0, 0, 1.1, 0.4]],
+ "puerta-de-tyson": [["puerta", 0, 0, 3.6, 0]],
+ "carrito-limpieza": [["carrito", -3, 3, 3.6, 0]],
+ "cadena": [["cadena", 0, 0, 2.5, 0]],
+ "fichas": [["fichas", 0, 2, 3.0, 0]],
+ "ruleta": [["ruleta", 0, 0, 2.4, 0]],
+ "sello": [["sello", 0, 0, 1.5, 0]],
+ "campana": [["campana", -2, 1, 5.5, 0]],
+ "maquina-escribir": [["maquina", 0, 2, 3.5, 0]],
+ "granos": [["granos", 0, 1, 3.6, 0]],
+ "saco-boxeo": [["saco", 0, 0, 3.2, 0]],
+ "goteo": [["goteo", 0, 0, 4.6, 0]]
+}

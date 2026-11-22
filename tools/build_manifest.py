@@ -116,14 +116,15 @@ def aud(kind,i,t,path,e,**x):
     A.append({'id':f"{kind}.{i}",'kind':kind,'title':t,'path':path,'format':'ogg opus','loudnorm_lufs':-26,'fallback':None,'status':'pista de Kevin MacLeod (CC BY 4.0), ver tools/musica_seleccion.json; sustituible en la misma ruta',**x,'prompt':M(e['prompt']) if e else x.pop('prompt')})
 for o,n,t in SCN:
     e=AU[o];aud('music',n,t or M(e['title']),f"assets/audio/music/{n}.ogg",e,loop=True,duracion_objetivo=e['dur'],funcion=M(e['func']),diseno=M(e['design']))
-SFX=[('tuberia-cede',"Heavy old iron water pipe groaning, a sharp metallic crack and a rush of water bursting free, close and dry, no music",4),
- ('mandibula-negra',"Brass coffee grinder gears engaging, grinding teeth biting down with a heavy mechanical thunk, slightly greasy, no music",5),
- ('ritual-pulso',"A low magical heartbeat pulse with a thin golden shimmer on top, ominous and administrative, no melody",3),
- ('timbre-recepcion',"A hotel reception desk bell, two dry rings, small room reverb, a faint annoyed pause between them",2),
- ('queso-guindilla',"A sharp sizzle and a wet gulp followed by a strangled squeak, comic and quick, no music",2),
- ('puerta-de-tyson',"A massive wooden door being shouldered off its hinges, splintering and a heavy thud on the floor, no music",3)]
+SFX=[('tuberia-cede',"Tubería metálica que cruje y revienta en un chorro de agua (Freesound CC0)",4),('mandibula-negra',"Molinillo de café industrial triturando (Freesound CC0)",5),
+ ('ritual-pulso',"Doble latido grave con un destello mágico (Freesound CC0)",3),('timbre-recepcion',"Timbre de recepción de hotel, dos toques (Freesound CC0)",2),
+ ('queso-guindilla',"Chisporroteo y tos del queso con guindilla (Freesound CC0)",2),('puerta-de-tyson',"Puerta de madera pateada hasta abrirse (Freesound CC0)",3),
+ ('carrito-limpieza',"Carrito de la limpieza con una rueda chirriante (Freesound CC0)",4),('cadena',"Cadena que tintinea y se tensa (Freesound CC0)",3),
+ ('fichas',"Fichas de casino sobre el tapete (Freesound CC0)",3),('ruleta',"Ruleta girando (Freesound CC0)",3),('sello',"Sello de goma sobre papel (Freesound CC0)",2),
+ ('campana',"Campana de capilla lejana (Freesound CC0)",6),('maquina-escribir',"Máquina de escribir (Freesound CC0)",4),('granos',"Granos de café cayendo (Freesound CC0)",4),
+ ('saco-boxeo',"Golpes a un saco de boxeo (Freesound CC0)",3),('goteo',"Goteo en un baño (Freesound CC0)",5)]
 for i,p,d in SFX:
-    A.append({'id':f"sfx.{i}",'kind':'sfx','title':i.replace('-',' ').capitalize(),'path':f"assets/audio/sfx/{i}.ogg",'format':'ogg opus','loop':False,'duracion_s':d,'fallback':None,'status':'sintetizado con tools/audio.py; sustituible en la misma ruta','prompt':p})
+    A.append({'id':f"sfx.{i}",'kind':'sfx','title':i.replace('-',' ').capitalize(),'path':f"assets/audio/sfx/{i}.ogg",'format':'ogg opus','loop':False,'duracion_s':d,'fallback':None,'status':'efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta','prompt':p})
 # opcional: ambientes por motivo del catálogo anterior (no cuentan en el total de PASO-0)
 for st,e in AU.items():
     if '/moods/' in e['path']:

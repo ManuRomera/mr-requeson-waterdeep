@@ -1,51 +1,156 @@
-/* MR- Requesón en Waterdeep. Colores del módulo. */
-:root {
-  --mrreq-ciruela: #2a1530;
-  --mrreq-oro: #c9a24b;
-  --mrreq-lila: #8a6f9e;
-  --mrreq-papel: #f1e6cc;
+/* MR- Requesón en Waterdeep. Identidad: ciruela, oro y neón de casino sobre papel marfil. Claro por defecto; oscuro cuando
+   MR- Mausritter en español activa su tema (:root.mrm-dark). Solo aspecto: ni el HTML ni los datos ni los botones de otros módulos. */
+@font-face { font-family: "RW Cinzel"; src: url("../assets/fonts/CinzelDecorative-Regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "RW Cinzel"; font-weight: 700; src: url("../assets/fonts/CinzelDecorative-Bold.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "RW Crimson"; src: url("../assets/fonts/CrimsonText-Regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "RW Crimson"; font-weight: 700; src: url("../assets/fonts/CrimsonText-Bold.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "RW Crimson"; font-style: italic; src: url("../assets/fonts/CrimsonText-Italic.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "RW Maquina"; src: url("../assets/fonts/SpecialElite-Regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "RW Mano"; src: url("../assets/fonts/Caveat-Regular.ttf") format("truetype"); font-display: swap; }
+
+.mrreq, .mrreq-chat, .mrreq-piel {
+  --rw-papel: #F4EAD3; --rw-papel2: #E8D9B6; --rw-campo: #FFF9EA; --rw-texto: #24122A; --rw-suave: #65506B; --rw-borde: #3A1F45;
+  --rw-banda: #2A1530; --rw-banda-txt: #E6BE62; --rw-oro: #C9A24B; --rw-magenta: #B0246B; --rw-cian: #187F8A; --rw-rojo: #8E1B34;
+  --rw-franja: #E6BE62; --rw-foco: #1E40AF; --rw-alerta-bg: #F7DDE3;
+}
+:root.mrm-dark .mrreq, :root.mrm-dark .mrreq-chat, :root.mrm-dark .mrreq-piel {
+  --rw-papel: #1D1022; --rw-papel2: #2B1A32; --rw-campo: #150B19; --rw-texto: #F4EAD3; --rw-suave: #C9B5CF; --rw-borde: #D8B864;
+  --rw-banda: #0F0613; --rw-magenta: #FF6FB0; --rw-cian: #5ED0DB; --rw-rojo: #FF8A9C; --rw-franja: #3B1D4A; --rw-foco: #8EB0FF; --rw-alerta-bg: #3A1523;
 }
 
-/* Ventanas del módulo. Solo dentro de .mrreq: no se toca la tipografía de la cabecera (iconos de ventana). */
-.mrreq .window-content { background: var(--mrreq-papel); color: #2a2018; padding: 8px; }
-.mrreq .mrreq-panel .sub { margin: 0 0 6px; }
-.mrreq .fila { display: grid; grid-template-columns: 1fr auto auto auto; gap: 8px; align-items: center; padding: 6px 0; border-bottom: 1px solid #c9b88f; }
+/* ================= Ventanas propias del módulo (Panel de Frentes, Pizarra, Presión, Culpa, Parmesano y diálogos) ================= */
+.mrreq.application { max-width: calc((100vw - 8px) / var(--rw-esc-ventana, 1)); max-height: calc((100vh - 1.5 * var(--hotbar-height, 52px)) / var(--rw-esc-ventana, 1));
+  border: 2px solid var(--rw-borde); border-radius: 4px; box-shadow: 5px 5px 0 var(--rw-magenta); }
+.mrreq.application .window-header { background: var(--rw-banda); color: var(--rw-banda-txt); border-bottom: 3px solid var(--rw-oro); }
+.mrreq.application .window-header .window-title { font-family: "RW Cinzel", serif; font-weight: 700; letter-spacing: .04em; color: var(--rw-banda-txt); }
+.mrreq.application .window-content { background: linear-gradient(118deg, transparent 0 86%, var(--rw-franja) 86% 94%, transparent 94%) var(--rw-papel);
+  color: var(--rw-texto); font-family: "RW Crimson", serif; font-size: 1.05rem; padding: 10px; overflow: auto; min-height: 0; }
+.mrreq.application .window-content:has(> form.dialog-form) { overflow: hidden; }
+.mrreq.application form.dialog-form { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; }
+.mrreq.application form.dialog-form > .dialog-content { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
+.mrreq.application form.dialog-form > .form-footer { flex: none; }
+.mrreq.application :is(select, input[type=text], textarea) { background: var(--rw-campo); color: var(--rw-texto); border: 2px solid var(--rw-borde); border-radius: 0; font-family: "RW Crimson", serif; }
+.mrreq.application button:not(.header-control) { font-family: "RW Cinzel", serif; font-size: .9rem; letter-spacing: .03em; background: var(--rw-oro); color: #24122A; border: 2px solid var(--rw-borde); border-radius: 0; box-shadow: 2px 2px 0 var(--rw-borde); }
+.mrreq.application button:not(.header-control):hover:not(:disabled) { background: var(--rw-banda); color: var(--rw-banda-txt); }
+.mrreq.application button:disabled { opacity: .5; }
+.mrreq .mrreq-panel .sub { margin: 0 0 6px; color: var(--rw-suave); }
+.mrreq .fila { display: grid; grid-template-columns: 1fr auto auto auto; gap: 8px; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--rw-papel2); }
 .mrreq .fila.frio { opacity: .55; }
-.mrreq .nom small { display: block; opacity: .7; }
+.mrreq .nom strong { font-family: "RW Cinzel", serif; letter-spacing: .02em; }
+.mrreq .nom small { display: block; color: var(--rw-suave); }
 .mrreq .pasos { display: flex; gap: 4px; }
-.mrreq .paso { min-width: 28px; height: 28px; border: 1px solid var(--mrreq-ciruela); border-radius: 50%; background: transparent; color: var(--mrreq-ciruela); text-align: center; line-height: 26px; padding: 0; }
-.mrreq .paso.on { background: var(--mrreq-ciruela); color: var(--mrreq-oro); }
-.mrreq .paso.on.rojo, .mrreq .paso.rojo.on { background: #7a1f1f; color: #fff; }
-.mrreq .pasos.grande .paso { min-width: 48px; height: 48px; line-height: 46px; font-size: 1.4rem; }
+.mrreq .paso { min-width: 32px; height: 32px; border: 2px solid var(--rw-borde); border-radius: 50%; background: transparent; color: var(--rw-borde); text-align: center; line-height: 28px; padding: 0; font-family: "RW Maquina", monospace; box-shadow: none; }
+.mrreq .paso.on { background: var(--rw-banda); color: var(--rw-banda-txt); border-color: var(--rw-oro); }
+.mrreq .paso.on.rojo { background: var(--rw-rojo); color: #fff; }
+.mrreq .pasos.grande .paso { min-width: 48px; height: 48px; line-height: 44px; font-size: 1.4rem; }
+.mrreq .etq { font-family: "RW Maquina", monospace; font-size: .85rem; color: var(--rw-magenta); min-width: 6em; text-align: right; }
 .mrreq .barra { display: flex; gap: 8px; align-items: center; margin-top: 8px; flex-wrap: wrap; }
 .mrreq .barra input[type=text] { flex: 1; }
 .mrreq .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.mrreq .col h3 { margin: 0 0 4px; border-bottom: 2px solid var(--mrreq-oro); }
-.mrreq .nota { display: flex; justify-content: space-between; gap: 6px; padding: 4px 6px; margin: 3px 0; background: #fff8e6; border: 1px solid #c9b88f; }
-.mrreq .nota.oculta { opacity: .5; font-style: italic; }
-.mrreq .nota .ctl button { padding: 0 4px; line-height: 20px; height: 22px; }
-.mrreq .quesos { font-size: 1.6rem; letter-spacing: 6px; color: #c9a24b; }
-.mrreq .gm { color: #7a1f1f; }
-.mrreq .log { margin: 6px 0 0; padding-left: 18px; font-size: .85rem; }
-.mrreq .nota-pie { font-size: .8rem; opacity: .7; }
-.mrreq-chat { border-left: 4px solid var(--mrreq-oro); padding: 2px 8px; }
-.mrreq-chat h3 { margin: 0 0 2px; font-size: 1rem; }
-.mrreq-chat.mrreq-alerta { border-left-color: #7a1f1f; background: rgba(122, 31, 31, .08); }
-
-/* Accesibilidad */
-.mrreq button:focus-visible, .mrreq select:focus-visible, .mrreq input:focus-visible { outline: 3px solid #1f4fbf; outline-offset: 2px; }
-.mrreq .paso { min-width: 32px; height: 32px; line-height: 30px; }
-.mrreq.mrreq-grande .window-content { font-size: 1.3rem; }
-.mrreq.mrreq-grande .paso { min-width: 44px; height: 44px; line-height: 42px; }
-.mrreq.mrreq-contraste .window-content { background: #fff; color: #000; }
-.mrreq.mrreq-contraste .paso { border-width: 2px; border-color: #000; color: #000; }
+.mrreq .col h3 { margin: 0 0 4px; font-family: "RW Cinzel", serif; border-bottom: 2px solid var(--rw-oro); }
+.mrreq .nota { display: flex; justify-content: space-between; gap: 6px; padding: 4px 6px; margin: 3px 0; background: var(--rw-campo); border: 1px solid var(--rw-borde); font-family: "RW Mano", cursive; font-size: 1.25rem; line-height: 1.1; }
+.mrreq .nota.oculta { opacity: .55; font-style: italic; }
+.mrreq .nota .ctl button { padding: 0 4px; line-height: 20px; height: 22px; font-family: inherit; }
+.mrreq .quesos { font-size: 1.6rem; letter-spacing: 6px; color: var(--rw-oro); }
+.mrreq .gm { color: var(--rw-rojo); }
+.mrreq .aviso { font-weight: 700; color: var(--rw-magenta); }
+.mrreq .log { margin: 6px 0 0; padding-left: 18px; font-size: .9rem; font-family: "RW Maquina", monospace; }
+.mrreq .nota-pie { font-size: .85rem; color: var(--rw-suave); }
+.mrreq .vacio { color: var(--rw-suave); font-style: italic; }
+.mrreq.mrreq-grande .window-content { font-size: 1.35rem; }
+.mrreq.mrreq-grande .paso { min-width: 44px; height: 44px; line-height: 40px; }
+.mrreq.mrreq-contraste { --rw-papel: #fff; --rw-papel2: #ddd; --rw-campo: #fff; --rw-texto: #000; --rw-borde: #000; --rw-suave: #222; }
+.mrreq.mrreq-contraste .window-content { background: #fff; }
 .mrreq.mrreq-contraste .paso.on { background: #000; color: #fff; }
-.mrreq.mrreq-contraste .nota { background: #fff; border: 2px solid #000; }
+.mrreq button:focus-visible, .mrreq select:focus-visible, .mrreq input:focus-visible { outline: 3px solid var(--rw-foco); outline-offset: 2px; }
 
-/* Destellos de pantalla */
+/* ================= Tarjetas del chat del módulo ================= */
+.mrreq-chat { border: 2px solid var(--rw-borde); border-left: 8px solid var(--rw-magenta); background: linear-gradient(118deg, transparent 0 80%, var(--rw-franja) 80% 90%, transparent 90%) var(--rw-papel);
+  color: var(--rw-texto); font-family: "RW Crimson", serif; padding: .3rem .5rem; box-shadow: 3px 3px 0 var(--rw-oro); display: grid; grid-template-columns: auto 1fr; gap: .1rem .6rem; align-items: center; }
+.mrreq-chat > :not(.mrreq-icono) { grid-column: 2; }
+.mrreq-chat .mrreq-icono { grid-column: 1; grid-row: 1 / span 4; width: 56px; height: 56px; object-fit: contain; border: 0; transition: transform .15s; align-self: start; }
+.mrreq-chat .mrreq-icono:hover { transform: scale(2.6); transform-origin: left top; position: relative; z-index: 5; filter: drop-shadow(0 4px 8px #000a); }
+.mrreq-chat h3 { margin: 0; font-family: "RW Cinzel", serif; font-size: 1.05rem; letter-spacing: .02em; color: var(--rw-texto); border: 0; }
+.mrreq-chat p { margin: .1rem 0; }
+.mrreq-chat.mrreq-alerta { border-left-color: var(--rw-rojo); background-color: var(--rw-alerta-bg); }
+.mrreq-chat em { color: var(--rw-suave); }
+
+/* ================= Piel de lo nativo de Mausritter: fichas, tarjetas de tirada y diálogos de tirada ================= */
+:root body.mrreq-piel-on .mrreq-piel.mrreq-piel {
+  & .mausritter .rollcontainer { background: linear-gradient(118deg, transparent 0 78%, var(--rw-franja) 78% 92%, transparent 92%) var(--rw-papel) !important; color: var(--rw-texto) !important;
+    border: 2px solid var(--rw-borde) !important; border-radius: 0 !important; box-shadow: 4px 4px 0 var(--rw-magenta) !important; padding: 0 .55rem .45rem !important; overflow: hidden;
+    font-family: "RW Crimson", serif !important; }
+  & .mausritter :is(.rollh1, .rollweaponh1) { background: linear-gradient(104deg, var(--rw-banda) 0 80%, var(--rw-magenta) 80% 83%, var(--rw-banda) 83% 87%, var(--rw-oro) 87%) !important;
+    color: var(--rw-banda-txt) !important; border: 0 !important; border-bottom: 3px solid var(--rw-oro) !important; font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 1.3rem !important;
+    line-height: 1.2; letter-spacing: .03em; padding: .3rem 2rem .3rem .6rem !important; margin: 0 -.55rem !important; width: auto !important; height: auto !important; }
+  & .mausritter .flexrow:has(> .rollweaponh1) { height: auto !important; align-items: stretch; margin: 0 -.55rem; }
+  & .mausritter .flexrow > .rollweaponh1 { margin: 0 !important; }
+  & .mausritter .roll-image { flex: 0 0 62px; width: 62px; height: 62px; object-fit: contain; border: 0 !important; border-left: 2px solid var(--rw-borde) !important; background: var(--rw-papel2) !important;
+    margin: 0 !important; transition: transform .15s; }
+  & .mausritter .roll-image:hover { transform: scale(2.4); transform-origin: right top; position: relative; z-index: 5; }
+  & .mausritter .rollh2 { font-family: "RW Cinzel", serif !important; font-size: 1.5rem !important; letter-spacing: .04em; color: var(--rw-magenta) !important; background: none !important; margin: .35rem 0 .1rem !important; }
+  & .mausritter .roll-result { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 2.3rem !important; line-height: 1.1; color: #24122A !important; background: var(--rw-oro) !important;
+    border: 3px solid var(--rw-banda) !important; border-radius: 0 !important; box-shadow: 4px 4px 0 var(--rw-magenta) !important; transform: rotate(-1.5deg); padding: .1rem .5rem !important; }
+  & .mausritter .roll-target { background: none !important; color: var(--rw-texto) !important; font-family: "RW Cinzel", serif !important; font-size: 1.05rem !important; letter-spacing: .03em; gap: .8rem !important; padding: .7rem .3rem .4rem !important; }
+  & .mausritter .roll-targetbox { background: var(--rw-banda) !important; color: var(--rw-banda-txt) !important; border: 0 !important; border-radius: 0 !important; font-family: "RW Maquina", monospace !important; font-size: 1.05rem !important; }
+  & .mausritter :is(.rollmods, .rollmods .valuetext) { font-family: "RW Maquina", monospace !important; color: var(--rw-suave) !important; font-size: .8rem !important; margin-top: 0 !important; }
+  & .mausritter .roll-damage { font-family: "RW Cinzel", serif !important; font-size: 1.35rem !important; letter-spacing: .05em; color: var(--rw-rojo) !important; margin-top: .5rem !important; }
+  & .mausritter .roll-damagebox { background: var(--rw-magenta) !important; color: #fff !important; border: 3px solid var(--rw-banda) !important; border-radius: 0 !important; font-family: "RW Cinzel", serif !important;
+    font-weight: 700; font-size: 2.1rem !important; line-height: 1.15; padding: .2rem 1.2rem !important; transform: rotate(1deg); box-shadow: 4px 4px 0 var(--rw-oro) !important; width: max-content; max-width: 100%; }
+  & .mausritter .description { background: none !important; border-color: var(--rw-borde) !important; }
+  & .mausritter .description .header { font-family: "RW Cinzel", serif !important; color: var(--rw-texto) !important; background: none !important; border-bottom: 2px solid var(--rw-oro) !important; }
+  & .mausritter .description .body { color: var(--rw-texto) !important; background: none !important; }
+  & .mausritter .rollcontainer button { font-family: "RW Cinzel", serif !important; font-size: .95rem !important; background: var(--rw-oro) !important; color: #24122A !important; border: 2px solid var(--rw-banda) !important;
+    border-radius: 0 !important; box-shadow: 2px 2px 0 var(--rw-borde) !important; }
+  & .mausritter .rollcontainer button:hover:not(:disabled) { background: var(--rw-banda) !important; color: var(--rw-banda-txt) !important; }
+
+  /* diálogos de tirada y fichas */
+  &:is(.mrreq-piel-dialogo, .mrreq-piel-ficha) { border: 2px solid var(--rw-borde); border-radius: 0; box-shadow: 5px 5px 0 var(--rw-magenta); }
+  &.mrreq-piel-dialogo { height: auto !important; min-width: 340px; }
+  &:is(.mrreq-piel-dialogo, .mrreq-piel-ficha) .window-header { background: var(--rw-banda) !important; color: var(--rw-banda-txt) !important; border-bottom: 3px solid var(--rw-oro) !important; }
+  &:is(.mrreq-piel-dialogo, .mrreq-piel-ficha) .window-header :is(.window-title, h4) { font-family: "RW Cinzel", serif !important; font-weight: 700; letter-spacing: .04em; color: var(--rw-banda-txt) !important; }
+  &:is(.mrreq-piel-dialogo, .mrreq-piel-ficha) .window-content { background: linear-gradient(118deg, transparent 0 78%, var(--rw-franja) 78% 90%, transparent 90%) var(--rw-papel) !important; color: var(--rw-texto) !important; }
+  &.mrreq-piel-ficha .window-content { background: linear-gradient(118deg, transparent 0 84%, var(--rw-franja) 84% 94%, transparent 94%) 0 0 / 100% 340px no-repeat var(--rw-papel) !important; }
+  &.mrreq-piel-dialogo h2 { font-family: "RW Cinzel", serif !important; font-size: 1.3em !important; color: var(--rw-texto) !important; border: 0 !important; border-bottom: 3px solid var(--rw-oro) !important; margin: .2rem 0 .7rem !important; }
+  &.mrreq-piel-dialogo :is(select, input) { font-family: "RW Maquina", monospace !important; font-size: 1.1em !important; height: auto !important; background: var(--rw-campo) !important; color: var(--rw-texto) !important;
+    border: 2px solid var(--rw-borde) !important; border-radius: 0 !important; box-shadow: 3px 3px 0 var(--rw-oro); padding: .15rem .4rem !important; }
+  &.mrreq-piel-dialogo :is(select, input):focus-visible { outline: 3px solid var(--rw-foco); outline-offset: 1px; }
+  &.mrreq-piel-dialogo .dialog-buttons { gap: .5rem; }
+  &.mrreq-piel-dialogo .dialog-buttons button { font-family: "RW Cinzel", serif !important; font-size: 1.05em !important; line-height: 1.7; background: var(--rw-oro) !important; color: #24122A !important;
+    border: 2px solid var(--rw-banda) !important; border-radius: 0 !important; box-shadow: 3px 3px 0 var(--rw-borde) !important; }
+  &.mrreq-piel-dialogo .dialog-buttons button:first-child { background: var(--rw-magenta) !important; color: #fff !important; }
+  &.mrreq-piel-dialogo .dialog-buttons button:hover { background: var(--rw-banda) !important; color: var(--rw-banda-txt) !important; }
+  &.mrreq-piel-dialogo .dialog-buttons button:focus-visible { outline: 3px solid var(--rw-foco); outline-offset: 2px; }
+
+  &.mrreq-piel-ficha {
+    & :is(.header-border, .blockborder, .creaturedescription, .creature-abilities) { background: var(--rw-papel) !important; border: 2px solid var(--rw-borde) !important; border-radius: 0 !important;
+      box-shadow: 3px 3px 0 var(--rw-oro) !important; outline: 0 !important; color: var(--rw-texto) !important; }
+    & .headerinputtext { background: var(--rw-banda) !important; color: var(--rw-banda-txt) !important; font-family: "RW Cinzel", serif !important; letter-spacing: .03em; }
+    & .headerinputfield input, & input.noborder { color: var(--rw-texto) !important; background: transparent !important; font-family: "RW Maquina", monospace !important; }
+    & h1.charname input, & .charname > input[name="name"] { font-family: "RW Cinzel", serif !important; font-weight: 700; font-size: 1.35rem !important; color: var(--rw-texto) !important; background: var(--rw-papel) !important;
+      border: 2px solid var(--rw-borde) !important; border-radius: 0 !important; }
+    & :is(.statName, .creaturestat, .creature-header, .creaturename) { font-family: "RW Cinzel", serif !important; color: var(--rw-texto) !important; }
+    & .rollable:is(:hover, :focus-visible) { color: var(--rw-magenta) !important; text-shadow: 1px 1px 0 var(--rw-oro); }
+    & :is(.minmax-input, .darkGreyText) { font-family: "RW Maquina", monospace !important; color: var(--rw-texto) !important; background: transparent !important; }
+    & :is(.current-max-label, .littleLabel) { font-family: "RW Cinzel", serif !important; color: var(--rw-suave) !important; }
+    & .seperatorLine { border-bottom: 2px solid var(--rw-borde) !important; }
+    & .slant { border-right: 2px solid var(--rw-borde) !important; }
+    & :is(.portrait, .portrait-creature) { border: 3px solid var(--rw-borde) !important; border-radius: 0 !important; box-shadow: 5px 5px 0 var(--rw-magenta) !important; background: var(--rw-papel2) !important; }
+    & :is(.editor-content, .editor) { color: var(--rw-texto) !important; font-family: "RW Crimson", serif; font-size: 1.05rem; }
+    & .editor-content :is(h1, h2, h3) { font-family: "RW Cinzel", serif !important; color: var(--rw-texto) !important; border-bottom: 2px solid var(--rw-oro) !important; }
+    & .mrreq-lema { font-family: "RW Cinzel", serif; font-size: 1.05em; margin: 0 0 .25rem; color: var(--rw-magenta); }
+    & .mrreq-lista { margin: .2rem 0 .1rem; padding-left: 1.1rem; }
+    & .mrreq-lista li { color: var(--rw-texto); }
+  }
+}
+
+/* Lupa en las imágenes importantes de los diarios del módulo */
+.mrreq-diario img { transition: transform .15s; }
+
+/* ================= Destellos de pantalla ================= */
 .mrreq-flash { position: fixed; inset: 0; z-index: 9999; pointer-events: none; opacity: 0; animation: mrreq-flash 1.1s ease-out 1; }
 .mrreq-flash-oro { background: radial-gradient(circle, rgba(255, 215, 120, .55), rgba(255, 215, 120, 0) 70%); }
 .mrreq-flash-agua { background: radial-gradient(circle, rgba(120, 190, 255, .5), rgba(120, 190, 255, 0) 70%); }
 .mrreq-flash-rojo { background: radial-gradient(circle, rgba(200, 40, 40, .5), rgba(200, 40, 40, 0) 70%); }
 @keyframes mrreq-flash { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
-@media (prefers-reduced-motion: reduce) { .mrreq-flash { display: none; } }
+@media (prefers-reduced-motion: reduce) { .mrreq-flash { display: none; } .mrreq-chat .mrreq-icono, .mrreq-diario img { transition: none; } }

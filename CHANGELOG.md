@@ -1,5 +1,14 @@
 # Cambios
 
+## 1.0.0
+
+- **Aspecto de la partida.** Piel de Requesón para las fichas, las tarjetas de tirada y los diálogos de tirada de Mausritter, con versión oscura para MR- Mausritter en español y opción de apagarla. Las ventanas del módulo y las tarjetas de chat estrenan identidad (Cinzel Decorative, Crimson, ciruela y oro), arte en el chat y lupa al pasar el cursor.
+- **Ficha esencial.** El cuadro de cada protagonista muestra lema, habilidad y deseo; el texto completo está en Notas. Los PNJ muestran su texto en Notas.
+- **Ventanas que caben en cualquier pantalla.** Escala proporcional, scroll interno, botón siempre a la vista y ajuste «Tamaño de las ventanas».
+- **Banda sonora con licencia.** Los 10 temas de escena y los 21 ambientes son de Kevin MacLeod (CC BY 4.0) montados con un master común y bucles cortados a compás. Los efectos son ahora grabaciones CC0 de Freesound: 16 en total (timbre de recepción, fichas, ruleta, sello, máquina de escribir, granos de café, saco de boxeo, goteo, cadena, campana, carrito de la limpieza, puerta, tubería...). Créditos en NOTICE, en cada lista, en cada sonido y en el diario «Música y créditos».
+- **MR- Dirección por escena.** Cada escena lleva solo sus efectos y sus 4 o 5 ambientes. La barra conserva únicamente dos efectos globales.
+- **Portada del módulo y del mundo.** Portada propia, icono y miniaturas; al entrar el GM en un mundo sin fondo ni descripción se pone la portada y la sinopsis. Banner nuevo del README con el logo MR.
+
 ## 0.9.0
 
 - **21 ambientes por estado de ánimo** (antes 8), todos de Kevin MacLeod: misterio, miedo, miedo cómico, acción, melancolía, romance, magia y ritual, calma y descanso, jefe final, victoria, derrota, taberna y plan chapuza, además de investigación, comedia caótica, tensión del ritual, sigilo, persecución, combate, revelación y triunfo agridulce.

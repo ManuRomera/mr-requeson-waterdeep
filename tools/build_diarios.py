@@ -1,5 +1,5 @@
 """Escenas, diarios y tablas a partir de aventura/*.md y asset-manifest.json."""
-import re,sys,markdown
+import json,re,sys,markdown
 sys.path.insert(0,'/Volumes/Datos_Dock/FoundryVTT/Trabajo LOGO/marca')
 import marca
 from datos_items import I
@@ -63,6 +63,16 @@ def build(uid,M,img,ID,R):
     dia('Ratover Express',md_pags([('Ratover Express',S4['APÉNDICE · Ratover Express'] if 'APÉNDICE · Ratover Express' in S4 else '')]),'Dirección',8) if False else None
     ex=[(t,b) for t,b in secciones(c4,1) if t.startswith('APÉNDICE')]
     dia('Ratover Express',[pag('Ratover Express',html(ex[0][1]),0)],'Dirección',8)
+    sel=json.load(open(R/'tools/musica_seleccion.json'));efs=json.load(open(R/'tools/efectos_fuentes.json'))
+    fsl={ln.split(' ')[0]:ln.split(' ') for ln in (R/'tools/freesound_lista.txt').read_text(encoding='utf8').splitlines()}
+    nom={k.split('.',1)[1]:a_['title'] for k,a_ in M.items() if a_['kind'] in('music','mood')}
+    filas=''.join(f"<li><strong>{nom[k]}</strong>: «{t}»</li>" for k,t in sel.items() if k in nom)
+    fx=''.join(f"<li><strong>{k.replace('-',' ').capitalize()}</strong>: "+', '.join(sorted({f"{' '.join(fsl[c[0]][3:])} de {fsl[c[0]][2]} (#{fsl[c[0]][1]})" for c in v}))+"</li>" for k,v in efs.items())
+    cred=("<h2>Música</h2><p>De <strong>Kevin MacLeod</strong> (<a href='https://incompetech.com'>incompetech.com</a>), con licencia <strong>Creative Commons: Atribución 4.0</strong> (CC BY 4.0). "
+          "Se han recortado los silencios, cortado el bucle a compás y ajustado el volumen y el tono común de la banda sonora.</p><ul>"+filas+"</ul>"
+          "<p><em>«Título» Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0 License. http://creativecommons.org/licenses/by/4.0/</em></p>"
+          "<h2>Efectos de sonido</h2><p>Grabaciones de <strong>Freesound</strong> con licencia <strong>CC0</strong> (dominio público), recortadas y mezcladas con una sala común.</p><ul>"+fx+"</ul>")
+    dia('Música y créditos',[pag('Créditos',cred,0)],'Dirección',10)
     dia('Epílogos',md_pags([('Culpa y epílogos',S4['Culpa y epílogos']),('Pago, botín y facturas',S4['Pago, botín y facturas'])]),'Dirección',9)
     # ---- Localizaciones (nueve)
     H1=secciones(c3,1);loc={}

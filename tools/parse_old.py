@@ -30,7 +30,7 @@ for e in au:
     m=re.search(r'\*\*Prompt Suno\*\*\s*(.*?)(\n---|\Z)',t,re.S)
     e['prompt']=m.group(1).strip() if m else ''
 res['audio']=au
-json.dump(res,open('/private/tmp/claude-501/-Users-mromera--claude-spares-spare-uWaWJW/decd4448-0a50-4d12-add0-c9886b88231a/scratchpad/old.json','w'),ensure_ascii=False,indent=1)
+json.dump(res,open('/Volumes/Datos_Dock/FoundryVTT/Data/modules/mr-requeson-waterdeep/tools/catalogo_antiguo.json','w'),ensure_ascii=False,indent=1)
 for k,v in res.items():print(k,len(v))
 G='mouse-scale prop for a dark fantasy criminal-comedy'
 print([e['file'] for e in res['Ítems y condiciones'] if G in e['prompt']])

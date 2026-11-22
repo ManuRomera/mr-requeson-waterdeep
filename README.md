@@ -40,7 +40,7 @@ De cuatro a seis horas, o dos sesiones, para cinco jugadores. También hay una v
 | Objetos | 48, con armas, armaduras y las 6 condiciones |
 | Diarios | 38: dirección, nueve localizaciones, cinco fichas confidenciales, doce handouts y quince fotografías |
 | Tablas | 8 |
-| Audio | 10 pistas de escena y 21 ambientes por estado de ánimo (misterio, miedo, acción, sigilo, persecución, romance, magia, jefe final, victoria, derrota...), de Kevin MacLeod (CC BY 4.0), y 6 efectos |
+| Audio | 10 pistas de escena y 21 ambientes por estado de ánimo (misterio, miedo, acción, sigilo, persecución, romance, magia, jefe final, victoria, derrota...), de Kevin MacLeod (CC BY 4.0), y 16 efectos CC0 de Freesound |
 | Macros | 11 |
 
 ### Herramientas de mesa
@@ -54,7 +54,15 @@ Las mismas herramientas están como macros dentro del pack.
 
 ### Integración con MR- Dirección (opcional)
 
-Si tienes **[MR- Dirección](https://github.com/ManuRomera/mr-direccion)** activo, la aventura se registra sola: aparecen las diez escenas con su lectura y su música, las figuras de cada una con perspectiva, ocho motivos musicales, los seis efectos de sonido y los relojes de los cuatro frentes. Sin él, todo funciona con las herramientas propias del módulo.
+Si tienes **[MR- Dirección](https://github.com/ManuRomera/mr-direccion)** activo, la aventura se registra sola y **cada escena trae lo suyo**: su lectura, su música, sus figuras con perspectiva, sus efectos (el carrito de la limpieza en la Villa, las fichas en el Dado, el sello en la Notaría, el goteo en el Baño…) y los cuatro o cinco ambientes que tocan. En la barra solo quedan dos efectos globales, los que pueden pasar en cualquier escena. Los relojes de los cuatro frentes están listos. Sin Dirección, todo funciona con las herramientas propias del módulo.
+
+### Aspecto de la partida (con modo oscuro)
+
+Las fichas de Mausritter, sus tarjetas de tirada del chat y los diálogos de tirada se visten con la identidad de Ratover: ciruela, oro y neón de casino sobre papel marfil. **Se adapta al modo oscuro** de [MR- Mausritter en español](https://github.com/ManuRomera/mr-mausritter-es). Se apaga en los ajustes si prefieres lo nativo. Cada protagonista muestra en su ficha el cuadro esencial (lema, habilidad y deseo) y el texto completo en Notas. Las tarjetas del módulo llevan su arte y se agrandan al pasar el cursor.
+
+### Una portada para el módulo y otra para el mundo
+
+El módulo trae su **portada** y, al entrar el GM en un mundo sin imagen de fondo ni descripción, le pone la **portada y la sinopsis de la aventura** en la pantalla de entrada de Foundry. Nunca pisa lo que ya hayas puesto.
 
 ### Fichas, efectos y accesibilidad
 
@@ -83,7 +91,7 @@ El texto completo, en orden de lectura, está en [`aventura/AVENTURA.md`](aventu
 - `python3 tools/build_datos.py` regenera `_data/aventura.json` desde `aventura/*.md` y `asset-manifest.json`.
 - `npm run build` compila el pack y el zip.
 - `asset-manifest.json` lista cada imagen y audio con su ruta y su prompt. `python3 tools/verify_assets.py` cuenta cuántos existen.
-- La música son pistas de Kevin MacLeod procesadas con `tools/musica.py` (selección en `tools/musica_seleccion.json`). Los efectos son síntesis propia (`tools/audio.py`). Cualquier pista con el mismo nombre de archivo sustituye a la actual.
+- La música son pistas de Kevin MacLeod montadas con `tools/banda.py` (selección en `tools/musica_seleccion.json`). Los efectos son grabaciones CC0 de Freesound (`tools/banda.py`). Cualquier pista con el mismo nombre de archivo sustituye a la actual.
 
 ## Créditos y licencia
 

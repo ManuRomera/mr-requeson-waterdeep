@@ -2,8 +2,9 @@ import { ID, estado, guardar, chatGM, chatPublico, esc, registrarAccion, darCond
 import { efecto } from "./efectos.mjs";
 import { FRENTES, PRESENTES, PRESION, EPILOGOS } from "./frentes-datos.mjs";
 
+const ico = (nombre) => `<img class="mrreq-icono" alt="" src="modules/${ID}/assets/ui/${nombre}.webp">`;
 const frente = (id) => FRENTES.find(f => f.id === id);
-const tarjetaPaso = (f, n) => `<div class="mrreq-chat"><h3>${esc(f.nombre)} · paso ${n}: ${esc(f.pasos[n - 1][0])}</h3><p>${esc(f.pasos[n - 1][1])}</p></div>`;
+const tarjetaPaso = (f, n) => `<div class="mrreq-chat">${ico({ rastro: "frente-rastro-dorado", sindicato: "frente-sindicato", tyson: "frente-rat-tyson", acreedores: "frente-acreedores" }[f.id])}<h3>${esc(f.nombre)} · paso ${n}: ${esc(f.pasos[n - 1][0])}</h3><p>${esc(f.pasos[n - 1][1])}</p></div>`;
 
 // ---------- Frentes
 export async function moverFrente(id, nuevo) {
@@ -52,9 +53,9 @@ export async function moverPresion(delta) {
   const n0 = estado().presion;
   const n = delta > 0 ? Math.min(4, Math.max(1, n0 + delta)) : (n0 === 0 ? 0 : Math.max(1, n0 + delta));
   await guardar(x => { x.presion = n; });
-  chatGM(`<div class="mrreq-chat ${n === 4 ? "mrreq-alerta" : ""}"><h3>Presión de Princesa: ${n}/4</h3><p>${esc(PRESION[n])}</p></div>`);
+  chatGM(`<div class="mrreq-chat ${n === 4 ? "mrreq-alerta" : ""}">${ico("presion-de-princesa")}<h3>Presión de Princesa: ${n}/4</h3><p>${esc(PRESION[n])}</p></div>`);
   if (n === 4 && delta > 0) efecto("tuberia", "agua");
-  if (n === 4 && delta > 0) chatPublico(`<div class="mrreq-chat mrreq-alerta"><p><em>Un chirrido metálico. Un chorro de agua. La grifería ya no está en la pared.</em></p></div>`);
+  if (n === 4 && delta > 0) chatPublico(`<div class="mrreq-chat mrreq-alerta">${ico("presion-de-princesa")}<p><em>Un chirrido metálico. Un chorro de agua. La grifería ya no está en la pared.</em></p></div>`);
 }
 registrarAccion("presion", ({ delta }) => moverPresion(delta));
 
@@ -70,7 +71,7 @@ registrarAccion("confesion", async ({ id }) => {
   if (e.resaca.confesiones?.[id]) return chatGM(`<p>${esc(a.name)} ya ha confesado.</p>`);
   await guardar(x => { x.resaca.confesiones ??= {}; x.resaca.confesiones[id] = true; });
   await cambiarCulpa(id, 1);
-  chatPublico(`<div class="mrreq-chat"><h3>${esc(a.name)} confiesa</h3><p>Lee en voz alta «Lo que temes haber hecho». El grupo elige: <strong>una relanzada</strong> (repetir una tirada fallada, una vez) o <strong>quitar una condición</strong> a quien quiera. Culpa de ${esc(a.name)}: ${culpaDe(id)}/3.</p></div>`);
+  chatPublico(`<div class="mrreq-chat"><img class="mrreq-icono" alt="" src="${esc(a.img)}"><h3>${esc(a.name)} confiesa</h3><p>Lee en voz alta «Lo que temes haber hecho». El grupo elige: <strong>una relanzada</strong> (repetir una tirada fallada, una vez) o <strong>quitar una condición</strong> a quien quiera. Culpa de ${esc(a.name)}: ${culpaDe(id)}/3.</p></div>`);
 });
 export const epilogo = (n) => EPILOGOS[n];
 
@@ -86,7 +87,7 @@ registrarAccion("resaca", async ({ id, texto, pago, valor }, userId) => {
   if (pago === "frente") { const f = frente(valor); await moverFrente(valor, estado().frentes[valor] + 1); precio = `avanza el frente ${f.nombre}`; }
   else if (pago === "condicion") { await darCondicion(a, valor); precio = `acepta ${valor}`; }
   else { await cambiarCulpa(id, 1); precio = `marca Culpa (${culpaDe(id)}/3)`; }
-  chatPublico(`<div class="mrreq-chat"><h3>${esc(a.name)} recuerda algo de anoche</h3><p><em>${esc(texto)}</em></p><p>Es cierto. Precio: ${esc(precio)}.</p></div>`);
+  chatPublico(`<div class="mrreq-chat"><img class="mrreq-icono" alt="" src="${esc(a.img)}"><h3>${esc(a.name)} recuerda algo de anoche</h3><p><em>${esc(texto)}</em></p><p>Es cierto. Precio: ${esc(precio)}.</p></div>`);
 });
 
 // ---------- El Parmesano Ruso (quesos restantes q y picantes restantes p)
@@ -106,18 +107,18 @@ export async function turnoParmesano(actorId) {
     y.log.push(`${a.name}: d${m.q}=${r}${nota} ${q2 ? "QUEMA" : "queso bueno"}`);
   });
   chatGM(`<p><strong>${esc(a.name)}</strong> tira d${m.q}: ${r}${nota}. ${q2 ? "Queso con guindilla." : "Queso bueno: una pregunta."}</p>`);
-  if (q2) { efecto("queso", "rojo"); chatPublico(`<div class="mrreq-chat mrreq-alerta"><p>${esc(a.name)} se traga el cubo y los ojos se le llenan de lágrimas. Queda <strong>ARDIDO</strong>.</p></div>`); await darCondicion(a, "ARDIDO"); }
-  else chatPublico(`<div class="mrreq-chat"><p>${esc(a.name)} se traga el cubo sin pestañear. Bruno asiente: tiene derecho a una pregunta.</p></div>`);
+  if (q2) { efecto("queso", "rojo"); chatPublico(`<div class="mrreq-chat mrreq-alerta">${ico("el-parmesano-ruso")}<p>${esc(a.name)} se traga el cubo y los ojos se le llenan de lágrimas. Queda <strong>ARDIDO</strong>.</p></div>`); await darCondicion(a, "ARDIDO"); }
+  else chatPublico(`<div class="mrreq-chat">${ico("el-parmesano-ruso")}<p>${esc(a.name)} se traga el cubo sin pestañear. Bruno asiente: tiene derecho a una pregunta.</p></div>`);
 }
 export async function turnoBruno(forzar) {
   const m = estado().parmesano; if (!m || m.q <= 0) return;
   if (!forzar && m.q === m.p) {
     await guardar(x => { x.parmesano.bruno = true; });
-    return chatPublico(`<div class="mrreq-chat"><p>Bruno se levanta, se limpia las manos con un pañuelo y dice que ya está bien. «Basta. Sois gente seria. Preguntad lo que queráis.» Lo cuenta todo.</p></div>`);
+    return chatPublico(`<div class="mrreq-chat">${ico("el-parmesano-ruso")}<p>Bruno se levanta, se limpia las manos con un pañuelo y dice que ya está bien. «Basta. Sois gente seria. Preguntad lo que queráis.» Lo cuenta todo.</p></div>`);
   }
   if (!forzar) {
     await guardar(x => { x.parmesano.q -= 1; x.parmesano.log.push("Bruno: elige un queso bueno"); });
-    return chatPublico(`<div class="mrreq-chat"><p>Bruno coge un cubo con la pata, sin mirar, mientras habla de otra cosa, y se lo come sin inmutarse.</p></div>`);
+    return chatPublico(`<div class="mrreq-chat">${ico("el-parmesano-ruso")}<p>Bruno coge un cubo con la pata, sin mirar, mientras habla de otra cosa, y se lo come sin inmutarse.</p></div>`);
   }
   const r = (await new Roll(`1d${m.q}`).evaluate()).total, q2 = m.p === m.q ? true : quema(m.q, m.p, r);
   await guardar(x => { x.parmesano.q -= 1; if (q2) x.parmesano.p -= 1; x.parmesano.log.push(`Bruno a ciegas: d${m.q}=${r} ${q2 ? "QUEMA" : "bueno"}`); });

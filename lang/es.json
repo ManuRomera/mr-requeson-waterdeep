@@ -30,6 +30,14 @@
         "Hint": "Cuerpo entero sin fondo, pensado para MR- Dirección, o token redondo clásico. Solo afecta a las fichas que se creen a partir de ahora.",
         "Cuerpo": "Cuerpo entero sin fondo",
         "Redondo": "Redondo"
+      },
+      "pielTiradas": {
+        "Name": "Aspecto de Requesón en las fichas y tiradas",
+        "Hint": "Viste las fichas, las tarjetas de tirada y los diálogos de tirada de Mausritter con el aspecto de la partida. Se adapta al modo oscuro de MR- Mausritter en español."
+      },
+      "escalaVentanas": {
+        "Name": "Tamaño de las ventanas (%)",
+        "Hint": "0 = automático: cada ventana del módulo se encoge lo justo para caber entera en tu pantalla. Otro valor fija esa escala."
       }
     },
     "Verify": {
@@ -39,6 +47,7 @@
     },
     "Zona": {
       "Aviso": "{nombre} solo puede llevarse en las patas y el cuerpo, nunca en el equipaje."
-    }
+    },
+    "DescripcionMundo": "<p><strong>Ratover: Requesón en Waterdeep.</strong> Cinco ratones despiertan con resaca, una desconocida que parece muerta y un baño que gruñe. Un hechizo ya ha empezado a hacer la lista de todos los que tocaron la pulsera, y los cinco están en ella. Comedia criminal para Mausritter, de cuatro a seis horas, con cuatro frentes que se mueven solos.</p>"
   }
 }

@@ -1,0 +1,1798 @@
+{
+ "Formatos": [],
+ "Escenas": [
+  {
+   "file": "00-portada-ratover.webp",
+   "title": "Ratover — Requesón en Waterdeep",
+   "lines": [
+    "Ruta: `assets/scenes/00-portada-ratover.webp`",
+    "",
+    "Cinematic dark-fantasy establishing image for a Mausritter adventure called Ratover: Requesón en Waterdeep. A decadent secret mouse nightlife district hidden inside a luxurious Waterdeep suite at night, neon-magenta and cyan magical signs built from jewelry, thimbles, cigar boxes and casino debris, a huge human gold bracelet as visual motif, no visible characters, playful criminal-comedy mood, premium tabletop RPG key art, deep perspective, readable composition, no text, no logo, 16:9.",
+    ""
+   ],
+   "path": "assets/scenes/00-portada-ratover.webp",
+   "prompt": "Cinematic dark-fantasy establishing image for a Mausritter adventure called Ratover: Requesón en Waterdeep. A decadent secret mouse nightlife district hidden inside a luxurious Waterdeep suite at night, neon-magenta and cyan magical signs built from jewelry, thimbles, cigar boxes and casino debris, a huge human gold bracelet as visual motif, no visible characters, playful criminal-comedy mood, premium tabletop RPG key art, deep perspective, readable composition, no text, no logo, 16:9."
+  },
+  {
+   "file": "01-mapa-rat-vegas-suite.webp",
+   "title": "Rat Vegas — Mapa general de la suite",
+   "lines": [
+    "Ruta: `assets/scenes/01-mapa-rat-vegas-suite.webp`",
+    "",
+    "Top-down isometric cutaway overview of a luxurious Waterdeep bedroom suite transformed into a clandestine mouse city. Clearly readable districts at mouse scale: villa under the bed, casino inside a desk drawer, red-dock boulevard inside the sofa, chapel in a chocolate box, notary office in a filing cabinet, coffee warehouse in a coffee tin, boxing attic in a cigar box, enormous human bathroom, and a black coffee grinder on the table. No characters, no grid, no labels, detailed dark fantasy, warm candlelight mixed with Rat Vegas neon accents, 16:9.",
+    ""
+   ],
+   "path": "assets/scenes/01-mapa-rat-vegas-suite.webp",
+   "prompt": "Top-down isometric cutaway overview of a luxurious Waterdeep bedroom suite transformed into a clandestine mouse city. Clearly readable districts at mouse scale: villa under the bed, casino inside a desk drawer, red-dock boulevard inside the sofa, chapel in a chocolate box, notary office in a filing cabinet, coffee warehouse in a coffee tin, boxing attic in a cigar box, enormous human bathroom, and a black coffee grinder on the table. No characters, no grid, no labels, detailed dark fantasy, warm candlelight mixed with Rat Vegas neon accents, 16:9."
+  },
+  {
+   "file": "02-la-villa-del-cielo-caido.webp",
+   "title": "La Villa del Cielo Caído",
+   "lines": [
+    "Ruta: `assets/scenes/02-la-villa-del-cielo-caido.webp`",
+    "",
+    "Macro low-angle wide shot of a clandestine mouse hideout underneath a giant human bed. Walls constructed from stacked vintage cigar boxes, silk napkin tapestries, thimbles used as overturned stools, flickering candle stubs casting long dramatic shadows. Dark fantasy, gritty realism, atmospheric dust motes. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/02-la-villa-del-cielo-caido.webp",
+   "prompt": "Macro low-angle wide shot of a clandestine mouse hideout underneath a giant human bed. Walls constructed from stacked vintage cigar boxes, silk napkin tapestries, thimbles used as overturned stools, flickering candle stubs casting long dramatic shadows. Dark fantasy, gritty realism, atmospheric dust motes. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "03-dado-de-nacar-y-camerino-de-lola.webp",
+   "title": "Dado de Nácar y Camerino de Lola",
+   "lines": [
+    "Ruta: `assets/scenes/03-dado-de-nacar-y-camerino-de-lola.webp`",
+    "",
+    "Macro low-angle interior shot of an open wooden desk drawer turned into a dark casino. Human coat buttons as gambling tables, green felt with a large circular burn mark, tiny mirror fragments reflecting warm candle light. Dark fantasy, gritty realism, moody atmosphere. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/03-dado-de-nacar-y-camerino-de-lola.webp",
+   "prompt": "Macro low-angle interior shot of an open wooden desk drawer turned into a dark casino. Human coat buttons as gambling tables, green felt with a large circular burn mark, tiny mirror fragments reflecting warm candle light. Dark fantasy, gritty realism, moody atmosphere. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "04-bulevar-de-los-muelles-rojos-y-la-rendija-azul.webp",
+   "title": "Bulevar de los Muelles Rojos y La Rendija Azul",
+   "lines": [
+    "Ruta: `assets/scenes/04-bulevar-de-los-muelles-rojos-y-la-rendija-azul.webp`",
+    "",
+    "Macro wide shot inside a torn red velvet human sofa. Massive wooden structural frames acting as towering beams, draped red velvet fabric, knocked-over tiny market stalls made of matchsticks. Dark fantasy realism, shadowy, atmospheric orange lantern light. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/04-bulevar-de-los-muelles-rojos-y-la-rendija-azul.webp",
+   "prompt": "Macro wide shot inside a torn red velvet human sofa. Massive wooden structural frames acting as towering beams, draped red velvet fabric, knocked-over tiny market stalls made of matchsticks. Dark fantasy realism, shadowy, atmospheric orange lantern light. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "05-capilla-del-ultimo-chillido.webp",
+   "title": "Capilla del Último Chillido",
+   "lines": [
+    "Ruta: `assets/scenes/05-capilla-del-ultimo-chillido.webp`",
+    "",
+    "Macro wide shot inside an ornate gold-foil cardboard chocolate box used as a chapel. Tattered ribbons hanging like banners, a broken wind-up music box acting as an altar, melted wax dripping from tiny candles. Dark fantasy, moody lighting. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/05-capilla-del-ultimo-chillido.webp",
+   "prompt": "Macro wide shot inside an ornate gold-foil cardboard chocolate box used as a chapel. Tattered ribbons hanging like banners, a broken wind-up music box acting as an altar, melted wax dripping from tiny candles. Dark fantasy, moody lighting. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "06-notaria-del-parmesano.webp",
+   "title": "Notaría del Parmesano",
+   "lines": [
+    "Ruta: `assets/scenes/06-notaria-del-parmesano.webp`",
+    "",
+    "Macro wide shot inside a colossal wooden office filing cabinet. Towering stacks of yellowed parchment papers forming balconies, metal paperclips as railings, tiny desks with balance scales and dried cheese crumbs. Dark fantasy, dusty atmosphere. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/06-notaria-del-parmesano.webp",
+   "prompt": "Macro wide shot inside a colossal wooden office filing cabinet. Towering stacks of yellowed parchment papers forming balconies, metal paperclips as railings, tiny desks with balance scales and dried cheese crumbs. Dark fantasy, dusty atmosphere. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "07-almacen-de-don-chispa.webp",
+   "title": "Almacén de Don Chispa",
+   "lines": [
+    "Ruta: `assets/scenes/07-almacen-de-don-chispa.webp`",
+    "",
+    "Macro wide shot inside a colossal vintage tin coffee can. Mounds of dark roasted coffee beans, silver spoons placed as defensive barricades, tiny candles providing warm amber light. Dark fantasy, cinematic volumetric smoke. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/07-almacen-de-don-chispa.webp",
+   "prompt": "Macro wide shot inside a colossal vintage tin coffee can. Mounds of dark roasted coffee beans, silver spoons placed as defensive barricades, tiny candles providing warm amber light. Dark fantasy, cinematic volumetric smoke. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "08-atico-de-rat-tyson.webp",
+   "title": "Ático de Rat Tyson",
+   "lines": [
+    "Ruta: `assets/scenes/08-atico-de-rat-tyson.webp`",
+    "",
+    "Macro interior shot of an open wooden cigar box set atop a tall wardrobe. An open wire travel cage in background, tiny punch-bag hanging from a nail, spilled green liquid glass shards on floor. Dark fantasy, dramatic shadows. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/08-atico-de-rat-tyson.webp",
+   "prompt": "Macro interior shot of an open wooden cigar box set atop a tall wardrobe. An open wire travel cage in background, tiny punch-bag hanging from a nail, spilled green liquid glass shards on floor. Dark fantasy, dramatic shadows. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "09-el-bano-de-princesa.webp",
+   "title": "El Baño de Princesa",
+   "lines": [
+    "Ruta: `assets/scenes/09-el-bano-de-princesa.webp`",
+    "",
+    "Macro low-angle perspective of a colossal human bathroom from floor level. Towering white marble tiles, a massive wooden door blocked by a chair leg, a heavy rusted iron chain trailing across the floor towards a giant porcelain sink. Cold moonlight, dark fantasy, eerie lighting. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/09-el-bano-de-princesa.webp",
+   "prompt": "Macro low-angle perspective of a colossal human bathroom from floor level. Towering white marble tiles, a massive wooden door blocked by a chair leg, a heavy rusted iron chain trailing across the floor towards a giant porcelain sink. Cold moonlight, dark fantasy, eerie lighting. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  },
+  {
+   "file": "10-la-mandibula-negra.webp",
+   "title": "La Mandíbula Negra",
+   "lines": [
+    "Ruta: `assets/scenes/10-la-mandibula-negra.webp`",
+    "",
+    "Macro low-angle shot of an antique brass human coffee grinder on a dark counter. Exposed greasy iron gears, a side maintenance hatch forced open revealing heavy crushing metal teeth inside. Dark fantasy, industrial, menacing volumetric light. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters",
+    ""
+   ],
+   "path": "assets/scenes/10-la-mandibula-negra.webp",
+   "prompt": "Macro low-angle shot of an antique brass human coffee grinder on a dark counter. Exposed greasy iron gears, a side maintenance hatch forced open revealing heavy crushing metal teeth inside. Dark fantasy, industrial, menacing volumetric light. Empty scene --ar 16:9 --v 6.0 --no humans, mice, rats, animals, characters"
+  }
+ ],
+ "Actores": [
+  {
+   "file": "zardoz-midespinas.webp",
+   "title": "Zardoz Midespinas",
+   "lines": [
+    "Ruta: `assets/actors/pcs/zardoz-midespinas.webp`",
+    "",
+    "Full body shot from head to toe of a dark grey anthropomorphic mouse rogue. Entire body, tail, and feet fully visible inside frame with margin space. Wearing a tattered dark purple velvet cloak, holding a sewing-needle rapier. Dark fantasy style, urban Waterdeep rogue, cinematic lighting, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/pcs/zardoz-midespinas.webp",
+   "prompt": "Full body shot from head to toe of a dark grey anthropomorphic mouse rogue. Entire body, tail, and feet fully visible inside frame with margin space. Wearing a tattered dark purple velvet cloak, holding a sewing-needle rapier. Dark fantasy style, urban Waterdeep rogue, cinematic lighting, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "el-guapo.webp",
+   "title": "El Guapo",
+   "lines": [
+    "Ruta: `assets/actors/pcs/el-guapo.webp`",
+    "",
+    "Full body shot from head to toe of a sleek light-grey anthropomorphic mouse aristocrat. Entire body, long tail, and feet fully visible inside frame. Wearing a plum-colored vest and a broken glass monocle, confident smirk. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/pcs/el-guapo.webp",
+   "prompt": "Full body shot from head to toe of a sleek light-grey anthropomorphic mouse aristocrat. Entire body, long tail, and feet fully visible inside frame. Wearing a plum-colored vest and a broken glass monocle, confident smirk. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "el-dentista.webp",
+   "title": "El Dentista",
+   "lines": [
+    "Ruta: `assets/actors/pcs/el-dentista.webp`",
+    "",
+    "Full body shot from head to toe of a thin, hunched brown anthropomorphic mouse medic. Entire body, tail, and feet fully visible inside frame. Wearing crooked brass spectacles, dirty violet gloves, carrying a tiny leather bag. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/pcs/el-dentista.webp",
+   "prompt": "Full body shot from head to toe of a thin, hunched brown anthropomorphic mouse medic. Entire body, tail, and feet fully visible inside frame. Wearing crooked brass spectacles, dirty violet gloves, carrying a tiny leather bag. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "el-colgado.webp",
+   "title": "El Colgado",
+   "lines": [
+    "Ruta: `assets/actors/pcs/el-colgado.webp`",
+    "",
+    "Full body shot from head to toe of a bulky, muscular anthropomorphic mouse brawler. Entire body, tail, and feet fully visible inside frame. Wearing a short tattered jacket and ragged purple scarf, holding a heavy button-mace. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/pcs/el-colgado.webp",
+   "prompt": "Full body shot from head to toe of a bulky, muscular anthropomorphic mouse brawler. Entire body, tail, and feet fully visible inside frame. Wearing a short tattered jacket and ragged purple scarf, holding a heavy button-mace. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "el-novio.webp",
+   "title": "El Novio",
+   "lines": [
+    "Ruta: `assets/actors/pcs/el-novio.webp`",
+    "",
+    "Full body shot from head to toe of a beige anthropomorphic mouse diplomat. Entire body, tail, and feet fully visible inside frame. Wearing a wrinkled lilac ceremonial sash, carrying a tiny baby bat wrapped in a napkin. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/pcs/el-novio.webp",
+   "prompt": "Full body shot from head to toe of a beige anthropomorphic mouse diplomat. Entire body, tail, and feet fully visible inside frame. Wearing a wrinkled lilac ceremonial sash, carrying a tiny baby bat wrapped in a napkin. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "lola-lentejuela.webp",
+   "title": "Lola Lentejuela",
+   "lines": [
+    "Ruta: `assets/actors/npcs/lola-lentejuela.webp`",
+    "",
+    "Full body shot from head to toe of a silver anthropomorphic mouse cabaret singer. Entire body, tail, and feet fully visible inside frame. Wearing a torn golden sequined dress, catatonic stiff posture. Dark fantasy, gritty realism, dramatic lighting, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/lola-lentejuela.webp",
+   "prompt": "Full body shot from head to toe of a silver anthropomorphic mouse cabaret singer. Entire body, tail, and feet fully visible inside frame. Wearing a torn golden sequined dress, catatonic stiff posture. Dark fantasy, gritty realism, dramatic lighting, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "pazos.webp",
+   "title": "Pazos",
+   "lines": [
+    "Ruta: `assets/actors/npcs/pazos.webp`",
+    "",
+    "Full body shot from head to toe of a skinny, anxious anthropomorphic rat assassin. Entire body, long tail, and feet fully visible inside frame. Wearing a rumpled pinstripe suit, bottle-bottom glasses, thin pencil mustache, holding a tiny switchblade. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/pazos.webp",
+   "prompt": "Full body shot from head to toe of a skinny, anxious anthropomorphic rat assassin. Entire body, long tail, and feet fully visible inside frame. Wearing a rumpled pinstripe suit, bottle-bottom glasses, thin pencil mustache, holding a tiny switchblade. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "don-chispa.webp",
+   "title": "Don Chispa",
+   "lines": [
+    "Ruta: `assets/actors/npcs/don-chispa.webp`",
+    "",
+    "Full body shot from head to toe of a stout, dignified anthropomorphic mouse crime boss. Entire body, tail, and feet fully visible inside frame. Wearing a coffee-stained brown merchant robe with a devotional medallion, holding a silver spoon like a sceptre, solemn expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/don-chispa.webp",
+   "prompt": "Full body shot from head to toe of a stout, dignified anthropomorphic mouse crime boss. Entire body, tail, and feet fully visible inside frame. Wearing a coffee-stained brown merchant robe with a devotional medallion, holding a silver spoon like a sceptre, solemn expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "bruno-barriga-blanca.webp",
+   "title": "Bruno Barriga Blanca",
+   "lines": [
+    "Ruta: `assets/actors/npcs/bruno-barriga-blanca.webp`",
+    "",
+    "Full body shot from head to toe of a very fat white-bellied anthropomorphic mouse moneylender. Entire body, tail, and feet fully visible inside frame. Wearing a tight leather accountant vest, tiny spectacles low on the snout, holding a rolled contract and a wedge of hard cheese. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/bruno-barriga-blanca.webp",
+   "prompt": "Full body shot from head to toe of a very fat white-bellied anthropomorphic mouse moneylender. Entire body, tail, and feet fully visible inside frame. Wearing a tight leather accountant vest, tiny spectacles low on the snout, holding a rolled contract and a wedge of hard cheese. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "rat-tyson.webp",
+   "title": "Rat Tyson",
+   "lines": [
+    "Ruta: `assets/actors/npcs/rat-tyson.webp`",
+    "",
+    "Full body shot from head to toe of a massive, scarred anthropomorphic rat boxer. Entire body, tail, and feet fully visible inside frame. Notched ears, rumpled pinstripe vest, thick wrapped fists. Intimidating stance, dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/rat-tyson.webp",
+   "prompt": "Full body shot from head to toe of a massive, scarred anthropomorphic rat boxer. Entire body, tail, and feet fully visible inside frame. Notched ears, rumpled pinstripe vest, thick wrapped fists. Intimidating stance, dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "el-bebe.webp",
+   "title": "El Bebé",
+   "lines": [
+    "Ruta: `assets/actors/npcs/el-bebe.webp`",
+    "",
+    "Full body shot of a tiny newborn bat pup wrapped in a linen napkin, eyes still closed, mouth wide open mid-shriek, absurdly large ears. Entire creature fully visible inside frame with margin space. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/el-bebe.webp",
+   "prompt": "Full body shot of a tiny newborn bat pup wrapped in a linen napkin, eyes still closed, mouth wide open mid-shriek, absurdly large ears. Entire creature fully visible inside frame with margin space. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "padre-tupe.webp",
+   "title": "Padre Tupé",
+   "lines": [
+    "Ruta: `assets/actors/npcs/padre-tupe.webp`",
+    "",
+    "Full body shot from head to toe of a lean elderly anthropomorphic mouse priest with an obvious ill-fitting toupee. Entire body, tail, and feet fully visible inside frame. Wearing patched ceremonial robes made of napkins, holding a collection dish, pious mercenary smile. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/padre-tupe.webp",
+   "prompt": "Full body shot from head to toe of a lean elderly anthropomorphic mouse priest with an obvious ill-fitting toupee. Entire body, tail, and feet fully visible inside frame. Wearing patched ceremonial robes made of napkins, holding a collection dish, pious mercenary smile. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "la-murcielaga.webp",
+   "title": "La Murciélaga",
+   "lines": [
+    "Ruta: `assets/actors/npcs/la-murcielaga.webp`",
+    "",
+    "Full body shot from head to toe of a young anthropomorphic bat woman with folded leathery wings. Entire body, wings, feet and clawed toes fully visible inside frame. Wearing a working-class ceremonial shawl and a crooked wire ring, unimpressed confident expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/la-murcielaga.webp",
+   "prompt": "Full body shot from head to toe of a young anthropomorphic bat woman with folded leathery wings. Entire body, wings, feet and clawed toes fully visible inside frame. Wearing a working-class ceremonial shawl and a crooked wire ring, unimpressed confident expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "princesa.webp",
+   "title": "Princesa",
+   "lines": [
+    "Ruta: `assets/actors/npcs/princesa.webp`",
+    "",
+    "Full body shot from nose to tail of a large albino weasel on all fours. Entire animal and tail fully visible inside frame. Wearing a thick human gold bracelet fitted tightly around its neck as a collar, pink eyes, fierce stance. Dark fantasy, hyper-realistic white fur, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/princesa.webp",
+   "prompt": "Full body shot from nose to tail of a large albino weasel on all fours. Entire animal and tail fully visible inside frame. Wearing a thick human gold bracelet fitted tightly around its neck as a collar, pink eyes, fierce stance. Dark fantasy, hyper-realistic white fur, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "nixyus.webp",
+   "title": "Nixyus",
+   "lines": [
+    "Ruta: `assets/actors/npcs/nixyus.webp`",
+    "",
+    "Full-body dark fantasy character art of Nixyus at mouse scale for a Mausritter VTT adventure, entire figure visible, centered, gritty realistic materials, consistent Rat Vegas art direction, isolated on a pure solid black background, no text.",
+    ""
+   ],
+   "path": "assets/actors/npcs/nixyus.webp",
+   "prompt": "Full-body dark fantasy character art of Nixyus at mouse scale for a Mausritter VTT adventure, entire figure visible, centered, gritty realistic materials, consistent Rat Vegas art direction, isolated on a pure solid black background, no text."
+  },
+  {
+   "file": "lady-maerla-gralhund.webp",
+   "title": "Lady Maerla Gralhund",
+   "lines": [
+    "Ruta: `assets/actors/npcs/lady-maerla-gralhund.webp`",
+    "",
+    "Full body shot from head to toe of a young human noblewoman in a dark green Waterdhavian gown with high collar. Entire body and feet fully visible inside frame. Composed defiant expression, one bare wrist held slightly forward as if missing a bracelet. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/lady-maerla-gralhund.webp",
+   "prompt": "Full body shot from head to toe of a young human noblewoman in a dark green Waterdhavian gown with high collar. Entire body and feet fully visible inside frame. Composed defiant expression, one bare wrist held slightly forward as if missing a bracelet. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "lord-edrik-gralhund.webp",
+   "title": "Lord Edrik Gralhund",
+   "lines": [
+    "Ruta: `assets/actors/npcs/lord-edrik-gralhund.webp`",
+    "",
+    "Full body shot from head to toe of a severe middle-aged human nobleman in heavy black and gold Waterdhavian formal robes. Entire body and feet fully visible inside frame. Grey at the temples, cold patient stare, holding a small ritual bowl in both hands. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/npcs/lord-edrik-gralhund.webp",
+   "prompt": "Full body shot from head to toe of a severe middle-aged human nobleman in heavy black and gold Waterdhavian formal robes. Entire body and feet fully visible inside frame. Grey at the temples, cold patient stare, holding a small ritual bowl in both hands. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "crupier.webp",
+   "title": "Crupier",
+   "lines": [
+    "Ruta: `assets/actors/generic/crupier.webp`",
+    "",
+    "Full body shot from head to toe of a sleek dark anthropomorphic mouse croupier. Entire body, tail, and feet fully visible inside frame. Wearing a green felt visor and pinned sleeves, holding a small rake for chips, professionally blank expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/generic/crupier.webp",
+   "prompt": "Full body shot from head to toe of a sleek dark anthropomorphic mouse croupier. Entire body, tail, and feet fully visible inside frame. Wearing a green felt visor and pinned sleeves, holding a small rake for chips, professionally blank expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "cobrador.webp",
+   "title": "Cobrador",
+   "lines": [
+    "Ruta: `assets/actors/generic/cobrador.webp`",
+    "",
+    "Full body shot from head to toe of a heavyset anthropomorphic mouse debt collector. Entire body, tail, and feet fully visible inside frame. Wearing a plain leather apron, carrying a clipboard in one hand and a short iron bar in the other, bored patient stance. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/generic/cobrador.webp",
+   "prompt": "Full body shot from head to toe of a heavyset anthropomorphic mouse debt collector. Entire body, tail, and feet fully visible inside frame. Wearing a plain leather apron, carrying a clipboard in one hand and a short iron bar in the other, bored patient stance. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "falso-guardia.webp",
+   "title": "Falso guardia",
+   "lines": [
+    "Ruta: `assets/actors/generic/falso-guardia.webp`",
+    "",
+    "Full body shot from head to toe of a scrawny anthropomorphic mouse thug wearing an oversized painted brass helmet that slips over his eyes. Entire body, tail, and feet fully visible inside frame. Ill-fitting fake guard tabard, tin badge, bandaged arm, humiliated posture. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/generic/falso-guardia.webp",
+   "prompt": "Full body shot from head to toe of a scrawny anthropomorphic mouse thug wearing an oversized painted brass helmet that slips over his eyes. Entire body, tail, and feet fully visible inside frame. Ill-fitting fake guard tabard, tin badge, bandaged arm, humiliated posture. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "murcielago-adulto.webp",
+   "title": "Murciélago adulto",
+   "lines": [
+    "Ruta: `assets/actors/generic/murcielago-adulto.webp`",
+    "",
+    "Full body shot from head to toe of a young anthropomorphic bat woman with folded leathery wings. Entire body, wings, feet and clawed toes fully visible inside frame. Wearing a working-class ceremonial shawl and a crooked wire ring, unimpressed confident expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/generic/murcielago-adulto.webp",
+   "prompt": "Full body shot from head to toe of a young anthropomorphic bat woman with folded leathery wings. Entire body, wings, feet and clawed toes fully visible inside frame. Wearing a working-class ceremonial shawl and a crooked wire ring, unimpressed confident expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "ardilla-de-chispa.webp",
+   "title": "Ardilla de Chispa",
+   "lines": [
+    "Ruta: `assets/actors/generic/ardilla-de-chispa.webp`",
+    "",
+    "Full body shot from head to toe of a stout, dignified anthropomorphic mouse crime boss. Entire body, tail, and feet fully visible inside frame. Wearing a coffee-stained brown merchant robe with a devotional medallion, holding a silver spoon like a sceptre, solemn expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/generic/ardilla-de-chispa.webp",
+   "prompt": "Full body shot from head to toe of a stout, dignified anthropomorphic mouse crime boss. Entire body, tail, and feet fully visible inside frame. Wearing a coffee-stained brown merchant robe with a devotional medallion, holding a silver spoon like a sceptre, solemn expression. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  },
+  {
+   "file": "criado-gralhund.webp",
+   "title": "Criado Gralhund",
+   "lines": [
+    "Ruta: `assets/actors/generic/criado-gralhund.webp`",
+    "",
+    "Full body shot from head to toe of a human manservant in dark Waterdhavian livery, seen from a low angle. Entire body and boots fully visible inside frame. Carrying a covered lantern and a folded warrant, scanning the ground with an unsettling attention. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0",
+    ""
+   ],
+   "path": "assets/actors/generic/criado-gralhund.webp",
+   "prompt": "Full body shot from head to toe of a human manservant in dark Waterdhavian livery, seen from a low angle. Entire body and boots fully visible inside frame. Carrying a covered lantern and a folded warrant, scanning the ground with an unsettling attention. Dark fantasy, gritty realism, centered. Isolated on a pure solid black background --ar 2:3 --v 6.0"
+  }
+ ],
+ "Ítems y condiciones": [
+  {
+   "file": "pulsera-gralhund.webp",
+   "title": "Pulsera Gralhund",
+   "lines": [
+    "Ruta: `assets/items/pulsera-gralhund.webp`",
+    "",
+    "RPG game item icon of a massive, heavy solid gold human bracelet, interior detailed with intricate noble engravings, top-down orthographic view. Centered, macro photography, dark fantasy, hyper-detailed metal, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/pulsera-gralhund.webp",
+   "prompt": "RPG game item icon of a massive, heavy solid gold human bracelet, interior detailed with intricate noble engravings, top-down orthographic view. Centered, macro photography, dark fantasy, hyper-detailed metal, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "calma-comadrejas.webp",
+   "title": "Calma-Comadrejas",
+   "lines": [
+    "Ruta: `assets/items/calma-comadrejas.webp`",
+    "",
+    "RPG game item icon of a tiny vintage apothecary glass vial filled with glowing emerald-green liquid, cork stopper with a white ribbon. Centered, dark fantasy, gritty realistic texture, isolated on pure solid black background, studio lighting, game asset sprite --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/calma-comadrejas.webp",
+   "prompt": "RPG game item icon of a tiny vintage apothecary glass vial filled with glowing emerald-green liquid, cork stopper with a white ribbon. Centered, dark fantasy, gritty realistic texture, isolated on pure solid black background, studio lighting, game asset sprite --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "pagare-de-parmesano.webp",
+   "title": "Pagaré de Parmesano",
+   "lines": [
+    "Ruta: `assets/items/pagare-de-parmesano.webp`",
+    "",
+    "RPG game item icon of a rolled miniature parchment document tied with twine, sealed with a dark red wax seal bearing a cheese wedge symbol. Centered, dark fantasy, highly detailed paper texture, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/pagare-de-parmesano.webp",
+   "prompt": "RPG game item icon of a rolled miniature parchment document tied with twine, sealed with a dark red wax seal bearing a cheese wedge symbol. Centered, dark fantasy, highly detailed paper texture, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "macadamia-imperial.webp",
+   "title": "Macadamia Imperial",
+   "lines": [
+    "Ruta: `assets/items/macadamia-imperial.webp`",
+    "",
+    "RPG game item icon of a single massive polished macadamia nut, faint golden organic sheen. Centered, macro photography style, gritty realism, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/macadamia-imperial.webp",
+   "prompt": "RPG game item icon of a single massive polished macadamia nut, faint golden organic sheen. Centered, macro photography style, gritty realism, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "daga-de-aguja.webp",
+   "title": "Daga de Aguja",
+   "lines": [
+    "Ruta: `assets/items/daga-de-aguja.webp`",
+    "",
+    "RPG game item icon of a human sewing needle turned into a miniature rapier, hilt tightly wrapped in dark purple thread. Diagonal angle, centered, metallic reflections, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/daga-de-aguja.webp",
+   "prompt": "RPG game item icon of a human sewing needle turned into a miniature rapier, hilt tightly wrapped in dark purple thread. Diagonal angle, centered, metallic reflections, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "maza-de-boton.webp",
+   "title": "Maza de Botón",
+   "lines": [
+    "Ruta: `assets/items/maza-de-boton.webp`",
+    "",
+    "RPG game item icon of a mouse weapon, a heavy brass coat button wired tightly onto a thick wooden splinter handle. Vertical composition, full weapon visible, centered, dark fantasy, gritty realism, isolated on pure solid black background --ar 1:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/maza-de-boton.webp",
+   "prompt": "RPG game item icon of a mouse weapon, a heavy brass coat button wired tightly onto a thick wooden splinter handle. Vertical composition, full weapon visible, centered, dark fantasy, gritty realism, isolated on pure solid black background --ar 1:2 --v 6.0"
+  },
+  {
+   "file": "bisturi-de-lata.webp",
+   "title": "Bisturí de Lata",
+   "lines": [
+    "Ruta: `assets/items/bisturi-de-lata.webp`",
+    "",
+    "RPG game item icon of a mouse weapon, a razor-sharp strip of tin metal shaped into a scalpel, handle bound with worn leather. Diagonal angle, centered, gritty metallic detail, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/bisturi-de-lata.webp",
+   "prompt": "RPG game item icon of a mouse weapon, a razor-sharp strip of tin metal shaped into a scalpel, handle bound with worn leather. Diagonal angle, centered, gritty metallic detail, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "chaleco-ciruela.webp",
+   "title": "Chaleco Ciruela",
+   "lines": [
+    "Ruta: `assets/items/chaleco-ciruela.webp`",
+    "",
+    "RPG game item icon of a miniature mouse tailcoat vest made of dark plum velvet with tiny brass buttons. Vertical knolling display, centered, dark fantasy, detailed cloth texture, isolated on pure solid black background --ar 1:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/chaleco-ciruela.webp",
+   "prompt": "RPG game item icon of a miniature mouse tailcoat vest made of dark plum velvet with tiny brass buttons. Vertical knolling display, centered, dark fantasy, detailed cloth texture, isolated on pure solid black background --ar 1:2 --v 6.0"
+  },
+  {
+   "file": "capa-purpura.webp",
+   "title": "Capa Púrpura",
+   "lines": [
+    "Ruta: `assets/items/capa-purpura.webp`",
+    "",
+    "RPG game item icon of a miniature tattered dark purple velvet cape hanging vertically, silver clasp at top. Centered, dark fantasy, realistic fabric folds, isolated on pure solid black background --ar 1:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/capa-purpura.webp",
+   "prompt": "RPG game item icon of a miniature tattered dark purple velvet cape hanging vertically, silver clasp at top. Centered, dark fantasy, realistic fabric folds, isolated on pure solid black background --ar 1:2 --v 6.0"
+  },
+  {
+   "file": "maletin-quirurgico.webp",
+   "title": "Maletín Quirúrgico",
+   "lines": [
+    "Ruta: `assets/items/maletin-quirurgico.webp`",
+    "",
+    "RPG game item icon of a tall worn leather doctor bag, open to reveal tiny metal tweezers and dried medical herbs protruding from top. Vertical layout, dark fantasy, isolated on pure solid black background --ar 1:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/maletin-quirurgico.webp",
+   "prompt": "RPG game item icon of a tall worn leather doctor bag, open to reveal tiny metal tweezers and dried medical herbs protruding from top. Vertical layout, dark fantasy, isolated on pure solid black background --ar 1:2 --v 6.0"
+  },
+  {
+   "file": "monoculo-roto.webp",
+   "title": "Monóculo Roto",
+   "lines": [
+    "Ruta: `assets/items/monoculo-roto.webp`",
+    "",
+    "RPG game item icon of a single wire monocle with a cracked glass lens. Centered, dark fantasy, macro detail, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/monoculo-roto.webp",
+   "prompt": "RPG game item icon of a single wire monocle with a cracked glass lens. Centered, dark fantasy, macro detail, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "paper-bird.webp",
+   "title": "Paper Bird",
+   "lines": [
+    "Ruta: `assets/items/paper-bird.webp`",
+    "",
+    "RPG game item icon of a tiny origami paper bird made of aged yellow parchment covered in glowing purple runes. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/paper-bird.webp",
+   "prompt": "RPG game item icon of a tiny origami paper bird made of aged yellow parchment covered in glowing purple runes. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "portabebes-de-fieltro.webp",
+   "title": "Portabebés de fieltro",
+   "lines": [
+    "Ruta: `assets/items/portabebes-de-fieltro.webp`",
+    "",
+    "Copiar RPG game item icon of a tiny felt baby sling with braided cord straps, sized for a mouse, worn soft fabric. Centered, dark fantasy, gritty realistic texture, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/portabebes-de-fieltro.webp",
+   "prompt": "Copiar RPG game item icon of a tiny felt baby sling with braided cord straps, sized for a mouse, worn soft fabric. Centered, dark fantasy, gritty realistic texture, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "ficha-de-camerino.webp",
+   "title": "Ficha de Camerino",
+   "lines": [
+    "Ruta: `assets/items/ficha-de-camerino.webp`",
+    "",
+    "RPG game item icon of a stamped antique brass cloakroom token with engraved text 'CAMERINO 7'. Centered, worn metal patina, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/ficha-de-camerino.webp",
+   "prompt": "RPG game item icon of a stamped antique brass cloakroom token with engraved text 'CAMERINO 7'. Centered, worn metal patina, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "resaca.webp",
+   "title": "RESACA",
+   "lines": [
+    "Ruta: `assets/items/resaca.webp`",
+    "",
+    "RPG condition status icon of a cracked wooden thimble filled with foul purple wine lees and coffee grounds. Centered, abstract game symbol, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/resaca.webp",
+   "prompt": "RPG condition status icon of a cracked wooden thimble filled with foul purple wine lees and coffee grounds. Centered, abstract game symbol, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "deuda.webp",
+   "title": "DEUDA",
+   "lines": [
+    "Ruta: `assets/items/deuda.webp`",
+    "",
+    "RPG condition status icon of an iron miniature padlock clamped onto a torn parchment tag with an exclamation mark. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/deuda.webp",
+   "prompt": "RPG condition status icon of an iron miniature padlock clamped onto a torn parchment tag with an exclamation mark. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "mordido.webp",
+   "title": "MORDIDO",
+   "lines": [
+    "Ruta: `assets/items/mordido.webp`",
+    "",
+    "RPG condition status icon of a bloody cloth bandage strip showing deep animal tooth punctures. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/items/mordido.webp",
+   "prompt": "RPG condition status icon of a bloody cloth bandage strip showing deep animal tooth punctures. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "llave-de-mantenimiento.webp",
+   "title": "Llave de mantenimiento",
+   "lines": [
+    "Ruta: `assets/items/llave-de-mantenimiento.webp`",
+    "",
+    "RPG game item icon of Llave de mantenimiento, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/llave-de-mantenimiento.webp",
+   "prompt": "RPG game item icon of Llave de mantenimiento, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "llave-de-jaula.webp",
+   "title": "Llave de jaula",
+   "lines": [
+    "Ruta: `assets/items/llave-de-jaula.webp`",
+    "",
+    "RPG game item icon of Llave de jaula, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/llave-de-jaula.webp",
+   "prompt": "RPG game item icon of Llave de jaula, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "documento-de-embargo.webp",
+   "title": "Documento de embargo",
+   "lines": [
+    "Ruta: `assets/items/documento-de-embargo.webp`",
+    "",
+    "RPG game item icon of Documento de embargo, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/documento-de-embargo.webp",
+   "prompt": "RPG game item icon of Documento de embargo, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "buscado.webp",
+   "title": "BUSCADO",
+   "lines": [
+    "Ruta: `assets/items/buscado.webp`",
+    "",
+    "RPG condition status icon representing BUSCADO, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition.",
+    ""
+   ],
+   "path": "assets/items/buscado.webp",
+   "prompt": "RPG condition status icon representing BUSCADO, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition."
+  },
+  {
+   "file": "compromiso-familiar.webp",
+   "title": "COMPROMISO FAMILIAR",
+   "lines": [
+    "Ruta: `assets/items/compromiso-familiar.webp`",
+    "",
+    "RPG condition status icon representing COMPROMISO FAMILIAR, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition.",
+    ""
+   ],
+   "path": "assets/items/compromiso-familiar.webp",
+   "prompt": "RPG condition status icon representing COMPROMISO FAMILIAR, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition."
+  },
+  {
+   "file": "ardido.webp",
+   "title": "ARDIDO",
+   "lines": [
+    "Ruta: `assets/items/ardido.webp`",
+    "",
+    "RPG condition status icon representing ARDIDO, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition.",
+    ""
+   ],
+   "path": "assets/items/ardido.webp",
+   "prompt": "RPG condition status icon representing ARDIDO, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition."
+  },
+  {
+   "file": "empapado.webp",
+   "title": "EMPAPADO",
+   "lines": [
+    "Ruta: `assets/items/empapado.webp`",
+    "",
+    "RPG condition status icon representing EMPAPADO, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition.",
+    ""
+   ],
+   "path": "assets/items/empapado.webp",
+   "prompt": "RPG condition status icon representing EMPAPADO, symbolic single object, dark fantasy Mausritter style, centered, high contrast, isolated on pure solid black background, no text, square composition."
+  },
+  {
+   "file": "recibo-del-intercambio.webp",
+   "title": "Recibo del intercambio",
+   "lines": [
+    "Ruta: `assets/items/recibo-del-intercambio.webp`",
+    "",
+    "RPG game item icon of Recibo del intercambio, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/recibo-del-intercambio.webp",
+   "prompt": "RPG game item icon of Recibo del intercambio, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "acta-de-boda.webp",
+   "title": "Acta de boda",
+   "lines": [
+    "Ruta: `assets/items/acta-de-boda.webp`",
+    "",
+    "RPG game item icon of Acta de boda, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/acta-de-boda.webp",
+   "prompt": "RPG game item icon of Acta de boda, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "parte-de-incidencias.webp",
+   "title": "Parte de incidencias",
+   "lines": [
+    "Ruta: `assets/items/parte-de-incidencias.webp`",
+    "",
+    "RPG game item icon of Parte de incidencias, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/parte-de-incidencias.webp",
+   "prompt": "RPG game item icon of Parte de incidencias, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "plano-de-pazos.webp",
+   "title": "Plano de Pazos",
+   "lines": [
+    "Ruta: `assets/items/plano-de-pazos.webp`",
+    "",
+    "RPG game item icon of Plano de Pazos, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/plano-de-pazos.webp",
+   "prompt": "RPG game item icon of Plano de Pazos, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "carrete-de-hilo-resistente.webp",
+   "title": "Carrete de hilo resistente",
+   "lines": [
+    "Ruta: `assets/items/carrete-de-hilo-resistente.webp`",
+    "",
+    "RPG game item icon of Carrete de hilo resistente, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/carrete-de-hilo-resistente.webp",
+   "prompt": "RPG game item icon of Carrete de hilo resistente, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "medio-contrato-del-sindicato.webp",
+   "title": "Medio contrato del Sindicato",
+   "lines": [
+    "Ruta: `assets/items/medio-contrato-del-sindicato.webp`",
+    "",
+    "RPG game item icon of Medio contrato del Sindicato, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/medio-contrato-del-sindicato.webp",
+   "prompt": "RPG game item icon of Medio contrato del Sindicato, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "nota-lacrada-de-nixyus.webp",
+   "title": "Nota lacrada de Nixyus",
+   "lines": [
+    "Ruta: `assets/items/nota-lacrada-de-nixyus.webp`",
+    "",
+    "RPG game item icon of Nota lacrada de Nixyus, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/nota-lacrada-de-nixyus.webp",
+   "prompt": "RPG game item icon of Nota lacrada de Nixyus, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "navaja-corta.webp",
+   "title": "Navaja corta",
+   "lines": [
+    "Ruta: `assets/items/navaja-corta.webp`",
+    "",
+    "RPG game item icon of Navaja corta, improvised mouse-scale weapon made from human household materials, full object visible, dark fantasy Mausritter style, gritty realistic textures, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/navaja-corta.webp",
+   "prompt": "RPG game item icon of Navaja corta, improvised mouse-scale weapon made from human household materials, full object visible, dark fantasy Mausritter style, gritty realistic textures, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "tarjeta-vip-del-dado.webp",
+   "title": "Tarjeta VIP del Dado",
+   "lines": [
+    "Ruta: `assets/items/tarjeta-vip-del-dado.webp`",
+    "",
+    "RPG game item icon of Tarjeta VIP del Dado, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/tarjeta-vip-del-dado.webp",
+   "prompt": "RPG game item icon of Tarjeta VIP del Dado, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "panuelo-con-sello-gralhund.webp",
+   "title": "Pañuelo con sello Gralhund",
+   "lines": [
+    "Ruta: `assets/items/panuelo-con-sello-gralhund.webp`",
+    "",
+    "RPG game item icon of Pañuelo con sello Gralhund, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/panuelo-con-sello-gralhund.webp",
+   "prompt": "RPG game item icon of Pañuelo con sello Gralhund, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "recibo-de-una-segunda-jarra.webp",
+   "title": "Recibo de una segunda jarra",
+   "lines": [
+    "Ruta: `assets/items/recibo-de-una-segunda-jarra.webp`",
+    "",
+    "RPG game item icon of Recibo de una segunda jarra, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/recibo-de-una-segunda-jarra.webp",
+   "prompt": "RPG game item icon of Recibo de una segunda jarra, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "pinza-fina.webp",
+   "title": "Pinza fina",
+   "lines": [
+    "Ruta: `assets/items/pinza-fina.webp`",
+    "",
+    "RPG game item icon of Pinza fina, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/pinza-fina.webp",
+   "prompt": "RPG game item icon of Pinza fina, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "sales-aromaticas.webp",
+   "title": "Sales aromáticas",
+   "lines": [
+    "Ruta: `assets/items/sales-aromaticas.webp`",
+    "",
+    "RPG game item icon of Sales aromáticas, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/sales-aromaticas.webp",
+   "prompt": "RPG game item icon of Sales aromáticas, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "cuentagotas-vacio.webp",
+   "title": "Cuentagotas vacío",
+   "lines": [
+    "Ruta: `assets/items/cuentagotas-vacio.webp`",
+    "",
+    "RPG game item icon of Cuentagotas vacío, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/cuentagotas-vacio.webp",
+   "prompt": "RPG game item icon of Cuentagotas vacío, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "etiqueta-de-calma-comadrejas.webp",
+   "title": "Etiqueta de Calma-Comadrejas",
+   "lines": [
+    "Ruta: `assets/items/etiqueta-de-calma-comadrejas.webp`",
+    "",
+    "RPG game item icon of Etiqueta de Calma-Comadrejas, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/etiqueta-de-calma-comadrejas.webp",
+   "prompt": "RPG game item icon of Etiqueta de Calma-Comadrejas, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "peto-de-chapa-de-lata.webp",
+   "title": "Peto de chapa de lata",
+   "lines": [
+    "Ruta: `assets/items/peto-de-chapa-de-lata.webp`",
+    "",
+    "RPG game item icon of Peto de chapa de lata, mouse-scale wearable armor made from repurposed human material, full object visible, dark fantasy Mausritter style, gritty realistic textures, centered, isolated on pure solid black background, vertical composition.",
+    ""
+   ],
+   "path": "assets/items/peto-de-chapa-de-lata.webp",
+   "prompt": "RPG game item icon of Peto de chapa de lata, mouse-scale wearable armor made from repurposed human material, full object visible, dark fantasy Mausritter style, gritty realistic textures, centered, isolated on pure solid black background, vertical composition."
+  },
+  {
+   "file": "bufanda-purpura-de-la-manada.webp",
+   "title": "Bufanda púrpura de la Manada",
+   "lines": [
+    "Ruta: `assets/items/bufanda-purpura-de-la-manada.webp`",
+    "",
+    "RPG game item icon of Bufanda púrpura de la Manada, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/bufanda-purpura-de-la-manada.webp",
+   "prompt": "RPG game item icon of Bufanda púrpura de la Manada, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "cuerda-corta.webp",
+   "title": "Cuerda corta",
+   "lines": [
+    "Ruta: `assets/items/cuerda-corta.webp`",
+    "",
+    "RPG game item icon of Cuerda corta, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/cuerda-corta.webp",
+   "prompt": "RPG game item icon of Cuerda corta, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "casco-de-agente-abollado.webp",
+   "title": "Casco de agente abollado",
+   "lines": [
+    "Ruta: `assets/items/casco-de-agente-abollado.webp`",
+    "",
+    "RPG game item icon of Casco de agente abollado, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/casco-de-agente-abollado.webp",
+   "prompt": "RPG game item icon of Casco de agente abollado, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "bolsa-de-objetos-inutiles.webp",
+   "title": "Bolsa de objetos inútiles",
+   "lines": [
+    "Ruta: `assets/items/bolsa-de-objetos-inutiles.webp`",
+    "",
+    "RPG game item icon of Bolsa de objetos inútiles, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/bolsa-de-objetos-inutiles.webp",
+   "prompt": "RPG game item icon of Bolsa de objetos inútiles, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "llave-pequena-de-jaula.webp",
+   "title": "Llave pequeña de jaula",
+   "lines": [
+    "Ruta: `assets/items/llave-pequena-de-jaula.webp`",
+    "",
+    "RPG game item icon of Llave pequeña de jaula, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/llave-pequena-de-jaula.webp",
+   "prompt": "RPG game item icon of Llave pequeña de jaula, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "cuchillo-de-mesa.webp",
+   "title": "Cuchillo de mesa",
+   "lines": [
+    "Ruta: `assets/items/cuchillo-de-mesa.webp`",
+    "",
+    "RPG game item icon of Cuchillo de mesa, improvised mouse-scale weapon made from human household materials, full object visible, dark fantasy Mausritter style, gritty realistic textures, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/cuchillo-de-mesa.webp",
+   "prompt": "RPG game item icon of Cuchillo de mesa, improvised mouse-scale weapon made from human household materials, full object visible, dark fantasy Mausritter style, gritty realistic textures, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "fajin-lila-de-la-manada.webp",
+   "title": "Fajín lila de la Manada",
+   "lines": [
+    "Ruta: `assets/items/fajin-lila-de-la-manada.webp`",
+    "",
+    "RPG game item icon of Fajín lila de la Manada, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/fajin-lila-de-la-manada.webp",
+   "prompt": "RPG game item icon of Fajín lila de la Manada, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "alianza-de-alambre.webp",
+   "title": "Alianza de alambre",
+   "lines": [
+    "Ruta: `assets/items/alianza-de-alambre.webp`",
+    "",
+    "RPG game item icon of Alianza de alambre, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/alianza-de-alambre.webp",
+   "prompt": "RPG game item icon of Alianza de alambre, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "foto-nupcial-borrosa.webp",
+   "title": "Foto nupcial borrosa",
+   "lines": [
+    "Ruta: `assets/items/foto-nupcial-borrosa.webp`",
+    "",
+    "RPG game item icon of Foto nupcial borrosa, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/foto-nupcial-borrosa.webp",
+   "prompt": "RPG game item icon of Foto nupcial borrosa, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "dos-cintas-de-botella-intercambiadas.webp",
+   "title": "Dos cintas de botella intercambiadas",
+   "lines": [
+    "Ruta: `assets/items/dos-cintas-de-botella-intercambiadas.webp`",
+    "",
+    "RPG game item icon of Dos cintas de botella intercambiadas, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/dos-cintas-de-botella-intercambiadas.webp",
+   "prompt": "RPG game item icon of Dos cintas de botella intercambiadas, mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  },
+  {
+   "file": "el-bebe-carga.webp",
+   "title": "El Bebé (carga)",
+   "lines": [
+    "Ruta: `assets/items/el-bebe-carga.webp`",
+    "",
+    "RPG game item icon of El Bebé (carga), mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition.",
+    ""
+   ],
+   "path": "assets/items/el-bebe-carga.webp",
+   "prompt": "RPG game item icon of El Bebé (carga), mouse-scale prop for a dark fantasy criminal-comedy adventure, full object visible, gritty realistic materials, centered, isolated on pure solid black background, square composition."
+  }
+ ],
+ "Handouts": [
+  {
+   "file": "nota-de-nixyus.webp",
+   "title": "Nota de Nixyus",
+   "lines": [
+    "Ruta: `assets/handouts/nota-de-nixyus.webp`",
+    "",
+    "RPG game item icon of a small folded letter written in nervous slanted handwriting, sealed with dark red wax bearing a lute symbol, one corner burned. Centered, dark fantasy, detailed parchment texture, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/nota-de-nixyus.webp",
+   "prompt": "RPG game item icon of a small folded letter written in nervous slanted handwriting, sealed with dark red wax bearing a lute symbol, one corner burned. Centered, dark fantasy, detailed parchment texture, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "etiqueta-de-calma-comadrejas.webp",
+   "title": "Etiqueta de Calma-Comadrejas",
+   "lines": [
+    "Ruta: `assets/handouts/etiqueta-de-calma-comadrejas.webp`",
+    "",
+    "RPG game item icon of a peeling apothecary bottle label with bold warning typography and a small weasel silhouette, faded green ink, glue residue at the edges. Centered, flat-on view, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/etiqueta-de-calma-comadrejas.webp",
+   "prompt": "RPG game item icon of a peeling apothecary bottle label with bold warning typography and a small weasel silhouette, faded green ink, glue residue at the edges. Centered, flat-on view, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "pagare-de-parmesano.webp",
+   "title": "Pagaré de parmesano",
+   "lines": [
+    "Ruta: `assets/handouts/pagare-de-parmesano.webp`",
+    "",
+    "RPG game item icon of an unrolled promissory note covered in cramped clauses, a dark red wax seal shaped like a cheese wedge, a large drunken scrawl crossed out in different ink, grease stains. Centered, dark fantasy, isolated on pure solid black background --ar 1:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/pagare-de-parmesano.webp",
+   "prompt": "RPG game item icon of an unrolled promissory note covered in cramped clauses, a dark red wax seal shaped like a cheese wedge, a large drunken scrawl crossed out in different ink, grease stains. Centered, dark fantasy, isolated on pure solid black background --ar 1:2 --v 6.0"
+  },
+  {
+   "file": "acta-de-boda.webp",
+   "title": "Acta de boda",
+   "lines": [
+    "Ruta: `assets/handouts/acta-de-boda.webp`",
+    "",
+    "RPG game item icon of a small marriage certificate with ornate borders, two illegible signatures and a smudged inked paw print used as a witness mark, one corner chewed. Centered, dark fantasy, aged paper, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/acta-de-boda.webp",
+   "prompt": "RPG game item icon of a small marriage certificate with ornate borders, two illegible signatures and a smudged inked paw print used as a witness mark, one corner chewed. Centered, dark fantasy, aged paper, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "acta-de-redada.webp",
+   "title": "Acta de redada",
+   "lines": [
+    "Ruta: `assets/handouts/acta-de-redada.webp`",
+    "",
+    "RPG game item icon of an official watch report form with two timestamped entries, a city seal stamped crooked, ink blots and a bent corner. Centered, dark fantasy, bureaucratic paper texture, isolated on pure solid black background --ar 1:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/acta-de-redada.webp",
+   "prompt": "RPG game item icon of an official watch report form with two timestamped entries, a city seal stamped crooked, ink blots and a bent corner. Centered, dark fantasy, bureaucratic paper texture, isolated on pure solid black background --ar 1:2 --v 6.0"
+  },
+  {
+   "file": "plano-de-pazos.webp",
+   "title": "Plano de Pazos",
+   "lines": [
+    "Ruta: `assets/handouts/plano-de-pazos.webp`",
+    "",
+    "RPG game item icon of a chaotic hand-drawn plan on a crumpled sheet, seven arrows pointing in different directions, five crude portraits circled, a word written over and over in the margins. Centered, dark fantasy, obsessive detail, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/plano-de-pazos.webp",
+   "prompt": "RPG game item icon of a chaotic hand-drawn plan on a crumpled sheet, seven arrows pointing in different directions, five crude portraits circled, a word written over and over in the margins. Centered, dark fantasy, obsessive detail, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "manual-de-la-mandibula-negra.webp",
+   "title": "Manual de La Mandíbula Negra",
+   "lines": [
+    "Ruta: `assets/handouts/manual-de-la-mandibula-negra.webp`",
+    "",
+    "RPG game item icon of a tiny greasy instruction booklet for a brass machine, exploded diagram of gears on the open page, thumb smudges, corner torn off. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/manual-de-la-mandibula-negra.webp",
+   "prompt": "RPG game item icon of a tiny greasy instruction booklet for a brass machine, exploded diagram of gears on the open page, thumb smudges, corner torn off. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "pared-de-la-villa.webp",
+   "title": "Pared de la Villa",
+   "lines": [
+    "Ruta: `assets/handouts/pared-de-la-villa.webp`",
+    "",
+    "RPG game item icon of a hand-painted sign on a scrap of card, two lines of bold uneven lettering, one much smaller than the other, wine stain across the corner. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/pared-de-la-villa.webp",
+   "prompt": "RPG game item icon of a hand-painted sign on a scrap of card, two lines of bold uneven lettering, one much smaller than the other, wine stain across the corner. Centered, dark fantasy, isolated on pure solid black background --ar 1:1 --v 6.0"
+  },
+  {
+   "file": "acuerdo-de-mesa-lineas-y-velos.webp",
+   "title": "Acuerdo de mesa: líneas y velos",
+   "lines": [
+    "Ruta: `assets/handouts/acuerdo-de-mesa-lineas-y-velos.webp`",
+    "",
+    "Physical tabletop handout for 'Acuerdo de mesa: líneas y velos', miniature mouse-scale document on aged paper, dark fantasy Waterdeep style, legible composition, no modern elements.",
+    ""
+   ],
+   "path": "assets/handouts/acuerdo-de-mesa-lineas-y-velos.webp",
+   "prompt": "Physical tabletop handout for 'Acuerdo de mesa: líneas y velos', miniature mouse-scale document on aged paper, dark fantasy Waterdeep style, legible composition, no modern elements."
+  }
+ ],
+ "Fotografías de la noche": [
+  {
+   "file": "01-la-entrega.webp",
+   "title": "La entrega",
+   "lines": [
+    "Ruta: `assets/handouts/photos/01-la-entrega.webp`",
+    "",
+    "Five anthropomorphic mice in purple velvet posing proudly around and inside a huge human gold bangle resting on a walnut-shell tray, in a private casino booth. One mouse signs a tiny receipt. At the very edge of the frame, a gloved hand holds an unopened bottle that nobody is looking at. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/01-la-entrega.webp",
+   "prompt": "Five anthropomorphic mice in purple velvet posing proudly around and inside a huge human gold bangle resting on a walnut-shell tray, in a private casino booth. One mouse signs a tiny receipt. At the very edge of the frame, a gloved hand holds an unopened bottle that nobody is looking at. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "02-el-brindis-prematuro.webp",
+   "title": "El brindis prematuro",
+   "lines": [
+    "Ruta: `assets/handouts/photos/02-el-brindis-prematuro.webp`",
+    "",
+    "Five anthropomorphic mice in purple velvet raising clean thimbles in a toast inside a hideout built from cigar boxes. Nobody looks tired yet. On the bar behind them, two identical glass bottles with ribbons tied at the neck, one purple and one white. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/02-el-brindis-prematuro.webp",
+   "prompt": "Five anthropomorphic mice in purple velvet raising clean thimbles in a toast inside a hideout built from cigar boxes. Nobody looks tired yet. On the bar behind them, two identical glass bottles with ribbons tied at the neck, one purple and one white. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "03-la-jarra-de-viaje.webp",
+   "title": "La jarra de viaje",
+   "lines": [
+    "Ruta: `assets/handouts/photos/03-la-jarra-de-viaje.webp`",
+    "",
+    "Extreme motion-blurred close-up of five mouse hands converging on a lidded travel jug at the same instant: one holds a service note, one points at a bottle, one counts drops from a dropper over a small tray, one upends a clear vial into the jug, one ties a ribbon. Impossible to tell what went in first. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/03-la-jarra-de-viaje.webp",
+   "prompt": "Extreme motion-blurred close-up of five mouse hands converging on a lidded travel jug at the same instant: one holds a service note, one points at a bottle, one counts drops from a dropper over a small tray, one upends a clear vial into the jug, one ties a ribbon. Impossible to tell what went in first. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "04-ruleta-noble.webp",
+   "title": "Ruleta noble",
+   "lines": [
+    "Ruta: `assets/handouts/photos/04-ruleta-noble.webp`",
+    "",
+    "A huge human gold bangle spinning like a roulette wheel on green casino felt, surrounded by cheering anthropomorphic mice. A silver mouse in a sequined dress stops it with one finger and points at the engraving inside the ring, her face serious. Far background, out of focus, a thin mouse in a pinstripe suit compares the group to five crude portraits. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/04-ruleta-noble.webp",
+   "prompt": "A huge human gold bangle spinning like a roulette wheel on green casino felt, surrounded by cheering anthropomorphic mice. A silver mouse in a sequined dress stops it with one finger and points at the engraving inside the ring, her face serious. Far background, out of focus, a thin mouse in a pinstripe suit compares the group to five crude portraits. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "05-la-botella-equivocada.webp",
+   "title": "La botella equivocada",
+   "lines": [
+    "Ruta: `assets/handouts/photos/05-la-botella-equivocada.webp`",
+    "",
+    "A silver mouse cabaret singer drinking a long swig straight from a glass bottle with two mismatched ribbons tied at the neck. Around her, other mice keep gambling and nobody is watching. In the background, a thin bespectacled mouse is halfway out of his chair, too late, mouth open. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/05-la-botella-equivocada.webp",
+   "prompt": "A silver mouse cabaret singer drinking a long swig straight from a glass bottle with two mismatched ribbons tied at the neck. Around her, other mice keep gambling and nobody is watching. In the background, a thin bespectacled mouse is halfway out of his chair, too late, mouth open. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "06-la-redada-que-no-era.webp",
+   "title": "La redada que no era",
+   "lines": [
+    "Ruta: `assets/handouts/photos/06-la-redada-que-no-era.webp`",
+    "",
+    "Chaotic scene inside a torn red velvet sofa turned into an avenue. Five mice in ill-fitting painted brass helmets are being comprehensively defeated by five laughing mice in purple velvet who clearly do not understand what is happening. A giant gold bangle rolls down the avenue with a bulky mouse clinging to its rim. A limp silver mouse in sequins hangs over another mouse's shoulder, one arm swinging. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/06-la-redada-que-no-era.webp",
+   "prompt": "Chaotic scene inside a torn red velvet sofa turned into an avenue. Five mice in ill-fitting painted brass helmets are being comprehensively defeated by five laughing mice in purple velvet who clearly do not understand what is happening. A giant gold bangle rolls down the avenue with a bulky mouse clinging to its rim. A limp silver mouse in sequins hangs over another mouse's shoulder, one arm swinging. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "07-profesionales.webp",
+   "title": "Profesionales",
+   "lines": [
+    "Ruta: `assets/handouts/photos/07-profesionales.webp`",
+    "",
+    "A thin anxious mouse in a rumpled pinstripe suit and bottle-bottom glasses standing alone in a dark gap in the wall, lit from the side by distant chaos. He is not moving. His expression is pure religious conversion. Blurred violence far behind him, out of focus. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/07-profesionales.webp",
+   "prompt": "A thin anxious mouse in a rumpled pinstripe suit and bottle-bottom glasses standing alone in a dark gap in the wall, lit from the side by distant chaos. He is not moving. His expression is pure religious conversion. Blurred violence far behind him, out of focus. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "08-la-boda.webp",
+   "title": "La boda",
+   "lines": [
+    "Ruta: `assets/handouts/photos/08-la-boda.webp`",
+    "",
+    "A wedding inside a gold-foil chocolate box chapel. A beige mouse in a lilac sash and a young bat woman with folded wings walk beneath a huge human gold bangle held up on edge as a ceremonial arch by three straining mice. An elderly mouse priest with an obvious toupee officiates. A rigid silver mouse in sequins is propped upright against the lectern, one paw resting on an open register. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/08-la-boda.webp",
+   "prompt": "A wedding inside a gold-foil chocolate box chapel. A beige mouse in a lilac sash and a young bat woman with folded wings walk beneath a huge human gold bangle held up on edge as a ceremonial arch by three straining mice. An elderly mouse priest with an obvious toupee officiates. A rigid silver mouse in sequins is propped upright against the lectern, one paw resting on an open register. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "09-el-bebe.webp",
+   "title": "El bebé",
+   "lines": [
+    "Ruta: `assets/handouts/photos/09-el-bebe.webp`",
+    "",
+    "A young bat woman placing a tiny wrapped bat pup into the arms of a beige anthropomorphic mouse wearing a lilac sash, both of them beaming at each other. Behind them the chapel is emptying. The mouse looks delighted and completely unaware of what is happening to him. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/09-el-bebe.webp",
+   "prompt": "A young bat woman placing a tiny wrapped bat pup into the arms of a beige anthropomorphic mouse wearing a lilac sash, both of them beaming at each other. Behind them the chapel is emptying. The mouse looks delighted and completely unaware of what is happening to him. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "10-el-contrato.webp",
+   "title": "El contrato",
+   "lines": [
+    "Ruta: `assets/handouts/photos/10-el-contrato.webp`",
+    "",
+    "Inside a colossal wooden filing cabinet. A very fat white-bellied mouse in an accountant vest directs the scene while three mice roll a huge gold bangle across a strip of soft wax to seal an enormous contract. A sleek mouse with a cracked monocle smiles at the camera like a lawyer. A rigid silver mouse in sequins is propped in a chair, her paw pressed onto the witness line. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/10-el-contrato.webp",
+   "prompt": "Inside a colossal wooden filing cabinet. A very fat white-bellied mouse in an accountant vest directs the scene while three mice roll a huge gold bangle across a strip of soft wax to seal an enormous contract. A sleek mouse with a cracked monocle smiles at the camera like a lawyer. A rigid silver mouse in sequins is propped in a chair, her paw pressed onto the witness line. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "11-el-brindis-con-tyson.webp",
+   "title": "El brindis con Tyson",
+   "lines": [
+    "Ruta: `assets/handouts/photos/11-el-brindis-con-tyson.webp`",
+    "",
+    "Four-panel photo strip inside an open cigar box on top of a wardrobe. Panel one: a massive scarred anthropomorphic rat boxer toasting with a bottle that has two mismatched ribbons. Panel two: the same rat collapsed backwards on a couch, the bottle shattered on the floor. Panel three: an open wire travel cage, a small key dangling from a mouse finger, and a large albino weasel lapping at a puddle. Panel four: a huge gold bangle being slipped over the weasel's head with no resistance at all. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/11-el-brindis-con-tyson.webp",
+   "prompt": "Four-panel photo strip inside an open cigar box on top of a wardrobe. Panel one: a massive scarred anthropomorphic rat boxer toasting with a bottle that has two mismatched ribbons. Panel two: the same rat collapsed backwards on a couch, the bottle shattered on the floor. Panel three: an open wire travel cage, a small key dangling from a mouse finger, and a large albino weasel lapping at a puddle. Panel four: a huge gold bangle being slipped over the weasel's head with no resistance at all. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "12-la-cabalgata.webp",
+   "title": "La cabalgata",
+   "lines": [
+    "Ruta: `assets/handouts/photos/12-la-cabalgata.webp`",
+    "",
+    "Five anthropomorphic mice riding on the back of a large albino weasel bursting into a warehouse made from a giant tin coffee can. The weasel wears a huge human gold bangle around its neck and four purple fabric strips are tied to it as reins. A stout robed mouse holds a single enormous macadamia nut aloft on a cushion, half a second before losing it. Coffee beans flying everywhere. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/12-la-cabalgata.webp",
+   "prompt": "Five anthropomorphic mice riding on the back of a large albino weasel bursting into a warehouse made from a giant tin coffee can. The weasel wears a huge human gold bangle around its neck and four purple fabric strips are tied to it as reins. A stout robed mouse holds a single enormous macadamia nut aloft on a cushion, half a second before losing it. Coffee beans flying everywhere. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "13-el-amarre-imposible.webp",
+   "title": "El amarre imposible",
+   "lines": [
+    "Ruta: `assets/handouts/photos/13-el-amarre-imposible.webp`",
+    "",
+    "A large albino weasel thrashing inside a colossal white-tiled human bathroom while five mice in purple velvet slide off its back. Two of them hook a chain onto the gold bangle around its neck; another two drag the far end of the chain toward the base of a giant shower tap. Everything is at the wrong angle. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/13-el-amarre-imposible.webp",
+   "prompt": "A large albino weasel thrashing inside a colossal white-tiled human bathroom while five mice in purple velvet slide off its back. Two of them hook a chain onto the gold bangle around its neck; another two drag the far end of the chain toward the base of a giant shower tap. Everything is at the wrong angle. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "14-la-foto-imposible.webp",
+   "title": "La foto imposible",
+   "lines": [
+    "Ruta: `assets/handouts/photos/14-la-foto-imposible.webp`",
+    "",
+    "Five exhausted mice in wrecked purple velvet posing with arms around each other in a hideout under a human bed, a wad of soft white cheese stuck to the ceiling above them. A closed bathroom door in the background. A rigid silver mouse in sequins lies on an improvised lounger. At the back of the group, unnoticed, a thin mouse in a pinstripe suit holds up a hand-drawn plan with one word written across it. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/14-la-foto-imposible.webp",
+   "prompt": "Five exhausted mice in wrecked purple velvet posing with arms around each other in a hideout under a human bed, a wad of soft white cheese stuck to the ceiling above them. A closed bathroom door in the background. A rigid silver mouse in sequins lies on an improvised lounger. At the back of the group, unnoticed, a thin mouse in a pinstripe suit holds up a hand-drawn plan with one word written across it. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  },
+  {
+   "file": "15-la-medalla.webp",
+   "title": "La medalla",
+   "lines": [
+    "Ruta: `assets/handouts/photos/15-la-medalla.webp`",
+    "",
+    "Official-looking group photograph: five battered mice in purple velvet wearing a single shared medal, standing around a very young guard cadet who is beaming with pride. One mouse is clearly in pain. A silver mouse in sequins lies flat on the floor in a first-aid demonstration position. An elderly clerk mouse looks on approvingly. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0",
+    ""
+   ],
+   "path": "assets/handouts/photos/15-la-medalla.webp",
+   "prompt": "Official-looking group photograph: five battered mice in purple velvet wearing a single shared medal, standing around a very young guard cadet who is beaming with pride. One mouse is clearly in pain. A silver mouse in sequins lies flat on the floor in a first-aid demonstration position. An elderly clerk mouse looks on approvingly. Amateur flash photograph, harsh direct flash, slight motion blur, overexposed highlights and deep shadows, cheap disposable-camera look, timestamp burned in the corner. Anthropomorphic mice in purple velvet clothing at mouse scale inside an oversized human hotel suite. Dark fantasy, gritty realism --ar 3:2 --v 6.0"
+  }
+ ],
+ "audio": [
+  {
+   "file": "00-portada-ratover.ogg",
+   "title": "Portada / explicación previa",
+   "lines": [
+    "Ruta: `assets/audio/scenes/00-portada-ratover.ogg`",
+    "",
+    "**Función en mesa:** estará sonando mientras llegan los jugadores, se explica Mausritter, se presentan personajes y se introduce Rat Vegas. Debe vender el tono sin exigir atención.",
+    "",
+    "**Diseño:** 78–84 BPM · 4/4 · intensidad 1.5/5 · modo dórico menor cálido · densidad baja · groove relajado.",
+    "",
+    "**Duración objetivo:** 3:20–3:50.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Slow-to-midtempo after-hours Rat Vegas theme for a tabletop introduction in Waterdeep, around 82 BPM in 4/4. Restrained, classy and slightly hungover rather than energetic. A soft repeating yarting-and-cittern motif, warm low viol, very light hand-drum and tantan pulse, sparse dulcimer glints, gentle songhorn phrases and only occasional muted glaur punctuation. The music should suggest a glamorous night that has already gone too far: expensive drinks, casino lights, missing memories, tiny criminals and the suspicion that something terrible happened after midnight. Keep the main Ratover motif memorable but understated. Low density, dialogue-friendly, no fast mandolin runs, no constant horn stabs, no stop-start comedy, no heroic lift. Acoustic Forgotten Realms instruments only. Instrumental. Full-length song structure. In the final 8 bars, remove the horn colors and return to the opening yarting-cittern texture, ending on a soft suspended harmony that rolls naturally back into bar one if repeated.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/00-portada-ratover.ogg",
+   "func": "estará sonando mientras llegan los jugadores, se explica Mausritter, se presentan personajes y se introduce Rat Vegas. Debe vender el tono sin exigir atención.",
+   "design": "78–84 BPM · 4/4 · intensidad 1.5/5 · modo dórico menor cálido · densidad baja · groove relajado.",
+   "dur": "3:20–3:50.",
+   "prompt": "Slow-to-midtempo after-hours Rat Vegas theme for a tabletop introduction in Waterdeep, around 82 BPM in 4/4. Restrained, classy and slightly hungover rather than energetic. A soft repeating yarting-and-cittern motif, warm low viol, very light hand-drum and tantan pulse, sparse dulcimer glints, gentle songhorn phrases and only occasional muted glaur punctuation. The music should suggest a glamorous night that has already gone too far: expensive drinks, casino lights, missing memories, tiny criminals and the suspicion that something terrible happened after midnight. Keep the main Ratover motif memorable but understated. Low density, dialogue-friendly, no fast mandolin runs, no constant horn stabs, no stop-start comedy, no heroic lift. Acoustic Forgotten Realms instruments only. Instrumental. Full-length song structure. In the final 8 bars, remove the horn colors and return to the opening yarting-cittern texture, ending on a soft suspended harmony that rolls naturally back into bar one if repeated."
+  },
+  {
+   "file": "01-mapa-rat-vegas-suite.ogg",
+   "title": "Rat Vegas: mapa general",
+   "lines": [
+    "Ruta: `assets/audio/scenes/01-mapa-rat-vegas-suite.ogg`",
+    "",
+    "**Función en mesa:** orientación, desplazamientos y decisiones sobre adónde ir. Debe transmitir ciudad nocturna y posibilidades, no urgencia.",
+    "",
+    "**Diseño:** 94–100 BPM · 4/4 · intensidad 2/5 · dórico · groove urbano discreto.",
+    "",
+    "**Duración objetivo:** 3:00–3:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Midtempo exploratory Rat Vegas groove for navigating a hidden mouse-sized nightlife district inside a luxurious Waterdeep suite, around 98 BPM. Light syncopated hand-drums and tantan, sly cittern and yarting ostinato, occasional songhorn hook, muted glaur accents, sparse dulcimer and tocken sparkle. Curious, decadent and slightly criminal, with many places to investigate but no immediate chase. The groove should feel like walking between casino alleys, tiny bars and suspicious businesses while deciding where to go next. Keep it steady and dialogue-friendly, medium-low density, no frantic rhythms, no large crescendos. Acoustic Forgotten Realms ensemble only, instrumental. Full-length song structure. The outro should reduce to the same groove and instrumentation as the intro, with an open final harmony that makes a repeat feel natural.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/01-mapa-rat-vegas-suite.ogg",
+   "func": "orientación, desplazamientos y decisiones sobre adónde ir. Debe transmitir ciudad nocturna y posibilidades, no urgencia.",
+   "design": "94–100 BPM · 4/4 · intensidad 2/5 · dórico · groove urbano discreto.",
+   "dur": "3:00–3:30.",
+   "prompt": "Midtempo exploratory Rat Vegas groove for navigating a hidden mouse-sized nightlife district inside a luxurious Waterdeep suite, around 98 BPM. Light syncopated hand-drums and tantan, sly cittern and yarting ostinato, occasional songhorn hook, muted glaur accents, sparse dulcimer and tocken sparkle. Curious, decadent and slightly criminal, with many places to investigate but no immediate chase. The groove should feel like walking between casino alleys, tiny bars and suspicious businesses while deciding where to go next. Keep it steady and dialogue-friendly, medium-low density, no frantic rhythms, no large crescendos. Acoustic Forgotten Realms ensemble only, instrumental. Full-length song structure. The outro should reduce to the same groove and instrumentation as the intro, with an open final harmony that makes a repeat feel natural."
+  },
+  {
+   "file": "02-la-villa-del-cielo-caido.ogg",
+   "title": "La Villa del Cielo Caído",
+   "lines": [
+    "Ruta: `assets/audio/scenes/02-la-villa-del-cielo-caido.ogg`",
+    "",
+    "**Función en mesa:** primera investigación real. Resaca, objetos inexplicables, una supuesta muerta, limpieza acercándose y un baño que golpea. Debe ser divertida e incómoda, pero dejar pensar.",
+    "",
+    "**Diseño:** 80–86 BPM · 4/4 ligeramente arrastrado · intensidad 2/5 · menor/dórico · ritmo algo torcido.",
+    "",
+    "**Duración objetivo:** 3:10–3:40.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Hungover morning-after investigation groove in Rat Vegas, around 84 BPM. Slightly loose 4/4 pulse with dry hand-drum taps, lazy cittern, muted yarting, warm low viol and small dulcimer flashes that feel like painful fragments of memory. Let the rhythm occasionally arrive a fraction late, giving a subtle off-balance hangover feeling without becoming comic slapstick. The mood is confused, embarrassed and increasingly suspicious: wrecked furniture, unexplained evidence, a cold stranger on the table and something large pulling on a chain behind a bathroom door. Keep the Ratover motif fragmented and understated. Dialogue-friendly, low-medium density, no energetic brass, no chase rhythm. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/02-la-villa-del-cielo-caido.ogg",
+   "func": "primera investigación real. Resaca, objetos inexplicables, una supuesta muerta, limpieza acercándose y un baño que golpea. Debe ser divertida e incómoda, pero dejar pensar.",
+   "design": "80–86 BPM · 4/4 ligeramente arrastrado · intensidad 2/5 · menor/dórico · ritmo algo torcido.",
+   "dur": "3:10–3:40.",
+   "prompt": "Hungover morning-after investigation groove in Rat Vegas, around 84 BPM. Slightly loose 4/4 pulse with dry hand-drum taps, lazy cittern, muted yarting, warm low viol and small dulcimer flashes that feel like painful fragments of memory. Let the rhythm occasionally arrive a fraction late, giving a subtle off-balance hangover feeling without becoming comic slapstick. The mood is confused, embarrassed and increasingly suspicious: wrecked furniture, unexplained evidence, a cold stranger on the table and something large pulling on a chain behind a bathroom door. Keep the Ratover motif fragmented and understated. Dialogue-friendly, low-medium density, no energetic brass, no chase rhythm. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "03-dado-de-nacar-y-camerino-de-lola.ogg",
+   "title": "Dado de Nácar",
+   "lines": [
+    "Ruta: `assets/audio/scenes/03-dado-de-nacar-y-camerino-de-lola.ogg`",
+    "",
+    "**Función en mesa:** casino, reconocimiento incómodo y partida pendiente. Aquí sí debe aparecer el glamour de Rat Vegas, pero sigue siendo una escena de conversación y deducción.",
+    "",
+    "**Diseño:** 102–108 BPM · 4/4 · intensidad 2.5/5 · dórico elegante · swing ligero sin jazz moderno.",
+    "",
+    "**Duración objetivo:** 3:00–3:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Elegant Waterdeep fantasy casino groove for the Dado de Nácar, around 106 BPM in 4/4. Controlled Rat Vegas swagger rather than high energy. A polished cittern-and-yarting riff, soft syncopated hand-drums and tantan, tasteful dulcimer shimmer, restrained harp accents, short songhorn phrases and occasional bright glaur punctuation. The players should feel that this place is expensive, professional and remembers exactly what they did last night. Add subtle moments of musical hesitation for uncomfortable recognition, unfinished bets and Lola’s missing presence, but never stop the groove completely. Sophisticated, slightly sleazy, dangerous beneath the polish. Dialogue-friendly medium density. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/03-dado-de-nacar-y-camerino-de-lola.ogg",
+   "func": "casino, reconocimiento incómodo y partida pendiente. Aquí sí debe aparecer el glamour de Rat Vegas, pero sigue siendo una escena de conversación y deducción.",
+   "design": "102–108 BPM · 4/4 · intensidad 2.5/5 · dórico elegante · swing ligero sin jazz moderno.",
+   "dur": "3:00–3:30.",
+   "prompt": "Elegant Waterdeep fantasy casino groove for the Dado de Nácar, around 106 BPM in 4/4. Controlled Rat Vegas swagger rather than high energy. A polished cittern-and-yarting riff, soft syncopated hand-drums and tantan, tasteful dulcimer shimmer, restrained harp accents, short songhorn phrases and occasional bright glaur punctuation. The players should feel that this place is expensive, professional and remembers exactly what they did last night. Add subtle moments of musical hesitation for uncomfortable recognition, unfinished bets and Lola’s missing presence, but never stop the groove completely. Sophisticated, slightly sleazy, dangerous beneath the polish. Dialogue-friendly medium density. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "04-bulevar-de-los-muelles-rojos-y-la-rendija-azul.ogg",
+   "title": "Bulevar / Rendija Azul",
+   "lines": [
+    "Ruta: `assets/audio/scenes/04-bulevar-de-los-muelles-rojos-y-la-rendija-azul.ogg`",
+    "",
+    "**Función en mesa:** **sigilo** dentro de una escena del crimen precintada. Debe dar sensación de calle viva alrededor, pero el primer plano es cautela y riesgo de ser identificados.",
+    "",
+    "**Diseño:** 88–94 BPM · 4/4 · intensidad 2.5/5 · menor/dórico · pulso contenido y nervioso.",
+    "",
+    "**Duración objetivo:** 3:00–3:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Stealthy urban Rat Vegas groove for sneaking through a sealed crime scene in Waterdeep, around 92 BPM. Muted cittern and lute play a short repeating caper figure over soft syncopated hand-drums, low viol and sparse tocken clicks. Breathy songhorn and occasional birdpipe phrases suggest the busy nightlife just beyond the cordon, while restrained shawm accents create small moments of danger when guards pass nearby. The music should feel clever, cautious and slightly absurd: five hungover criminals trying not to be recognized at the scene of their own legendary fight. Keep the energy contained, no racing mandolin, no constant horn stabs, no chase feeling unless the scene actually turns into one. Dialogue-friendly, acoustic Forgotten Realms instruments only, instrumental, repeat-friendly song.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/04-bulevar-de-los-muelles-rojos-y-la-rendija-azul.ogg",
+   "func": "**sigilo** dentro de una escena del crimen precintada. Debe dar sensación de calle viva alrededor, pero el primer plano es cautela y riesgo de ser identificados.",
+   "design": "88–94 BPM · 4/4 · intensidad 2.5/5 · menor/dórico · pulso contenido y nervioso.",
+   "dur": "3:00–3:30.",
+   "prompt": "Stealthy urban Rat Vegas groove for sneaking through a sealed crime scene in Waterdeep, around 92 BPM. Muted cittern and lute play a short repeating caper figure over soft syncopated hand-drums, low viol and sparse tocken clicks. Breathy songhorn and occasional birdpipe phrases suggest the busy nightlife just beyond the cordon, while restrained shawm accents create small moments of danger when guards pass nearby. The music should feel clever, cautious and slightly absurd: five hungover criminals trying not to be recognized at the scene of their own legendary fight. Keep the energy contained, no racing mandolin, no constant horn stabs, no chase feeling unless the scene actually turns into one. Dialogue-friendly, acoustic Forgotten Realms instruments only, instrumental, repeat-friendly song."
+  },
+  {
+   "file": "05-capilla-del-ultimo-chillido.ogg",
+   "title": "Capilla del Último Chillido",
+   "lines": [
+    "Ruta: `assets/audio/scenes/05-capilla-del-ultimo-chillido.ogg`",
+    "",
+    "**Función en mesa:** boda accidental, familia murciélago, Padre Tupé y absurdo ceremonial. Tiene que ser romántica de verdad para que la situación resulte todavía más ridícula.",
+    "",
+    "**Diseño:** 72–78 BPM · 3/4 · intensidad 2/5 · mayor modal con melancolía · vals pequeño y pomposo.",
+    "",
+    "**Duración objetivo:** 2:50–3:20.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Small sincere fantasy wedding waltz for an absurd Rat Vegas chapel in Waterdeep, around 76 BPM in 3/4. Warm harp and lyre carry a genuinely pretty melody, supported by soft songhorn, gentle cittern and very light tantan. Add rare, slightly over-grand glaur flourishes and delicate dulcimer accents, as if a tiny chapel is treating a catastrophically accidental marriage as the grandest union in Waterdeep. The comedy must come from the contrast: the music itself believes in the ceremony. Romantic, affectionate, mildly pompous and easy to talk over. No frantic party rhythm, no parody melody, no choir. Acoustic Forgotten Realms instruments only, instrumental. Complete waltz song form. After the final reprise, thin the last 8 bars back to the same harp-and-lyre texture as the opening and leave the cadence gently suspended so the first waltz bar can follow naturally.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/05-capilla-del-ultimo-chillido.ogg",
+   "func": "boda accidental, familia murciélago, Padre Tupé y absurdo ceremonial. Tiene que ser romántica de verdad para que la situación resulte todavía más ridícula.",
+   "design": "72–78 BPM · 3/4 · intensidad 2/5 · mayor modal con melancolía · vals pequeño y pomposo.",
+   "dur": "2:50–3:20.",
+   "prompt": "Small sincere fantasy wedding waltz for an absurd Rat Vegas chapel in Waterdeep, around 76 BPM in 3/4. Warm harp and lyre carry a genuinely pretty melody, supported by soft songhorn, gentle cittern and very light tantan. Add rare, slightly over-grand glaur flourishes and delicate dulcimer accents, as if a tiny chapel is treating a catastrophically accidental marriage as the grandest union in Waterdeep. The comedy must come from the contrast: the music itself believes in the ceremony. Romantic, affectionate, mildly pompous and easy to talk over. No frantic party rhythm, no parody melody, no choir. Acoustic Forgotten Realms instruments only, instrumental. Complete waltz song form. After the final reprise, thin the last 8 bars back to the same harp-and-lyre texture as the opening and leave the cadence gently suspended so the first waltz bar can follow naturally."
+  },
+  {
+   "file": "06-notaria-del-parmesano.ogg",
+   "title": "Notaría del Parmesano",
+   "lines": [
+    "Ruta: `assets/audio/scenes/06-notaria-del-parmesano.ogg`",
+    "",
+    "**Función en mesa:** negociación con Bruno, pagaré, amenaza burocrática y humor seco. El ritmo debe sentirse tan inevitable como una cláusula contractual.",
+    "",
+    "**Diseño:** 86–92 BPM · 4/4 · intensidad 2/5 · menor seco · metrónomo burocrático.",
+    "",
+    "**Duración objetivo:** 3:00–3:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Precise deadpan fantasy bureaucratic groove for the Notaría del Parmesano in Waterdeep, around 90 BPM. Repeating psaltery and cittern pattern with crisp hand-drum taps, low viol underneath, dry tocken clicks like stamps and counters, sparse dulcimer and short smug songhorn phrases. Everything should feel orderly, contractual and faintly predatory. Bruno is not chasing anyone; he is calmly explaining why he already owns them. Use tiny glaur punctuation only when an especially outrageous clause lands. Steady, controlled, darkly funny and dialogue-friendly. No busy ornamentation, no action rhythm. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/06-notaria-del-parmesano.ogg",
+   "func": "negociación con Bruno, pagaré, amenaza burocrática y humor seco. El ritmo debe sentirse tan inevitable como una cláusula contractual.",
+   "design": "86–92 BPM · 4/4 · intensidad 2/5 · menor seco · metrónomo burocrático.",
+   "dur": "3:00–3:30.",
+   "prompt": "Precise deadpan fantasy bureaucratic groove for the Notaría del Parmesano in Waterdeep, around 90 BPM. Repeating psaltery and cittern pattern with crisp hand-drum taps, low viol underneath, dry tocken clicks like stamps and counters, sparse dulcimer and short smug songhorn phrases. Everything should feel orderly, contractual and faintly predatory. Bruno is not chasing anyone; he is calmly explaining why he already owns them. Use tiny glaur punctuation only when an especially outrageous clause lands. Steady, controlled, darkly funny and dialogue-friendly. No busy ornamentation, no action rhythm. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "07-almacen-de-don-chispa.ogg",
+   "title": "Almacén de Don Chispa",
+   "lines": [
+    "Ruta: `assets/audio/scenes/07-almacen-de-don-chispa.ogg`",
+    "",
+    "**Función en mesa:** energía comercial, Chispa hablando demasiado rápido, sospecha por la Macadamia y acceso al molino. Es una de las pocas escenas donde la música puede empujar más.",
+    "",
+    "**Diseño:** 108–116 BPM · 4/4 · intensidad 3/5 · dórico brillante · groove inquieto.",
+    "",
+    "**Duración objetivo:** 2:50–3:20.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Fast but controlled Rat Vegas merchant groove for Don Chispa’s coffee warehouse, around 112 BPM. Tight syncopated hand-drums and tantan, restless yarting-and-cittern riff, nimble dulcimer, short mandolin fills, tocken patterns and quick shawm or glaur interjections. The music should feel caffeinated and transactional, like an auctioneer, nightclub owner and suspicious contraband dealer sharing one nervous system. Energetic enough to make Chispa feel impossible to interrupt, but still leave room for negotiation and clues. Avoid maximum-speed chase energy and avoid constant ornamentation. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/07-almacen-de-don-chispa.ogg",
+   "func": "energía comercial, Chispa hablando demasiado rápido, sospecha por la Macadamia y acceso al molino. Es una de las pocas escenas donde la música puede empujar más.",
+   "design": "108–116 BPM · 4/4 · intensidad 3/5 · dórico brillante · groove inquieto.",
+   "dur": "2:50–3:20.",
+   "prompt": "Fast but controlled Rat Vegas merchant groove for Don Chispa’s coffee warehouse, around 112 BPM. Tight syncopated hand-drums and tantan, restless yarting-and-cittern riff, nimble dulcimer, short mandolin fills, tocken patterns and quick shawm or glaur interjections. The music should feel caffeinated and transactional, like an auctioneer, nightclub owner and suspicious contraband dealer sharing one nervous system. Energetic enough to make Chispa feel impossible to interrupt, but still leave room for negotiation and clues. Avoid maximum-speed chase energy and avoid constant ornamentation. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "08-atico-de-rat-tyson.ogg",
+   "title": "Ático de Rat Tyson",
+   "lines": [
+    "Ruta: `assets/audio/scenes/08-atico-de-rat-tyson.ogg`",
+    "",
+    "**Función en mesa:** confesión, amenaza y negociación. Tyson no necesita música rápida: necesita **peso**. Los silencios entre golpes son parte de la escena.",
+    "",
+    "**Diseño:** 86–90 BPM · 4/4 con sensación half-time · intensidad 2.5/5 · menor grave · mucha respiración, tensión sostenida y un único gran estallido de percusión tardío.",
+    "",
+    "**Duración objetivo:** 3:50–4:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Slow-burning Waterdeep underworld intimidation song for Rat Tyson, built around the dramatic architecture of a legendary late-night slow-burn track without copying any existing melody, around 86–90 BPM in 4/4 with a heavy half-time feel. Begin extremely sparse: dark zulkoon drone, low viol, isolated muted yarting notes and a distant soft hand-drum pulse, leaving huge amounts of air between phrases. For the first half of the song, increase tension almost imperceptibly: add one low songhorn response, then a second drum voice, then a restrained repeating cittern figure. Do not release the tension early. Around 1:50–2:20, deliver one unforgettable acoustic percussion event: a huge rolling break performed by deep tantan, tabor and hand-drums, several powerful descending hits with room around them, followed immediately by the full ensemble entering with a weighty low groove. This should feel shocking because the preceding two minutes were so restrained. After that impact, keep the groove dark, confident and physically heavy rather than fast. Tyson should feel enormous, calm and completely in control. In the final 8–12 bars, remove layers in reverse order until only the original zulkoon, low viol and soft pulse remain; end on the same open low fifth that begins the track, with matching dynamics, so a repeat returns to the intro naturally. Acoustic Forgotten Realms instruments only. Instrumental. No vocals, no modern drum kit, no electronic pads, no copied melodic hook, no hard ending.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/08-atico-de-rat-tyson.ogg",
+   "func": "confesión, amenaza y negociación. Tyson no necesita música rápida: necesita **peso**. Los silencios entre golpes son parte de la escena.",
+   "design": "86–90 BPM · 4/4 con sensación half-time · intensidad 2.5/5 · menor grave · mucha respiración, tensión sostenida y un único gran estallido de percusión tardío.",
+   "dur": "3:50–4:30.",
+   "prompt": "Slow-burning Waterdeep underworld intimidation song for Rat Tyson, built around the dramatic architecture of a legendary late-night slow-burn track without copying any existing melody, around 86–90 BPM in 4/4 with a heavy half-time feel. Begin extremely sparse: dark zulkoon drone, low viol, isolated muted yarting notes and a distant soft hand-drum pulse, leaving huge amounts of air between phrases. For the first half of the song, increase tension almost imperceptibly: add one low songhorn response, then a second drum voice, then a restrained repeating cittern figure. Do not release the tension early. Around 1:50–2:20, deliver one unforgettable acoustic percussion event: a huge rolling break performed by deep tantan, tabor and hand-drums, several powerful descending hits with room around them, followed immediately by the full ensemble entering with a weighty low groove. This should feel shocking because the preceding two minutes were so restrained. After that impact, keep the groove dark, confident and physically heavy rather than fast. Tyson should feel enormous, calm and completely in control. In the final 8–12 bars, remove layers in reverse order until only the original zulkoon, low viol and soft pulse remain; end on the same open low fifth that begins the track, with matching dynamics, so a repeat returns to the intro naturally. Acoustic Forgotten Realms instruments only. Instrumental. No vocals, no modern drum kit, no electronic pads, no copied melodic hook, no hard ending."
+  },
+  {
+   "file": "09-el-bano-de-princesa.ogg",
+   "title": "El Baño de Princesa",
+   "lines": [
+    "Ruta: `assets/audio/scenes/09-el-bano-de-princesa.ogg`",
+    "",
+    "**Función en mesa:** puzzle físico con peligro real. Hay que pensar, acercarse, retroceder y vigilar una tubería que cede. La música debe tensar, no acelerar indiscriminadamente.",
+    "",
+    "**Diseño:** 84–90 BPM · 4/4 · intensidad 3/5 · menor/modal · ostinato de tensión estable.",
+    "",
+    "**Duración objetivo:** 3:10–3:40.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Controlled creature-caper tension for the bathroom scene in Rat Vegas, around 88 BPM. A nervous repeating cittern figure over a restrained hand-drum pulse, low viol and dark zulkoon for real physical danger. Sparse tocken clicks mark dripping water and chain tension; breathy thelarr and songhorn answer in short uneasy phrases. Keep the rhythm steady enough for players to think through a dangerous puzzle: entering the safe zone, distracting the weasel, handling the chain, watching the cracked plumbing. Every eight or sixteen bars, briefly let the harmony sound almost reassuring before returning to tension, like another bad plan suddenly sounding plausible. Suspenseful but not horror, active but not chase music. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/scenes/09-el-bano-de-princesa.ogg",
+   "func": "puzzle físico con peligro real. Hay que pensar, acercarse, retroceder y vigilar una tubería que cede. La música debe tensar, no acelerar indiscriminadamente.",
+   "design": "84–90 BPM · 4/4 · intensidad 3/5 · menor/modal · ostinato de tensión estable.",
+   "dur": "3:10–3:40.",
+   "prompt": "Controlled creature-caper tension for the bathroom scene in Rat Vegas, around 88 BPM. A nervous repeating cittern figure over a restrained hand-drum pulse, low viol and dark zulkoon for real physical danger. Sparse tocken clicks mark dripping water and chain tension; breathy thelarr and songhorn answer in short uneasy phrases. Keep the rhythm steady enough for players to think through a dangerous puzzle: entering the safe zone, distracting the weasel, handling the chain, watching the cracked plumbing. Every eight or sixteen bars, briefly let the harmony sound almost reassuring before returning to tension, like another bad plan suddenly sounding plausible. Suspenseful but not horror, active but not chase music. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "10-la-mandibula-negra.ogg",
+   "title": "La Mandíbula Negra",
+   "lines": [
+    "Ruta: `assets/audio/scenes/10-la-mandibula-negra.ogg`",
+    "",
+    "**Función en mesa:** clímax. Aquí sí convergen ritual, máquina, enemigos, acreedores, aliados y decisiones pendientes. Es la única pista de escena que debe sentirse verdaderamente grande y urgente.",
+    "",
+    "**Diseño:** 126–134 BPM · 4/4 · intensidad 5/5 · menor/dórico · riff principal completo.",
+    "",
+    "**Duración objetivo:** 3:10–3:40.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Full Rat Vegas climax for La Mandíbula Negra in Waterdeep, around 132 BPM. Immediate driving hand-drums and tantan, the complete Ratover motif transformed into a relentless yarting-and-cittern riff, rapid but controlled mandolin, pounding low viol, urgent shawm, strong glaur calls and repeating mechanical tocken figures. This is the moment when every consequence arrives at once: the magical countdown, lethal machinery, creditors, guards, criminals, family and allies all converging while the heroes perform three dangerous actions under pressure. Use sharp rhythmic breaks only to emphasize decisive moments, then return immediately to the pulse. Desperate, funny, triumphant for a second and dangerous again. Maximum acoustic Forgotten Realms energy, instrumental. Compose a complete action song rather than a loop fragment. After the final peak, spend the last 8 bars stripping layers away until only the opening drums and core riff remain; end on a suspended/open harmony with no victory cadence, no crash and no fade, so the first bar can follow naturally on repeat.",
+    "",
+    "---",
+    "",
+    "# Biblioteca de moods",
+    ""
+   ],
+   "path": "assets/audio/scenes/10-la-mandibula-negra.ogg",
+   "func": "clímax. Aquí sí convergen ritual, máquina, enemigos, acreedores, aliados y decisiones pendientes. Es la única pista de escena que debe sentirse verdaderamente grande y urgente.",
+   "design": "126–134 BPM · 4/4 · intensidad 5/5 · menor/dórico · riff principal completo.",
+   "dur": "3:10–3:40.",
+   "prompt": "Full Rat Vegas climax for La Mandíbula Negra in Waterdeep, around 132 BPM. Immediate driving hand-drums and tantan, the complete Ratover motif transformed into a relentless yarting-and-cittern riff, rapid but controlled mandolin, pounding low viol, urgent shawm, strong glaur calls and repeating mechanical tocken figures. This is the moment when every consequence arrives at once: the magical countdown, lethal machinery, creditors, guards, criminals, family and allies all converging while the heroes perform three dangerous actions under pressure. Use sharp rhythmic breaks only to emphasize decisive moments, then return immediately to the pulse. Desperate, funny, triumphant for a second and dangerous again. Maximum acoustic Forgotten Realms energy, instrumental. Compose a complete action song rather than a loop fragment. After the final peak, spend the last 8 bars stripping layers away until only the opening drums and core riff remain; end on a suspended/open harmony with no victory cadence, no crash and no fade, so the first bar can follow naturally on repeat."
+  },
+  {
+   "file": "investigacion-resaca.ogg",
+   "title": "Investigación con resaca",
+   "lines": [
+    "Ruta: `assets/audio/moods/investigacion-resaca.ogg`",
+    "",
+    "**Uso:** conversaciones largas, registro de pistas, reconstrucción de la noche.",
+    "",
+    "**Diseño:** 78–84 BPM · intensidad 1.5/5 · 4/4 relajado.",
+    "",
+    "**Duración objetivo:** 3:00–3:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Low-key hungover Rat Vegas investigation bed, around 82 BPM. Lazy cittern and yarting fragments, dry fingertip hand-drums, warm low viol, sparse dulcimer and hesitant songhorn. The groove should feel like reconstructing last night one embarrassing clue at a time while trying to look competent. Very dialogue-friendly, low density, recognizable but unobtrusive. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/investigacion-resaca.ogg",
+   "func": "",
+   "design": "78–84 BPM · intensidad 1.5/5 · 4/4 relajado.",
+   "dur": "3:00–3:30.",
+   "prompt": "Low-key hungover Rat Vegas investigation bed, around 82 BPM. Lazy cittern and yarting fragments, dry fingertip hand-drums, warm low viol, sparse dulcimer and hesitant songhorn. The groove should feel like reconstructing last night one embarrassing clue at a time while trying to look competent. Very dialogue-friendly, low density, recognizable but unobtrusive. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "comedia-caotica.ogg",
+   "title": "Comedia caótica",
+   "lines": [
+    "Ruta: `assets/audio/moods/comedia-caotica.ogg`",
+    "",
+    "**Uso:** cuando una escena se convierte voluntariamente en desastre y ya nadie pretende mantener la dignidad.",
+    "",
+    "**Diseño:** 116–124 BPM · intensidad 4/5 · 4/4 sincopado.",
+    "",
+    "**Duración objetivo:** 2:50–3:20.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "High-energy Rat Vegas disaster-comedy groove, around 120 BPM. Bouncing cittern and yarting riff, fast hand-drums and tantan, cheeky shawm, bright glaur punctuation, short mandolin runs, dulcimer sparkle and tocken accents. Confident, reckless and rhythmically playful: objects falling, plans changing mid-sentence and witnesses assuming the chaos must be intentional. Use brief stop-and-return moments for comic timing, but keep a coherent groove. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/comedia-caotica.ogg",
+   "func": "",
+   "design": "116–124 BPM · intensidad 4/5 · 4/4 sincopado.",
+   "dur": "2:50–3:20.",
+   "prompt": "High-energy Rat Vegas disaster-comedy groove, around 120 BPM. Bouncing cittern and yarting riff, fast hand-drums and tantan, cheeky shawm, bright glaur punctuation, short mandolin runs, dulcimer sparkle and tocken accents. Confident, reckless and rhythmically playful: objects falling, plans changing mid-sentence and witnesses assuming the chaos must be intentional. Use brief stop-and-return moments for comic timing, but keep a coherent groove. Acoustic Forgotten Realms instruments only, instrumental. Full-length song structure. The last 8 bars must return gradually to the intro texture and dynamics, ending open rather than conclusively so playback can restart smoothly."
+  },
+  {
+   "file": "tension-ritual.ogg",
+   "title": "Tensión del Ritual",
+   "lines": [
+    "Ruta: `assets/audio/moods/tension-ritual.ogg`",
+    "",
+    "**Uso:** cuando el Ritual del Rastro Dorado avanza y el tiempo empieza a importar más que la escena concreta.",
+    "",
+    "**Diseño:** 88–94 BPM · intensidad 2.5/5 · 4/4 · motivo de seis notas insistente.",
+    "",
+    "**Duración objetivo:** 3:10–3:40.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Steady magical countdown tension for Rat Vegas, around 92 BPM. A repeating six-note psaltery-and-dulcimer figure over restrained hand-drums, low viol and dark zulkoon. Sparse muted glaur calls become slightly more frequent across the song, but avoid any cinematic crescendo. The feeling is expensive consequences approaching with mathematical certainty, not horror. Keep enough pulse to create urgency while leaving room for planning and dialogue. Acoustic Forgotten Realms instruments only, instrumental. Full-length song. In the outro, deconstruct the motif back into the same sparse harp/psaltery fragments heard at the start, ending suspended so the first bar feels like a natural continuation.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/tension-ritual.ogg",
+   "func": "",
+   "design": "88–94 BPM · intensidad 2.5/5 · 4/4 · motivo de seis notas insistente.",
+   "dur": "3:10–3:40.",
+   "prompt": "Steady magical countdown tension for Rat Vegas, around 92 BPM. A repeating six-note psaltery-and-dulcimer figure over restrained hand-drums, low viol and dark zulkoon. Sparse muted glaur calls become slightly more frequent across the song, but avoid any cinematic crescendo. The feeling is expensive consequences approaching with mathematical certainty, not horror. Keep enough pulse to create urgency while leaving room for planning and dialogue. Acoustic Forgotten Realms instruments only, instrumental. Full-length song. In the outro, deconstruct the motif back into the same sparse harp/psaltery fragments heard at the start, ending suspended so the first bar feels like a natural continuation."
+  },
+  {
+   "file": "sigilo-peligro.ogg",
+   "title": "Sigilo y peligro",
+   "lines": [
+    "Ruta: `assets/audio/moods/sigilo-peligro.ogg`",
+    "",
+    "**Uso:** infiltración, esconderse de humanos, guardias o PNJ peligrosos.",
+    "",
+    "**Diseño:** 82–88 BPM · intensidad 2/5 · 4/4 · muy poco grave y pocos ataques fuertes.",
+    "",
+    "**Duración objetivo:** 3:00–3:30.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Quiet Rat Vegas stealth groove, around 86 BPM. Muted cittern and lute ostinato, soft syncopated hand-drum, low viol used sparingly, breathy songhorn and isolated tocken clicks. Clever and cautious rather than sinister, with the attitude of criminals who are absolutely pretending they belong here. No heavy pulse, no chase rhythm, no loud horns. Very dialogue-friendly acoustic Forgotten Realms instruments only, instrumental, repeat-friendly song.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/sigilo-peligro.ogg",
+   "func": "",
+   "design": "82–88 BPM · intensidad 2/5 · 4/4 · muy poco grave y pocos ataques fuertes.",
+   "dur": "3:00–3:30.",
+   "prompt": "Quiet Rat Vegas stealth groove, around 86 BPM. Muted cittern and lute ostinato, soft syncopated hand-drum, low viol used sparingly, breathy songhorn and isolated tocken clicks. Clever and cautious rather than sinister, with the attitude of criminals who are absolutely pretending they belong here. No heavy pulse, no chase rhythm, no loud horns. Very dialogue-friendly acoustic Forgotten Realms instruments only, instrumental, repeat-friendly song."
+  },
+  {
+   "file": "persecucion.ogg",
+   "title": "Persecución",
+   "lines": [
+    "Ruta: `assets/audio/moods/persecucion.ogg`",
+    "",
+    "**Uso:** huidas reales, carrera por Rat Vegas, humanos como catástrofe o Princesa suelta.",
+    "",
+    "**Diseño:** 134–144 BPM · intensidad 4.5/5 · 4/4 · respiración corta y empuje continuo.",
+    "",
+    "**Duración objetivo:** 2:40–3:10.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Breathless Rat Vegas chase groove, around 140 BPM. Racing hand-drums and tantan, fast yarting, cittern and mandolin patterns, darting shawm and birdpipe phrases, bright glaur calls and rapid tocken accents. Reckless and exhilarating, like tiny criminals sprinting through furniture, gambling halls and collapsing routes while everyone behind them is shouting. Maintain a clear repeating hook so the high-energy arrangement never becomes random noise. Acoustic Forgotten Realms instruments only, instrumental. Full-length high-energy song. Use an 8-bar cyclic outro that returns to the opening rhythm section and hook without a hard final hit, so repeating the track feels like another lap of the chase.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/persecucion.ogg",
+   "func": "",
+   "design": "134–144 BPM · intensidad 4.5/5 · 4/4 · respiración corta y empuje continuo.",
+   "dur": "2:40–3:10.",
+   "prompt": "Breathless Rat Vegas chase groove, around 140 BPM. Racing hand-drums and tantan, fast yarting, cittern and mandolin patterns, darting shawm and birdpipe phrases, bright glaur calls and rapid tocken accents. Reckless and exhilarating, like tiny criminals sprinting through furniture, gambling halls and collapsing routes while everyone behind them is shouting. Maintain a clear repeating hook so the high-energy arrangement never becomes random noise. Acoustic Forgotten Realms instruments only, instrumental. Full-length high-energy song. Use an 8-bar cyclic outro that returns to the opening rhythm section and hook without a hard final hit, so repeating the track feels like another lap of the chase."
+  },
+  {
+   "file": "combate.ogg",
+   "title": "Combate",
+   "lines": [
+    "Ruta: `assets/audio/moods/combate.ogg`",
+    "",
+    "**Uso:** pelea física donde hay peligro real, pero todavía estamos en una comedia criminal y no en una guerra épica.",
+    "",
+    "**Diseño:** 116–124 BPM · intensidad 4/5 · 4/4 pesado y sincopado.",
+    "",
+    "**Duración objetivo:** 2:50–3:20.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Dirty close-range Rat Vegas fight groove, around 120 BPM. Strong syncopated hand-drums, aggressive but simple yarting-and-cittern riff, low viol, short piercing shawm calls, dark zulkoon and controlled glaur accents. Physical, rough and immediate: improvised weapons, broken furniture and five mice fighting above their competence. Keep the recurring Ratover swagger underneath the danger. No heroic battle anthem, no orchestral grandeur. Acoustic Forgotten Realms instruments only, instrumental. Full-length combat song. Let the final 8 bars simplify back toward the first riff and pulse, finishing on an open harmony with no final crash so playback can restart smoothly.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/combate.ogg",
+   "func": "",
+   "design": "116–124 BPM · intensidad 4/5 · 4/4 pesado y sincopado.",
+   "dur": "2:50–3:20.",
+   "prompt": "Dirty close-range Rat Vegas fight groove, around 120 BPM. Strong syncopated hand-drums, aggressive but simple yarting-and-cittern riff, low viol, short piercing shawm calls, dark zulkoon and controlled glaur accents. Physical, rough and immediate: improvised weapons, broken furniture and five mice fighting above their competence. Keep the recurring Ratover swagger underneath the danger. No heroic battle anthem, no orchestral grandeur. Acoustic Forgotten Realms instruments only, instrumental. Full-length combat song. Let the final 8 bars simplify back toward the first riff and pulse, finishing on an open harmony with no final crash so playback can restart smoothly."
+  },
+  {
+   "file": "revelacion-flashback.ogg",
+   "title": "Revelación / flashback",
+   "lines": [
+    "Ruta: `assets/audio/moods/revelacion-flashback.ogg`",
+    "",
+    "**Uso:** recuerdos inducidos, fotografías y momentos de “ahora entiendo qué hicimos”. Debe abrir espacio al texto del DJ.",
+    "",
+    "**Diseño:** 68–76 BPM · intensidad 1.5/5 · pulso muy ligero · armonía suspendida.",
+    "",
+    "**Duración objetivo:** 2:50–3:20.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Sparse Rat Vegas memory-revelation cue, around 72 BPM. Fragmented harp, psaltery and dulcimer play incomplete pieces of the Ratover motif over almost no percussion, with soft low viol and occasional songhorn. Gradually let two or three fragments align, suggesting that a memory has clicked into place, but never become triumphant or loud. The emotional mix is recognition, embarrassment, disbelief and a little dread. Very spacious for spoken flashback narration. Acoustic Forgotten Realms instruments only, instrumental. Full-length song. In the outro, deconstruct the motif back into the same sparse harp/psaltery fragments heard at the start, ending suspended so the first bar feels like a natural continuation.",
+    "",
+    "---",
+    ""
+   ],
+   "path": "assets/audio/moods/revelacion-flashback.ogg",
+   "func": "",
+   "design": "68–76 BPM · intensidad 1.5/5 · pulso muy ligero · armonía suspendida.",
+   "dur": "2:50–3:20.",
+   "prompt": "Sparse Rat Vegas memory-revelation cue, around 72 BPM. Fragmented harp, psaltery and dulcimer play incomplete pieces of the Ratover motif over almost no percussion, with soft low viol and occasional songhorn. Gradually let two or three fragments align, suggesting that a memory has clicked into place, but never become triumphant or loud. The emotional mix is recognition, embarrassment, disbelief and a little dread. Very spacious for spoken flashback narration. Acoustic Forgotten Realms instruments only, instrumental. Full-length song. In the outro, deconstruct the motif back into the same sparse harp/psaltery fragments heard at the start, ending suspended so the first bar feels like a natural continuation."
+  },
+  {
+   "file": "triunfo-agridulce.ogg",
+   "title": "Fotografías finales / créditos",
+   "lines": [
+    "Ruta: `assets/audio/moods/triunfo-agridulce.ogg`",
+    "",
+    "**Uso:** exclusivamente para el montaje de las fotografías de la noche y los créditos finales. Debe ser el último gran golpe de energía de la sesión.",
+    "",
+    "**Diseño:** 124–128 BPM · intensidad 4/5 · 4/4 bailable · mayor/modal brillante con una sombra menor en los versos · hook inmediato y repetitivo.",
+    "",
+    "**Duración objetivo:** 3:10–3:40.",
+    "",
+    "**Prompt Suno**",
+    "",
+    "Explosive final-photo-montage song for Rat Vegas in Waterdeep, around 126 BPM in 4/4. It must perform the same cinematic job as a huge late-2000s end-credits club hit: immediate recognition, shameless celebration, a circular hook that makes every new photograph funnier, and enough forward motion that the table instinctively leans in for the next image. Do not copy any existing melody, lyric, chord sequence or vocal hook. Build an original extremely memorable four-bar hook from bright yarting, cittern and songhorn, reinforced by punchy glaur responses. Create a strong dance pulse using tantan, tabor and hand-drums instead of a modern drum kit; low viol and zulkoon provide a bouncing acoustic bass foundation. Dulcimer and tocken add glitter like casino chips and camera flashes. Structure it as a real full song: 8-bar hook intro, A section with reduced instrumentation, hook return, contrasting B section, bigger hook, short breakdown, then a final euphoric double-hook suitable for the most outrageous photographs. The mood is not bittersweet: it is victorious, ridiculous, incriminating and affectionate, the sound of discovering that the night was much worse than anyone imagined and somehow surviving it together. In the last 8 bars, peel back to the exact percussion pulse and four-bar instrumental hook texture used at the beginning; leave the final harmony suspended/open with no crash, no fade and no long reverb tail, so if Foundry repeats the file the first downbeat feels like the hook simply starts another rotation. Acoustic Forgotten Realms / Waterdeep instruments only. Instrumental. No modern synths, no electronic bass, no drum kit, no copied commercial melody.",
+    ""
+   ],
+   "path": "assets/audio/moods/triunfo-agridulce.ogg",
+   "func": "",
+   "design": "124–128 BPM · intensidad 4/5 · 4/4 bailable · mayor/modal brillante con una sombra menor en los versos · hook inmediato y repetitivo.",
+   "dur": "3:10–3:40.",
+   "prompt": "Explosive final-photo-montage song for Rat Vegas in Waterdeep, around 126 BPM in 4/4. It must perform the same cinematic job as a huge late-2000s end-credits club hit: immediate recognition, shameless celebration, a circular hook that makes every new photograph funnier, and enough forward motion that the table instinctively leans in for the next image. Do not copy any existing melody, lyric, chord sequence or vocal hook. Build an original extremely memorable four-bar hook from bright yarting, cittern and songhorn, reinforced by punchy glaur responses. Create a strong dance pulse using tantan, tabor and hand-drums instead of a modern drum kit; low viol and zulkoon provide a bouncing acoustic bass foundation. Dulcimer and tocken add glitter like casino chips and camera flashes. Structure it as a real full song: 8-bar hook intro, A section with reduced instrumentation, hook return, contrasting B section, bigger hook, short breakdown, then a final euphoric double-hook suitable for the most outrageous photographs. The mood is not bittersweet: it is victorious, ridiculous, incriminating and affectionate, the sound of discovering that the night was much worse than anyone imagined and somehow surviving it together. In the last 8 bars, peel back to the exact percussion pulse and four-bar instrumental hook texture used at the beginning; leave the final harmony suspended/open with no crash, no fade and no long reverb tail, so if Foundry repeats the file the first downbeat feels like the hook simply starts another rotation. Acoustic Forgotten Realms / Waterdeep instruments only. Instrumental. No modern synths, no electronic bass, no drum kit, no copied commercial melody."
+  }
+ ]
+}

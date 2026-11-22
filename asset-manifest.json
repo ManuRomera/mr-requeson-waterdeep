@@ -32,10 +32,10 @@
   "photo": 15,
   "ui": 15,
   "music": 10,
-  "sfx": 6,
+  "sfx": 16,
   "mood": 21
  },
- "generables": 172,
+ "generables": 182,
  "assets": [
   {
    "id": "scene.00-portada-ratover",
@@ -2974,8 +2974,8 @@
    "loop": false,
    "duracion_s": 4,
    "fallback": null,
-   "status": "sintetizado con tools/audio.py; sustituible en la misma ruta",
-   "prompt": "Heavy old iron water pipe groaning, a sharp metallic crack and a rush of water bursting free, close and dry, no music"
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Tubería metálica que cruje y revienta en un chorro de agua (Freesound CC0)"
   },
   {
    "id": "sfx.mandibula-negra",
@@ -2986,8 +2986,8 @@
    "loop": false,
    "duracion_s": 5,
    "fallback": null,
-   "status": "sintetizado con tools/audio.py; sustituible en la misma ruta",
-   "prompt": "Brass coffee grinder gears engaging, grinding teeth biting down with a heavy mechanical thunk, slightly greasy, no music"
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Molinillo de café industrial triturando (Freesound CC0)"
   },
   {
    "id": "sfx.ritual-pulso",
@@ -2998,8 +2998,8 @@
    "loop": false,
    "duracion_s": 3,
    "fallback": null,
-   "status": "sintetizado con tools/audio.py; sustituible en la misma ruta",
-   "prompt": "A low magical heartbeat pulse with a thin golden shimmer on top, ominous and administrative, no melody"
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Doble latido grave con un destello mágico (Freesound CC0)"
   },
   {
    "id": "sfx.timbre-recepcion",
@@ -3010,8 +3010,8 @@
    "loop": false,
    "duracion_s": 2,
    "fallback": null,
-   "status": "sintetizado con tools/audio.py; sustituible en la misma ruta",
-   "prompt": "A hotel reception desk bell, two dry rings, small room reverb, a faint annoyed pause between them"
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Timbre de recepción de hotel, dos toques (Freesound CC0)"
   },
   {
    "id": "sfx.queso-guindilla",
@@ -3022,8 +3022,8 @@
    "loop": false,
    "duracion_s": 2,
    "fallback": null,
-   "status": "sintetizado con tools/audio.py; sustituible en la misma ruta",
-   "prompt": "A sharp sizzle and a wet gulp followed by a strangled squeak, comic and quick, no music"
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Chisporroteo y tos del queso con guindilla (Freesound CC0)"
   },
   {
    "id": "sfx.puerta-de-tyson",
@@ -3034,8 +3034,128 @@
    "loop": false,
    "duracion_s": 3,
    "fallback": null,
-   "status": "sintetizado con tools/audio.py; sustituible en la misma ruta",
-   "prompt": "A massive wooden door being shouldered off its hinges, splintering and a heavy thud on the floor, no music"
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Puerta de madera pateada hasta abrirse (Freesound CC0)"
+  },
+  {
+   "id": "sfx.carrito-limpieza",
+   "kind": "sfx",
+   "title": "Carrito limpieza",
+   "path": "assets/audio/sfx/carrito-limpieza.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 4,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Carrito de la limpieza con una rueda chirriante (Freesound CC0)"
+  },
+  {
+   "id": "sfx.cadena",
+   "kind": "sfx",
+   "title": "Cadena",
+   "path": "assets/audio/sfx/cadena.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 3,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Cadena que tintinea y se tensa (Freesound CC0)"
+  },
+  {
+   "id": "sfx.fichas",
+   "kind": "sfx",
+   "title": "Fichas",
+   "path": "assets/audio/sfx/fichas.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 3,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Fichas de casino sobre el tapete (Freesound CC0)"
+  },
+  {
+   "id": "sfx.ruleta",
+   "kind": "sfx",
+   "title": "Ruleta",
+   "path": "assets/audio/sfx/ruleta.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 3,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Ruleta girando (Freesound CC0)"
+  },
+  {
+   "id": "sfx.sello",
+   "kind": "sfx",
+   "title": "Sello",
+   "path": "assets/audio/sfx/sello.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 2,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Sello de goma sobre papel (Freesound CC0)"
+  },
+  {
+   "id": "sfx.campana",
+   "kind": "sfx",
+   "title": "Campana",
+   "path": "assets/audio/sfx/campana.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 6,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Campana de capilla lejana (Freesound CC0)"
+  },
+  {
+   "id": "sfx.maquina-escribir",
+   "kind": "sfx",
+   "title": "Maquina escribir",
+   "path": "assets/audio/sfx/maquina-escribir.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 4,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Máquina de escribir (Freesound CC0)"
+  },
+  {
+   "id": "sfx.granos",
+   "kind": "sfx",
+   "title": "Granos",
+   "path": "assets/audio/sfx/granos.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 4,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Granos de café cayendo (Freesound CC0)"
+  },
+  {
+   "id": "sfx.saco-boxeo",
+   "kind": "sfx",
+   "title": "Saco boxeo",
+   "path": "assets/audio/sfx/saco-boxeo.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 3,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Golpes a un saco de boxeo (Freesound CC0)"
+  },
+  {
+   "id": "sfx.goteo",
+   "kind": "sfx",
+   "title": "Goteo",
+   "path": "assets/audio/sfx/goteo.ogg",
+   "format": "ogg opus",
+   "loop": false,
+   "duracion_s": 5,
+   "fallback": null,
+   "status": "efecto CC0 de Freesound montado con tools/banda.py; sustituible en la misma ruta",
+   "prompt": "Goteo en un baño (Freesound CC0)"
   },
   {
    "id": "mood.investigacion-resaca",

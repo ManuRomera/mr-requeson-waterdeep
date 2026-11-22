@@ -2,7 +2,7 @@
  "schema": 1,
  "id": "mr-requeson-waterdeep",
  "title": "MR- Requesón en Waterdeep",
- "version": "0.9.0",
+ "version": "1.0.0",
  "author": "Manu Romera",
  "license": "CC BY-NC-SA 4.0",
  "settings": {
@@ -263,30 +263,6 @@
   ],
   "effects": [
    {
-    "id": "tuberia",
-    "label": "La tubería cede",
-    "icon": "droplet",
-    "sound": {
-     "flag": [
-      "mr-requeson-waterdeep",
-      "slug",
-      "tuberia-cede"
-     ]
-    }
-   },
-   {
-    "id": "mandibula",
-    "label": "La Mandíbula Negra",
-    "icon": "gears",
-    "sound": {
-     "flag": [
-      "mr-requeson-waterdeep",
-      "slug",
-      "mandibula-negra"
-     ]
-    }
-   },
-   {
     "id": "ritual",
     "label": "Pulso del ritual",
     "icon": "heart-pulse",
@@ -295,30 +271,6 @@
       "mr-requeson-waterdeep",
       "slug",
       "ritual-pulso"
-     ]
-    }
-   },
-   {
-    "id": "timbre",
-    "label": "Timbre de recepción",
-    "icon": "bell",
-    "sound": {
-     "flag": [
-      "mr-requeson-waterdeep",
-      "slug",
-      "timbre-recepcion"
-     ]
-    }
-   },
-   {
-    "id": "queso",
-    "label": "Queso con guindilla",
-    "icon": "pepper-hot",
-    "sound": {
-     "flag": [
-      "mr-requeson-waterdeep",
-      "slug",
-      "queso-guindilla"
      ]
     }
    },
@@ -400,7 +352,12 @@
      "00-portada-ratover"
     ]
    },
-   "motifs": null,
+   "motifs": [
+    "taberna",
+    "calma",
+    "misterio",
+    "plan"
+   ],
    "cues": [],
    "ambient": null,
    "figures": [],
@@ -445,7 +402,12 @@
      "01-la-villa-del-cielo-caido"
     ]
    },
-   "motifs": null,
+   "motifs": [
+    "investigacion",
+    "misterio",
+    "plan",
+    "calma"
+   ],
    "cues": [
     {
      "label": "Llamada del recepcionista",
@@ -455,6 +417,28 @@
        "mr-requeson-waterdeep",
        "slug",
        "timbre-recepcion"
+      ]
+     }
+    },
+    {
+     "label": "Carrito de la limpieza",
+     "icon": "broom",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "carrito-limpieza"
+      ]
+     }
+    },
+    {
+     "label": "Tirón de la cadena",
+     "icon": "link",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "cadena"
       ]
      }
     }
@@ -563,8 +547,36 @@
      "02-dado-de-nacar"
     ]
    },
-   "motifs": null,
-   "cues": [],
+   "motifs": [
+    "comedia",
+    "sigilo",
+    "misterio",
+    "accion"
+   ],
+   "cues": [
+    {
+     "label": "Fichas sobre el tapete",
+     "icon": "coins",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "fichas"
+      ]
+     }
+    },
+    {
+     "label": "La ruleta gira",
+     "icon": "circle-notch",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "ruleta"
+      ]
+     }
+    }
+   ],
    "ambient": null,
    "figures": [
     {
@@ -689,8 +701,36 @@
      "03-bulevar-precintado"
     ]
    },
-   "motifs": null,
-   "cues": [],
+   "motifs": [
+    "sigilo",
+    "persecucion",
+    "comedia",
+    "accion"
+   ],
+   "cues": [
+    {
+     "label": "Sello del funcionario",
+     "icon": "stamp",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "sello"
+      ]
+     }
+    },
+    {
+     "label": "Un sello de cera se rompe",
+     "icon": "burst",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "cadena"
+      ]
+     }
+    }
+   ],
    "ambient": null,
    "figures": [
     {
@@ -825,8 +865,25 @@
      "04-capilla-del-ultimo-chillido"
     ]
    },
-   "motifs": null,
-   "cues": [],
+   "motifs": [
+    "romance",
+    "melancolia",
+    "comedia",
+    "calma"
+   ],
+   "cues": [
+    {
+     "label": "Campana de la Capilla",
+     "icon": "bell",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "campana"
+      ]
+     }
+    }
+   ],
    "ambient": null,
    "figures": [
     {
@@ -961,8 +1018,36 @@
      "05-notaria-del-parmesano"
     ]
    },
-   "motifs": null,
+   "motifs": [
+    "plan",
+    "comedia",
+    "ritual",
+    "derrota",
+    "victoria"
+   ],
    "cues": [
+    {
+     "label": "Sello de la Notaría",
+     "icon": "stamp",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "sello"
+      ]
+     }
+    },
+    {
+     "label": "Máquina de escribir",
+     "icon": "keyboard",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "maquina-escribir"
+      ]
+     }
+    },
     {
      "label": "Queso con guindilla",
      "icon": "pepper-hot",
@@ -1089,8 +1174,36 @@
      "06-almacen-de-don-chispa"
     ]
    },
-   "motifs": null,
-   "cues": [],
+   "motifs": [
+    "taberna",
+    "comedia",
+    "magia",
+    "plan"
+   ],
+   "cues": [
+    {
+     "label": "Granos de café",
+     "icon": "mug-hot",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "granos"
+      ]
+     }
+    },
+    {
+     "label": "Molinillo",
+     "icon": "gears",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "mandibula-negra"
+      ]
+     }
+    }
+   ],
    "ambient": null,
    "figures": [
     {
@@ -1205,16 +1318,21 @@
      "07-atico-de-rat-tyson"
     ]
    },
-   "motifs": null,
+   "motifs": [
+    "jefe",
+    "ritual",
+    "miedo",
+    "derrota"
+   ],
    "cues": [
     {
-     "label": "La puerta de Tyson",
-     "icon": "door-open",
+     "label": "Saco de boxeo",
+     "icon": "hand-fist",
      "sound": {
       "flag": [
        "mr-requeson-waterdeep",
        "slug",
-       "puerta-de-tyson"
+       "saco-boxeo"
       ]
      }
     }
@@ -1323,11 +1441,38 @@
      "08-el-bano-de-princesa"
     ]
    },
-   "motifs": null,
+   "motifs": [
+    "ritual",
+    "accion",
+    "miedo-comico",
+    "calma"
+   ],
    "cues": [
     {
-     "label": "La tubería cede",
+     "label": "Goteo",
      "icon": "droplet",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "goteo"
+      ]
+     }
+    },
+    {
+     "label": "Tirón de la cadena",
+     "icon": "link",
+     "sound": {
+      "flag": [
+       "mr-requeson-waterdeep",
+       "slug",
+       "cadena"
+      ]
+     }
+    },
+    {
+     "label": "La tubería cede",
+     "icon": "water",
      "sound": {
       "flag": [
        "mr-requeson-waterdeep",
@@ -1441,7 +1586,13 @@
      "09-la-mandibula-negra"
     ]
    },
-   "motifs": null,
+   "motifs": [
+    "jefe",
+    "combate",
+    "persecucion",
+    "victoria",
+    "derrota"
+   ],
    "cues": [
     {
      "label": "La Mandíbula Negra",
@@ -1455,8 +1606,8 @@
      }
     },
     {
-     "label": "Pulso del ritual",
-     "icon": "heart-pulse",
+     "label": "Sello Gralhund",
+     "icon": "wand-magic-sparkles",
      "sound": {
       "flag": [
        "mr-requeson-waterdeep",

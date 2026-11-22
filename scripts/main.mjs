@@ -1,11 +1,15 @@
 import { verificarAssets, rutaConFallback } from "./verify-assets.mjs";
 import { ID, iniciarSocket } from "./estado.mjs";
 import { reproducir } from "./efectos.mjs";
+import { registrarPiel, ponerPortada } from "./piel.mjs";
+import { registrarVentanas } from "./ventanas-escala.mjs";
 import "./reglas.mjs";
 import { PanelFrentes, Pizarra, PanelPresion, ContadorCulpa, Parmesano } from "./ventanas.mjs";
 import { avanzarEscena, mostrarHandout, resacaNarrativa, fichasConfidenciales, tiradaEnTabla, configuracionInicial, cambiarAmbiente } from "./dialogos.mjs";
 
 Hooks.once("init", () => {
+  registrarPiel();
+  registrarVentanas();
   game.settings.register(ID, "verificarAlIniciar", {
     name: "MRREQ.Settings.Verificar.Name", hint: "MRREQ.Settings.Verificar.Hint",
     scope: "world", config: true, type: Boolean, default: false
@@ -44,6 +48,7 @@ Hooks.once("ready", async () => {
     // Las macros del pack llevan un autor ficticio: se reasignan al GM que las importa.
     for (const m of game.macros.filter(m => m.getFlag(ID, "macro") && !game.users.has(m.author?.id))) await m.update({ author: game.user.id });
     await repararMundo();
+    if (game.settings.get(ID, "importada") || game.scenes.some(s => s.flags?.[ID]?.escena)) ponerPortada();
     if (game.settings.get(ID, "verificarAlIniciar")) verificarAssets(ID, { aviso: true });
     if (!game.settings.get(ID, "importada") && !game.scenes.some(s => s.getFlag(ID, "escena"))) configuracionInicial();
   }
